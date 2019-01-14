@@ -1,0 +1,266 @@
+
+#stiloEnabled{
+  margin-top: -60px; width: 76%; height:850px; border:2px; font-size: 13px;
+}
+
+#stiloDisabled{
+  margin-top: -60px; width: 76%; height:600px; border:2px; font-size: 13px;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(140, 194, 230, 0.72);
+}
+
+.card-body{
+  padding: 0.6rem;
+}
+
+.header
+{
+  background-image: url('../../public/imagens/EMC_header.jpg');
+}
+
+.headerTitle
+{
+  position: absolute;
+  top: 12px;
+  left: 238px;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 25px;
+  color: #014682;
+  margin: 0 0 0 0;
+}
+
+.dataSelector
+{
+  text-align: center;
+  background-color: #5991e5;
+  color: White;
+  padding: 2px;
+  height:25px;
+  /*border-bottom: 2px solid #FFFFFF;
+  white-space: nowrap;*/
+}
+.row-fluid .span12
+{
+  width: 100%;
+}
+
+.mtnGridHeader{
+  position: relative;
+  width: 100%;
+  padding: 4px;
+  padding-left: 20%;
+  color: white;
+  white-space: nowrap;
+  border: 1px solid #DDDDDD;
+  background-color: #014681;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 1.0em;
+  font-weight: bold;
+}
+.mtnGridHeaderTitles{
+}
+
+th{
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+tr{
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+}
+
+.mtnBody td{
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+
+.legend{
+  font-size: 14px;
+  color: #FFF;
+  padding: 0.3em;
+  /*font-weight: bold;*/
+  background-color: #79abd0; /*#060C56;*/
+
+  line-height:15px;
+  width:50%;
+  margin-bottom:0px;
+}
+
+footer {
+  clear: both;
+  background-color: #e2e2e2;
+  font-size: .8em;
+  height: 100px;
+}
+
+.alert.alert-warning{
+  color: #f51e1e;
+  font-size: 18px;
+  background-color: #fff9b9;
+  border-color: #ec6767;
+}
+
+.content-wrapper{
+  background-color: transparent;
+}
+
+
+
+#MainContent_rdoRates input{
+  float:left;
+  margin-right:5px;
+}
+
+#MainContent_rdoRates label {
+  display: inline;
+  float: left;
+  padding-right: 5px;
+}
+
+.format{
+  padding:5px;
+}
+
+
+
+#body
+{
+  background-color: #efeeef;
+  clear: both;
+  padding-bottom: 35px;
+}
+
+
+
+
+.featured
+{
+  background-color: #fff;
+}
+
+
+
+h1, h2, h3,
+h4, h5, h6
+{
+  color: #000;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+h1
+{
+  font-size: 2em;
+}
+
+h2
+{
+  font-size: 1.75em;
+}
+
+h3
+{
+  font-size: 1.2em;
+}
+
+h4
+{
+  font-size: 1.1em;
+}
+
+h5, h6
+{
+  font-size: 1em;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+
+h5 a:link, h5 a:visited, h5 a:active
+{
+  padding: 0;
+  text-decoration: none;
+}
+
+
+.row-fluid
+{
+  width: 100%;
+  *zoom: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tabAvaliacao{
+  position:absolute;
+  top:20%;
+  left:30%;
+}
+
+.exp1{
+  position:absolute;
+  top:35%;
+  left:35%;
+}
+
+.exp2{
+  position:absolute;
+  top:35%;
+  left:20%;
+}
+
+.radioB{
+  margin-left: 10%;
+}
+
+.radioB input{
+  width: 20px;
+  height: 20px;
+}
+.radioB .fonte{
+  font-size: 12px;
+}
+
+.fonte p{
+  margin-top: 5px;
+}
+
+.form-group{
+  /*border: 1px solid;*/
+}
+.panel-body{
+  background-color: #00cbf5;
+}
+
+.panel-body .topText{
+  font-size: 16px;
+  font-family: "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+  font-weight: bold;
+  color: rgba(0, 98, 136, 0.99);
+}
+
+.fontExp{
+  font-size: 50px;
+  font-family: "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+  font-weight: bold;
+  color: #ff0000;
+}

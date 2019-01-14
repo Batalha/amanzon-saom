@@ -1,0 +1,491 @@
+
+
+	<form action="Instalacao/edit" method="POST" id="FCOMISS" name="FCOMISS" class="form">
+
+		    <input type="hidden" name="idinstalacoes" id="idinstalacoes" value="{$obj.idinstalacoes}"/>
+		    <input name="last_user_comiss" id="last_user_comiss" value="{$session.login.idusuarios}" type="hidden" />
+			<input name="last_user_comiss_time" id="last_user_comiss_time" value="{$agora}" type="hidden" />
+           
+    	<table class="tbForm">
+    	
+        	<tr>
+            	<td>
+            		<label for="teccampo"><b>Nome</b> do Técnico de Campo</label>
+            	</td>
+            	<td>
+            	    <input class="autosave" type="text" value="{$obj.teccampo}" name="teccampo" id="teccampo" />
+            	</td>
+            	<td>
+            	    <label for="teccampo_tel"><b>Telefone</b> do Técnico de Campo</label>
+            	</td>
+            	<td>
+            	    <input class="autosave" type="text" value="{$obj.teccampo_tel}" name="teccampo_tel" id="teccampo_tel" />
+            	</td>
+        	</tr>
+        
+        	<tr>
+        		<td>
+        			<label for="registro_concessionaria">Registro Concessionária:</label>
+        		</td>
+        		<td>
+        			<input class="autosave" name="registro_concessionaria" type="text" id="registro_concessionaria" value="{$obj.registro_concessionaria}" />
+        		</td>
+        		
+        		<td class='tdRed'>
+	                 <!-- <label for="nms"><b>Data do Aceite PRODEMGE</b></label> -->
+	            </td>
+	            <td class='tdRed' >
+	                <input type="hidden" name="data_aceite" id="data_aceite" value="{$obj.data_aceite}" size="10"/>
+	            </td>
+        	</tr>  
+       
+            <tr>
+                <td>&nbsp;</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+                
+            <tr>
+            	<td>
+                    <label for="ope_eutelsat">Nome do Operador(a) da EutelSat</label>
+                </td>
+                <td>
+                    <input class="autosave" type="text" name="ope_eutelsat" id="ope_eutelsat" size="30" value="{$obj.ope_eutelsat}" />
+                </td> 
+                <td>
+                    <!-- <input type="text" name="ope_eutelsat_noc" id="ope_eutelsat_noc" size="30" value="{$obj.ope_eutelsat_noc}" /> -->
+                </td>
+                <td></td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <label for="val_crosspol" >Valor do cross-pol EutelSat</label>
+                </td>
+                <td>
+                    <input class="autosave" type="text" id="val_crosspol" name="val_crosspol" value="{$obj.val_crosspol}"  />
+                </td>
+                <td>
+                    <!-- <input type="text" id="val_crosspol_noc" name="val_crosspol_noc" value="{$obj.val_crosspol_noc}"  /> -->
+            	</td>
+            	<td></td>
+			</tr>   
+               
+            <tr>
+                <td>
+                    <label for="latitude_graus">Latitude:</label>
+                    <!-- <label for="latitude" >Latitude</label> -->
+                </td>
+                <td>
+                	<input class="autosave inputCurto" onkeyup="num(this);" onblur="javascript:(this.value.length<2 && this.value!='')?this.value = '0'+this.value:'';" type="text" size="2" maxlength="2" name="latitude_graus" id="latitude_graus" value="{$obj.latitude_graus}" />°&nbsp;
+	            	<input class="autosave inputCurto" onkeyup="num(this);" onblur="javascript:(this.value.length<2 && this.value!='')?this.value = '0'+this.value:'';" type="text" size="2" maxlength="2" name="latitude_minutos" id="latitude_minutos" value="{$obj.latitude_minutos}" />"&nbsp;
+	            	<input class="autosave inputCurto" onkeyup="num(this);" onblur="javascript:(this.value.length<2 && this.value!='')?this.value = '0'+this.value:'';" type="text" size="2" maxlength="2" name="latitude_segundos" id="latitude_segundos" value="{$obj.latitude_segundos}" />'&nbsp;
+	            	<select class="autosave inputCurto" size="1" name="latitude_direcao" id="latitude_direcao">
+	            		<option value="S" {if $obj.latitude_direcao=='S'}selected{/if}>S</option>
+	            		<option value="N" {if $obj.latitude_direcao=='N'}selected{/if}>N</option>
+	            	</select>
+                    <!-- <input type="text" id="latitude_comiss" name="latitude_comiss" value="{$obj.latitude_comiss}" /> -->
+                </td>
+                <td></td>
+                <td></td>
+			</tr> 
+            
+            <tr>
+                <td>
+                	<label for="longitude_graus">Longitude:</label>
+                    <!-- <label for="longitude" >Longitude</label> -->
+                </td>
+                <td>
+                	<input class="autosave inputCurto" onkeyup="num(this);" onblur="javascript:(this.value.length<2 && this.value!='')?this.value = '0'+this.value:'';" type="text" size="2" maxlength="2" name="longitude_graus" id="longitude_graus" value="{$obj.longitude_graus}" />°&nbsp;
+	            	<input class="autosave inputCurto" onkeyup="num(this);" onblur="javascript:(this.value.length<2 && this.value!='')?this.value = '0'+this.value:'';" type="text" size="2" maxlength="2" name="longitude_minutos" id="longitude_minutos" value="{$obj.longitude_minutos}" />"&nbsp;
+	            	<input class="autosave inputCurto" onkeyup="num(this);" onblur="javascript:(this.value.length<2 && this.value!='')?this.value = '0'+this.value:'';" type="text" size="2" maxlength="2" name="longitude_segundos" id="longitude_segundos" value="{$obj.longitude_segundos}" />'&nbsp;
+	            	<select class="autosave inputCurto" size="1" name="longitude_direcao" id="longitude_direcao">
+	            		<option value="W" {if $obj.longitude_direcao=='W'}selected{/if}>W</option>
+	            		<option value="E" {if $obj.longitude_direcao=='E'}selected{/if}>E</option>
+	            	</select>
+                    <!-- <input type="text" id="longitude_comiss" name="longitude_comiss" value="{$obj.longitude_comiss}" /> -->
+                </td>
+                <td></td>
+                <td></td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <label for="azimute" >Azimute</label>
+                </td>
+                <td>
+                    <input class="autosave" type="text" id="azimute_comiss" name="azimute_comiss" value="{$obj.azimute_comiss}" />
+                </td>
+                <td>
+                    <!-- <input type="text" id="azimute_comiss_noc" name="azimute__comiss_noc" value="{$obj.azimute_comiss_noc}" /> -->
+                </td>
+                <td></td>
+            </tr>
+            
+            <tr>
+            	<td>
+                    <label for="elevacao" >Elevacao</label>
+                </td>
+                <td>
+                    <input class="autosave" type="text" id="elevacao_comiss" name="elevacao_comiss" value="{$obj.elevacao_comiss}" />
+                </td>
+                <td>
+                    <!-- <input type="text" id="elevacao_comiss_noc" name="elevacao_comiss_noc" value="{$obj.elevacao_comiss_noc}" /> -->
+                </td>
+                <td></td>
+            </tr>
+            
+            <tr>
+            	<td>
+                    <label for="snr" >Valor de SNR na VSAT </label>
+                </td>
+                <td>
+                    <input class="autosave" type="text" id="snr_comiss" name="snr_comiss" value="{$obj.snr_comiss}" />
+                </td>
+                <td>
+                    <!-- <input type="text" id="snr_comiss_noc" name="snr_comiss_noc" value="{$obj.snr_comiss_noc}" /> -->
+                </td>
+                <td></td>
+            </tr>
+           
+			<tr >
+            	<td >
+                    <label for="nsmodem">NS da Vsat </label>
+                </td>
+                <td colspan="2">
+                	<input class="autosave" readonly="readonly" type="text" name="nsmodem_comiss" id="nsmodem_comiss" value="{$obj.nsmodem_comiss}" />
+                </td>
+                <td></td>
+                <td></td>
+            </tr>
+            
+            <tr>
+            	<td colspan="3"><i style="color:red;">Obs.:campo acima atualizado através do Mac inserido e atualiza status do equipamento correspondente.</i></td>
+            </tr>
+            
+            <tr >
+                <td >
+                    <label for="mac">MAC </label>
+                </td>
+                <td>
+                    <input class="autosave" type="text" name="mac_comiss" id="mac_comiss" alt="mac" value="{$obj.mac_comiss}" onblur="javascript:atualizaNSVsat(this.value)" />
+                </td>
+                <td>
+                    <!-- <input type="text" name="mac_comiss_noc" id="mac_comiss_noc" value="{$obj.mac_comiss_noc}" /> -->
+                </td>
+                <td></td>
+            </tr>
+            
+            <tr >
+                <td >
+                    <label for="nsodu">Número de série ODU </label>
+                </td>
+                <td>
+                	<input class="autosave" style="width:180px;" name="nsodu_comiss" id="nsodu_comiss" onblur="javascript:atualizaODU()" value="{$obj.nsodu_comiss}" type="text" />
+                	<!-- onchange="javascript:atualizaODU()" -->
+                	<br/>
+                	<div style="display:none" id="listaComplete">{$listaautocomplete}</div>
+                </td>
+                <td>
+                    <label for="odu">ODU</label>&nbsp;
+                    <select name="odu" id="odu" class="autosave inputReq">
+                    	<option value="">Escolha uma opção</option>
+                    	{foreach from=$tipoEquipamentos item=tipoEquipamento}
+                    		<option value="{$tipoEquipamento.idtipo_equipamentos}" {if $obj.odu == $tipoEquipamento.idtipo_equipamentos}selected{/if}>{$tipoEquipamento.nome}</option>
+                    	{/foreach}
+                    </select>
+                </td>
+                <td></td>
+            </tr>
+            
+            <tr>
+            	<td colspan="3">
+            		<i style="color:red;">Obs.:o campo acima atualiza status do equipamento correspondente.</i>
+            	</td>
+            	<td></td>
+            </tr>
+            
+            <tr >
+                <td >
+                    <label for="nsodu">Antena marca/número de série </label>
+                </td>
+                <td>
+                    <select class="autosave" name="antena_comiss" id="antena_comiss" >
+                        <option {if $obj.antena_comiss eq 'patriot'}selected="selected"{/if} value='patriot'>Patriot</option>
+                        <option {if $obj.antena_comiss eq 'patriot'}selected="selected"{/if} value='skyware'> Skyware</option>
+                    </select> 
+                    <input class="autosave" type="text" name="antena_ns_comiss" id="antena_ns_comiss" value="{$obj.antena_ns_comiss}" />
+                </td>
+                <td></td>
+                <td></td>
+            </tr>
+            
+            <tr >
+                <td >
+                   &nbsp;
+                </td>
+                
+                <td style="text-align:right">
+                    <img src="imagens/seta.png" alt="Copiar dados do Campo para NOC" onClick="javascript:copyCmpComiss()"/>
+                </td>
+                 <td>
+                    &nbsp;
+                </td>
+                <td></td>
+            </tr>
+            
+        </table>
+        
+        <table class="tbForm">
+        	
+        	<tr>
+            	<td colspan="4">
+                	<label for="nms"><b>Inicio de Testes</b></label>
+                </td>
+            </tr>
+                
+            <tr>
+            	<td colspan="4">
+            		<hr />
+             	</td>
+            </tr>    
+            
+            <tr >
+            	<td >
+                	<label>Auto comissionamento foi realizado?</labe>
+                </td>
+                <td>
+                	<input class="autosave" type="checkbox" name="autocomiss" {if $obj.autocomiss eq 1}checked{/if} />
+                </td>
+                <td>&nbsp;</td>
+                <td></td>
+            </tr>
+            
+            <tr >
+            	<td >
+            		<label>Verificada a versão do software utilizado?</labe>
+                </td>
+                <td>
+                	<input class="autosave" type="checkbox" name="test_software" {if $obj.test_software eq 1}checked{/if} />
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td></td>
+            </tr>
+            
+            <tr >
+            	<td >
+                   <label>Verificado o tamanho e o tipo da antena?</labe>
+                </td>
+                <td>
+                    <input class="autosave" type="checkbox" name="test_antena" {if $obj.test_antena eq 1}checked{/if} />
+                <td>
+                    
+                </td>
+                 <td>
+                    &nbsp;
+                </td>
+                <td></td>
+            </tr>
+            
+            <tr >
+                <td >
+                   <label>Verificado o tipo do buc?</labe>
+                </td>
+                <td>
+                    <input class="autosave" type="checkbox" name="test_buc" {if $obj.test_buc eq 1}checked{/if} />
+                <td>
+                    
+                </td>
+                 <td>
+                    &nbsp;
+                </td>
+                <td>
+                
+                	<!-- Solução temporária, depois retirar-->
+			            <input type="hidden" name="packetshapper" id="packetshapper" value="1" />
+			            <input type="hidden" name="reglicenca" id="reglicenca" value="1" />
+			            <input type="hidden" name="opmanager" id="opmanager" value="1" />
+			            <input type="hidden" name="prtg" id="prtg" value="1" />
+			            <input type="hidden" name="webnms" id="webnms" value="1" />
+					<!-- Solução temporária, depois retirar-->    
+                
+                </td>
+            </tr>       
+            
+            <tr >
+                <td >
+                   <label>Verificado os níveis de TX?</labe>
+                </td>
+                <td>
+                    <input class="autosave" type="checkbox" name="test_tx" id="test_tx" onClick="showFields(this)" {if $obj.test_tx eq 1}checked{/if} />
+                </td>
+                <td>
+                    <div id="tx_input_1" style="{if $obj.test_tx != 1}visibility: hidden{/if}"><label>EB/N0</label><input class="autosave" type="text" name="ebno_comiss" id="ebno_comiss" size="5" value="{$obj.ebno_comiss}" /></div>
+                </td>
+                <td>
+                    <div id="tx_input_2" style="{if $obj.test_tx != 1}visibility:hidden{/if}"><label>EIRP Configurado</label><input class="autosave" type="text"  name="eirp_comiss" id="eirp_comiss" size="5" value="{$obj.eirp_comiss}" /></div>
+                </td>
+                <td></td>
+            </tr>
+            
+            <tr >
+                <td >
+                   <label>Teste de calibrate?</labe>
+                </td>
+                <td>
+                    <input class="autosave" type="checkbox" name="test_calibrate" {if $obj.test_calibrate eq 1}checked{/if} />
+                <td>
+                   
+                </td>
+                 <td>
+                    
+                </td>
+                <td></td>
+            </tr>
+            
+            <tr >
+                <td >
+                   <label>Registro do comprimento/distância do cabo entre buc e modem?</labe>
+                </td>
+                <td>
+                    <input class="autosave" type="checkbox" name="test_cabo" id="test_cabo" onClick="showFields(this)" {if $obj.test_cabo eq 1}checked{/if} />
+                <td>
+                   <div id="cabo_input" style="{if $obj.test_cabo != 1}visibility: hidden{/if}"> <label>Valor</label><input type="text" name="comp_cabo_comiss" size="5" value="{$obj.comp_cabo_comiss}" /></div>
+                </td>
+                 <td>
+                    
+                </td>
+            </tr>
+            
+            <tr >
+                <td >
+                   <label>Registro de condições climáticas?</labe>
+                </td>
+                <td>
+                    <input class="autosave" type="checkbox" name="test_clima" id="test_clima" onClick="showFields(this)" {if $obj.test_clima eq 1}checked{/if} />
+                </td>
+                <td>
+                	<div id="clima_inputs" style="{if $obj.test_clima != 1}visibility:hidden{/if}"><textarea id="desc_clima_comiss" name="desc_clima_comiss" cols="40">{$obj.desc_clima_comiss}</textarea><div>
+                </td>
+                <td>
+                    
+                </td>
+            </tr>
+            
+            <tr>
+		    	<td>
+		        	<label>Retirou a imagem do PRTG?</labe>
+		        </td>
+		        <td>
+		        	<input class="autosave" type="checkbox" name="test_prtg" id="test_prtg" onClick="showFields(this)" {if $obj.test_prtg eq 1}checked{/if} />
+	            </td>
+	            <td>
+	            	&nbsp;
+	            </td>
+	            <td></td>
+	        </tr>
+	        
+	        <tr>
+	        	<td >
+	            	<label>Coletar informações de RX e TX?</labe>
+	            </td>
+	            <td>
+	            	<input class="autosave" type="checkbox" name="test_info_rx_tx" id="test_info_rx_tx" onClick="showFields(this)" {if $obj.test_info_rx_tx eq 1}checked{/if} />
+	            </td>
+	            <td>
+	            	&nbsp;
+	            </td>
+	            <td></td>
+	        </tr>
+	        
+	        <tr>
+	        	<td >
+	            	<label>Finalizou o Termo de Aceite?</labe>
+	            </td>
+	            <td>
+	            	<input class="autosave" type="checkbox" name="test_f_termo_aceite" id="test_f_termo_aceite" onClick="showFields(this)" {if $obj.test_f_termo_aceite eq 1}checked{/if} />
+	            </td>
+	            <td>
+	            	&nbsp;
+	            </td>
+	            <td></td>
+	        </tr>
+	        
+	        <tr>
+	        	<td >
+	            	<label>Enviou a notificação de início de teste a Prodemge?</labe>
+	            </td>
+	            <td>
+	            	<input class="autosave" type="checkbox" name="test_notificacao_inicio" id="test_notificacao_inicio" onClick="showFields(this)" {if $obj.test_notificacao_inicio eq 1}checked{/if} />
+	            </td>
+	            <td>
+	            	&nbsp;
+	            </td>
+	            <td></td>
+	        </tr>
+	        
+	        <tr>
+	        	<td >
+	            	<label>Conectou o cabo RJ45?</labe>
+	            </td>
+	            <td>
+	            	<input class="autosave" type="checkbox" name="cabo_rj45" id="cabo_rj45" onClick="showFields(this)" {if $obj.cabo_rj45 eq 1}checked{/if}/>
+		        </td>
+		        <td>
+		           	<div id="pergunta_cabo_rj45">
+		           		{if $obj.cabo_rj45 eq 1}
+		           			Onde?
+		           		{else}
+		           			Porquê?
+		           		{/if}
+		           	</div>
+		           	<div id="justificativa_cabo_rj45">
+		           		<textarea 
+		           			class="autosave"
+		           			id="cabo_rj45_justificativa_sim" 
+		           			name="cabo_rj45_justificativa_sim" 
+		           			cols="40"
+		           			{if $obj.cabo_rj45 eq 1}{else}style="visibility:hidden;position:absolute;"{/if}
+		           		>{$obj.cabo_rj45_justificativa_sim}</textarea>
+		           		
+		           		<textarea 
+		           			class="autosave"
+		           			id="cabo_rj45_justificativa_nao" 
+		           			name="cabo_rj45_justificativa_nao" 
+		           			cols="40"
+		           			{if $obj.cabo_rj45 eq 1}style="visibility:hidden;position:absolute;"{else}{/if}
+		           		>{$obj.cabo_rj45_justificativa_nao}</textarea>
+              		</div>
+		        </td>
+		        <td></td>
+		    </tr>
+	        
+	        <tr>
+	        	<td>
+	            	<!-- <label>Enviou o Termo de Aceite à Prodemge?</labe> -->
+	            </td>
+	            <td>
+	            	<span style="visibility:hidden;">
+	            		<input 
+	            			class="autosave"
+	            			type="checkbox" 
+	            			name="test_e_termo_aceite" 
+	            			id="test_e_termo_aceite" 
+	            			onClick="showFields(this)" 
+	            			{if $obj.test_e_termo_aceite == 1 || $obj.termo_aceite != ''}checked{/if} 
+	            		/>
+	            		<input type="hidden" name="status_comiss" id="status_comiss" value="{$obj.comiss}" />
+	            	</span>
+	            </td>
+	            <td>
+	            	&nbsp;
+	            </td>
+	            <td></td>
+	        </tr>
+        
+      	</table>
+      	
+	</form>

@@ -1,0 +1,20 @@
+# vim
+*~
+*wp
+
+# templates compilados
+#templates_c/*
+
+# configurações de ambiente
+#configs.php
+
+# configurações do banco de dados
+#helpers/DbConfig.php
+
+# cache
+#cache/*
+
+#public/imagens/*
+#public/imagens/incidentes/*
+#public/imagens/instalacoes/*
+#public/imagens/instalacoes_sp/*

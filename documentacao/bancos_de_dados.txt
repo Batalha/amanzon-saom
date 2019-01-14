@@ -1,0 +1,45 @@
+------------------
+-- SAOM PROEMGE --
+------------------
+
+endereço: dbmy0017.whservidor.com
+db: vodanettel_4
+usuario: vodanettel_4
+senha: 1th1nkvoda
+
+---------------------
+-- PORTAL PRODEMGE --
+---------------------
+
+endereço: dbmy0057.whservidor.com
+db: vodanettel_7
+usuario: vodanettel_7
+senha: Jh5417S
+
+-------------
+-- SAOM SP --
+-------------
+
+endereço: dbmy0014.whservidor.com
+db: vodanettel_5
+usuario: vodanettel_5
+senha: Jh5417S
+
+---------------
+-- PORTAL SP --
+---------------
+
+endereço: dbmy0058.whservidor.com
+db: vodanettel_7
+usuario: vodanettel_7
+senha: Jh5417S
+
+
+----------------------
+-- COMO ESTÁ NA UOL --
+----------------------
+
+vodanettel_4  vodanettel_4  dbmy0017.whservidor.com  SAOM PRODEMGE  5.59 MB
+vodanettel_5  vodanettel_5  dbmy0014.whservidor.com  SAOM SP  0.00 MB
+vodanettel_6  vodanettel_6  dbmy0058.whservidor.com  PORTAL SP  0.00 MB
+vodanettel_7  vodanettel_7  dbmy0057.whservidor.com  PORTAL BH - PRODEMGE  0.00 MB

@@ -1,0 +1,2 @@
+bkp feito antes de implementar consertos na tabela 
+de instalacoes referentes a coluna odu (frk com tipo_equipamentos)

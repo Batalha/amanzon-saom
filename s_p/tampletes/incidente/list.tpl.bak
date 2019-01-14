@@ -1,0 +1,33 @@
+{include file="incidente/submenu.tpl" title=submenu}
+<table class="tbLista">
+	<thead>
+    <tr>
+        <th id="colunaTabelaIncidentes1">N° Incidente</th>
+        <th id="colunaTabelaIncidentes2">VSAT</th>
+        <th id="colunaTabelaIncidentes3">Data</th>
+        <th id="colunaTabelaIncidentes4">Prioridade</th>
+        <th id="colunaTabelaIncidentes5">Descrição</th>
+        <th id="colunaTabelaIncidentes6">Atendimento</th>
+        <th id="colunaTabelaIncidentes7">ID PRODEMGE</th>
+        <th id="colunaTabelaIncidentes8">Status</th>
+    </tr>
+    </thead>
+    <tbody>
+    {foreach from=$arr item=obj}
+	    {cycle values='trCor,trsCor' assign=rowCss}     
+	    <tr class="{$rowCss}" onClick="javascript:getAjaxForm('Incidente/view','conteudo',{ldelim}param:{$obj.idincidentes},ajax:1{rdelim})" onMouseOver="javascript:onOver(this)" onMouseOut="javascript:onUp(this,'{$rowCss}')">
+	        <td class="_filterCol0 _match">{$obj.idincidentes}</td>
+	        <td class="_filterCol1 _match">{$obj.rel.instalacoes.nome}</td>
+	        <td class="_filterCol2 _match">{$obj.data}</td>
+	        <td class="_filterCol3 _match {if $obj.prioridade == 'Baixa'}tdGreen{elseif $obj.prioridade == 'Média'}tdYel{elseif $obj.prioridade == 'Alta'}tdRed{/if}">{$obj.prioridade}</td>
+	        <td class="_filterCol4 _match">{$obj.descricao|truncate:200}</td>
+	        <td class="_filterCol5 _match">{$obj.rel.atend_vsat.atendimento|truncate:200}</td>
+	        <td class="_filterCol6 _match">{$obj.idprodemge}</td>
+	        <td class="_filterCol7 _match">{if $obj.rel.atend_vsat.status_atend_idstatus_atend == 1}Aberto{/if}{if $obj.rel.atend_vsat.status_atend_idstatus_atend == 2}Em atendimento{/if}{if $obj.rel.atend_vsat.status_atend_idstatus_atend == 3}Finalizado{/if}</td>
+	    </tr>
+    {/foreach}
+    </tbody>
+</table>
+<script>
+	$('table#tbLista').columnFilters();
+</script>

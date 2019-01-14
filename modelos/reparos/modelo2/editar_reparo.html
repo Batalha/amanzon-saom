@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Modelo de Reparos</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+	<style>
+		.tabela{
+			padding:5px;
+		}
+	</style>
+
+	<script>
+		function abreLink( link ){
+			window.location = link;
+		}
+	</script>
+</head>
+
+<body>
+
+	<center><h1>Reparos</h1></center>
+	
+	<div style="width:700px;margin:0 auto;border:1px solid #000;">
+
+		<div style="width:250px;float:left;">
+			<ul>
+				<li><a href="lista.html">Reparo</a></li>
+			</ul>
+		</div>
+
+		<div style="width:450px;float:left;">
+			<div style="border:1px solid #000">
+				<table class="tabela">
+					<tr>
+						<td colspan="2"><h3>Dados do Reparo:</h3></td>
+						<td style="width:20%;">
+							<a href="editar_reparo.html">[editar]</a>&nbsp;&nbsp;
+							<a href="#">[apagar]</a>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div style="border:1px solid #000;padding:10px;">
+				<b>Problema:</b><br/>
+				<input type="checkbox"/>&nbsp;Antena&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="checkbox"/>&nbsp;Modem&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="checkbox"/>&nbsp;ODU&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="checkbox"/>&nbsp;Fonte&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="checkbox"/>&nbsp;Energia<br/>
+				<input type="checkbox"/>&nbsp;Outro:&nbsp;&nbsp;<input type="text" style="width:300px;" />
+			</div>
+			<div style="border:1px solid #000">
+				<div style="float:left;padding:10px;"><b>Instalação:</b>&nbsp;SES-TESTE-9999</div>
+				<div style="float:left;padding:10px;border-left:1px solid #000;"><b>Técnico Responsável:</b><br/>
+								<select>
+									<option>Sávio</option>
+									<option>Hernan</option>
+									<option>Alex</option>
+								</select></div>
+				<div style="clear:both;"></div>
+			</div>
+
+			<div><table style="width:100%;" cellspacing="0" cellspaggind="0"><tr><td style="border:1px solid #000;width:50%;">
+				<div>
+					<table class="tabela">
+						<tr>
+							<td><b>ODU Atual:</b>&nbsp;
+								<select>
+									<option>ODU 3</option>
+									<option>ODU 2</option>
+									<option>ODU 1</option>
+								</select></td>
+							<td>&nbsp;</td>
+							<td></td>
+						</tr>
+					</table>
+				</div>
+			</td><td style="border:1px solid #000;width:50%;">
+				<div>
+					<table class="tabela">
+						<tr>
+							<td><b>Modem:</b>&nbsp;
+								<select>
+									<option>Modem 3</option>
+									<option>Modem 2</option>
+									<option>Modem 1</option>
+								</select></td>
+							<td>&nbsp;</td>
+							<td></td>
+						</tr>
+					</table>
+				</div>
+			</td></tr></table></div>
+
+			<div style="border:1px solid #000">
+				<table class="tabela">
+					<tr>
+						<td valign="top"><b>Relatório:</b>&nbsp;</td>
+					</tr><tr>
+						<td style="height:300px;"><textarea style="width:420px;height:300px;">Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.<br/><br/>Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Interagi no mé, cursus quis, vehicula ac nisi. Aenean vel dui dui. Nullam leo erat, aliquet quis tempus a, posuere ut mi. Ut scelerisque neque et turpis posuere pulvinar pellentesque nibh ullamcorper. Pharetra in mattis molestie, volutpat elementum justo. Aenean ut ante turpis. Pellentesque laoreet mé vel lectus scelerisque interdum cursus velit auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac mauris lectus, non scelerisque augue. Aenean justo massa.</textarea></td>
+					</tr>
+				</table>
+				<div style="padding:10px;text-align:right;"><a href="#">[Salvar]</a></div>
+			</div>
+			<div style="margin-top:15px;">
+				<table>
+					<tr>
+						<td colspan="3">
+							<a href="agendamento.html">Agendar / Agendamento</a>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+
+		<div style="clear:both;"></div>
+
+	</div>
+
+</body>
+
+</html>

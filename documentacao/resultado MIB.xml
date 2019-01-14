@@ -1,0 +1,1830 @@
+<?xml version="1.0"?>
+<SnmpSimulatorData>
+<Instances
+>
+<!-- sysPopulationId.0 -->
+<Instance
+name="sysPopulationId.0"
+oid=".1.3.6.1.4.1.24386.50.2.1.1.1.0"
+valueType="Integer"
+>
+<Value><![CDATA[2]]></Value>
+</Instance>
+<!-- sysNetworkId.0 -->
+<Instance
+name="sysNetworkId.0"
+oid=".1.3.6.1.4.1.24386.50.2.1.1.2.0"
+valueType="Integer"
+>
+<Value><![CDATA[1326]]></Value>
+</Instance>
+<!-- sysLogonId.0 -->
+<Instance
+name="sysLogonId.0"
+oid=".1.3.6.1.4.1.24386.50.2.1.1.3.0"
+valueType="Integer"
+>
+<Value><![CDATA[26]]></Value>
+</Instance>
+<!-- sysGroupId.0 -->
+<Instance
+name="sysGroupId.0"
+oid=".1.3.6.1.4.1.24386.50.2.1.1.4.0"
+valueType="Integer"
+>
+<Value><![CDATA[1]]></Value>
+</Instance>
+<!-- sysNetworkName.0 -->
+<Instance
+name="sysNetworkName.0"
+oid=".1.3.6.1.4.1.24386.50.2.1.1.5.0"
+valueType="OctetString"
+>
+<Value><![CDATA[STM BRAZIL HUB]]></Value>
+</Instance>
+<!-- sysDvbState.0 -->
+<Instance
+name="sysDvbState.0"
+oid=".1.3.6.1.4.1.24386.50.2.1.1.6.0"
+valueType="Integer"
+>
+<Value><![CDATA[active	     ]]></Value>
+</Instance>
+<!-- posLatDeg.0 -->
+<Instance
+name="posLatDeg.0"
+oid=".1.3.6.1.4.1.24386.50.2.1.2.1.0"
+valueType="Integer"
+>
+<Value><![CDATA[23]]></Value>
+</Instance>
+<!-- posLatMin.0 -->
+<Instance
+name="posLatMin.0"
+oid=".1.3.6.1.4.1.24386.50.2.1.2.2.0"
+valueType="Integer"
+>
+<Value><![CDATA[33]]></Value>
+</Instance>
+<!-- posLatMinFrac.0 -->
+<Instance
+name="posLatMinFrac.0"
+oid=".1.3.6.1.4.1.24386.50.2.1.2.3.0"
+valueType="Integer"
+>
+<Value><![CDATA[28]]></Value>
+</Instance>
+<!-- posLatDir.0 -->
+<Instance
+name="posLatDir.0"
+oid=".1.3.6.1.4.1.24386.50.2.1.2.4.0"
+valueType="Integer"
+>
+<Value><![CDATA[south ]]></Value>
+</Instance>
+<!-- posLongDeg.0 -->
+<Instance
+name="posLongDeg.0"
+oid=".1.3.6.1.4.1.24386.50.2.1.2.5.0"
+valueType="Integer"
+>
+<Value><![CDATA[46]]></Value>
+</Instance>
+<!-- posLongMin.0 -->
+<Instance
+name="posLongMin.0"
+oid=".1.3.6.1.4.1.24386.50.2.1.2.6.0"
+valueType="Integer"
+>
+<Value><![CDATA[39]]></Value>
+</Instance>
+<!-- posLongMinFrac.0 -->
+<Instance
+name="posLongMinFrac.0"
+oid=".1.3.6.1.4.1.24386.50.2.1.2.7.0"
+valueType="Integer"
+>
+<Value><![CDATA[32]]></Value>
+</Instance>
+<!-- posLongDir.0 -->
+<Instance
+name="posLongDir.0"
+oid=".1.3.6.1.4.1.24386.50.2.1.2.8.0"
+valueType="Integer"
+>
+<Value><![CDATA[west ]]></Value>
+</Instance>
+<!-- posAlt.0 -->
+<Instance
+name="posAlt.0"
+oid=".1.3.6.1.4.1.24386.50.2.1.2.9.0"
+valueType="Integer"
+>
+<Value><![CDATA[198]]></Value>
+</Instance>
+<!-- posDelayCorrection.0 -->
+<Instance
+name="posDelayCorrection.0"
+oid=".1.3.6.1.4.1.24386.50.2.1.2.10.0"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- posSearchN.0 -->
+<Instance
+name="posSearchN.0"
+oid=".1.3.6.1.4.1.24386.50.2.1.2.11.0"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- posSearchOffset.0 -->
+<Instance
+name="posSearchOffset.0"
+oid=".1.3.6.1.4.1.24386.50.2.1.2.12.0"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- hwVersion.0 -->
+<Instance
+name="hwVersion.0"
+oid=".1.3.6.1.4.1.24386.50.2.1.3.1.0"
+valueType="OctetString"
+>
+<Value><![CDATA[SatLink 1000]]></Value>
+</Instance>
+<!-- hwIduTemperature.0 -->
+<Instance
+name="hwIduTemperature.0"
+oid=".1.3.6.1.4.1.24386.50.2.1.3.2.0"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- hwEthernetMode.0 -->
+<Instance
+name="hwEthernetMode.0"
+oid=".1.3.6.1.4.1.24386.50.2.1.3.3.0"
+valueType="Integer"
+>
+<Value><![CDATA[ethAuto ]]></Value>
+</Instance>
+<!-- hwAlternateMac.0 -->
+<Instance
+name="hwAlternateMac.0"
+oid=".1.3.6.1.4.1.24386.50.2.1.3.4.0"
+valueType="Integer"
+>
+<Value><![CDATA[-1]]></Value>
+</Instance>
+<!-- hwEthernetStatus.0 -->
+<Instance
+name="hwEthernetStatus.0"
+oid=".1.3.6.1.4.1.24386.50.2.1.3.5.0"
+valueType="Integer"
+>
+<Value><![CDATA[eth100MbHalf ]]></Value>
+</Instance>
+<!-- hwPluginCard.0 -->
+<Instance
+name="hwPluginCard.0"
+oid=".1.3.6.1.4.1.24386.50.2.1.3.6.0"
+valueType="OctetString"
+>
+<Value><![CDATA[No Plugin-card detected.]]></Value>
+</Instance>
+<!-- hwRevision.0 -->
+<Instance
+name="hwRevision.0"
+oid=".1.3.6.1.4.1.24386.50.2.1.3.7.0"
+valueType="OctetString"
+>
+<Value><![CDATA[R1.2]]></Value>
+</Instance>
+<!-- rxAutostart.0 -->
+<Instance
+name="rxAutostart.0"
+oid=".1.3.6.1.4.1.24386.50.2.2.1.1.1.0"
+valueType="Integer"
+>
+<Value><![CDATA[on  ]]></Value>
+</Instance>
+<!-- rxCnfFrequency.0 -->
+<Instance
+name="rxCnfFrequency.0"
+oid=".1.3.6.1.4.1.24386.50.2.2.1.1.2.0"
+valueType="Integer"
+>
+<Value><![CDATA[11790875]]></Value>
+</Instance>
+<!-- rxCnfPolarisation.0 -->
+<Instance
+name="rxCnfPolarisation.0"
+oid=".1.3.6.1.4.1.24386.50.2.2.1.1.3.0"
+valueType="Integer"
+>
+<Value><![CDATA[horizontal ]]></Value>
+</Instance>
+<!-- rxCnfSymbolRate.0 -->
+<Instance
+name="rxCnfSymbolRate.0"
+oid=".1.3.6.1.4.1.24386.50.2.2.1.1.4.0"
+valueType="Integer"
+>
+<Value><![CDATA[7225000]]></Value>
+</Instance>
+<!-- rxFwdLinkInterfaceId.0 -->
+<Instance
+name="rxFwdLinkInterfaceId.0"
+oid=".1.3.6.1.4.1.24386.50.2.2.1.1.5.0"
+valueType="Integer"
+>
+<Value><![CDATA[internal   ]]></Value>
+</Instance>
+<!-- rxAllowCachedDvBTables.0 -->
+<Instance
+name="rxAllowCachedDvBTables.0"
+oid=".1.3.6.1.4.1.24386.50.2.2.1.1.6.0"
+valueType="Integer"
+>
+<Value><![CDATA[false ]]></Value>
+</Instance>
+<!-- rxTunerRetryTime.0 -->
+<Instance
+name="rxTunerRetryTime.0"
+oid=".1.3.6.1.4.1.24386.50.2.2.1.1.7.0"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- rxWatchDog.0 -->
+<Instance
+name="rxWatchDog.0"
+oid=".1.3.6.1.4.1.24386.50.2.2.1.1.8.0"
+valueType="Integer"
+>
+<Value><![CDATA[15]]></Value>
+</Instance>
+<!-- rxTransmissionMode.0 -->
+<Instance
+name="rxTransmissionMode.0"
+oid=".1.3.6.1.4.1.24386.50.2.2.1.1.9.0"
+valueType="Integer"
+>
+<Value><![CDATA[acm       ]]></Value>
+</Instance>
+<!-- rxMaxModcod.0 -->
+<Instance
+name="rxMaxModcod.0"
+oid=".1.3.6.1.4.1.24386.50.2.2.1.1.10.0"
+valueType="Integer"
+>
+<Value><![CDATA[apsk16NineTenth ]]></Value>
+</Instance>
+<!-- rxAcmLatency.0 -->
+<Instance
+name="rxAcmLatency.0"
+oid=".1.3.6.1.4.1.24386.50.2.2.1.1.11.0"
+valueType="Integer"
+>
+<Value><![CDATA[on  ]]></Value>
+</Instance>
+<!-- rxFwdLinkSearchPriority.0 -->
+<Instance
+name="rxFwdLinkSearchPriority.0"
+oid=".1.3.6.1.4.1.24386.50.2.2.1.3.1.2.0"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- rxFwdLinkFrequency.0 -->
+<Instance
+name="rxFwdLinkFrequency.0"
+oid=".1.3.6.1.4.1.24386.50.2.2.1.3.1.3.0"
+valueType="Integer"
+>
+<Value><![CDATA[11790875]]></Value>
+</Instance>
+<!-- rxFwdLinkSymbolRate.0 -->
+<Instance
+name="rxFwdLinkSymbolRate.0"
+oid=".1.3.6.1.4.1.24386.50.2.2.1.3.1.4.0"
+valueType="Integer"
+>
+<Value><![CDATA[7225000]]></Value>
+</Instance>
+<!-- rxFwdLinkPolarisation.0 -->
+<Instance
+name="rxFwdLinkPolarisation.0"
+oid=".1.3.6.1.4.1.24386.50.2.2.1.3.1.5.0"
+valueType="Integer"
+>
+<Value><![CDATA[horizontal ]]></Value>
+</Instance>
+<!-- rxFwdLinkMode.0 -->
+<Instance
+name="rxFwdLinkMode.0"
+oid=".1.3.6.1.4.1.24386.50.2.2.1.3.1.6.0"
+valueType="Integer"
+>
+<Value><![CDATA[dvbS2  ]]></Value>
+</Instance>
+<!-- rxFwdLinkPopId.0 -->
+<Instance
+name="rxFwdLinkPopId.0"
+oid=".1.3.6.1.4.1.24386.50.2.2.1.3.1.7.0"
+valueType="Integer"
+>
+<Value><![CDATA[2]]></Value>
+</Instance>
+<!-- rxFwdLinkNetworkId.0 -->
+<Instance
+name="rxFwdLinkNetworkId.0"
+oid=".1.3.6.1.4.1.24386.50.2.2.1.3.1.8.0"
+valueType="Integer"
+>
+<Value><![CDATA[-1]]></Value>
+</Instance>
+<!-- rxFwdLinkSatellitePos.0 -->
+<Instance
+name="rxFwdLinkSatellitePos.0"
+oid=".1.3.6.1.4.1.24386.50.2.2.1.3.1.9.0"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- rxFwdLinkSatellitePolarisationRotation.0 -->
+<Instance
+name="rxFwdLinkSatellitePolarisationRotation.0"
+oid=".1.3.6.1.4.1.24386.50.2.2.1.3.1.10.0"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- rxFwdLinkRowStatus.0 -->
+<Instance
+name="rxFwdLinkRowStatus.0"
+oid=".1.3.6.1.4.1.24386.50.2.2.1.3.1.11.0"
+valueType="Integer"
+>
+<Value><![CDATA[1]]></Value>
+</Instance>
+<!-- rxS2ModCod.1 -->
+<Instance
+name="rxS2ModCod.1"
+oid=".1.3.6.1.4.1.24386.50.2.2.1.4.1.1.1"
+valueType="Integer"
+>
+<Value><![CDATA[qpskOneFourth ]]></Value>
+</Instance>
+<!-- rxS2ModCod.2 -->
+<Instance
+name="rxS2ModCod.2"
+oid=".1.3.6.1.4.1.24386.50.2.2.1.4.1.1.2"
+valueType="Integer"
+>
+<Value><![CDATA[qpskOneThird ]]></Value>
+</Instance>
+<!-- rxS2ModCod.3 -->
+<Instance
+name="rxS2ModCod.3"
+oid=".1.3.6.1.4.1.24386.50.2.2.1.4.1.1.3"
+valueType="Integer"
+>
+<Value><![CDATA[qpskTwoFifth ]]></Value>
+</Instance>
+<!-- rxS2ModCod.4 -->
+<Instance
+name="rxS2ModCod.4"
+oid=".1.3.6.1.4.1.24386.50.2.2.1.4.1.1.4"
+valueType="Integer"
+>
+<Value><![CDATA[qpskHalf ]]></Value>
+</Instance>
+<!-- rxS2ModCod.5 -->
+<Instance
+name="rxS2ModCod.5"
+oid=".1.3.6.1.4.1.24386.50.2.2.1.4.1.1.5"
+valueType="Integer"
+>
+<Value><![CDATA[qpskThreeFifth ]]></Value>
+</Instance>
+<!-- rxS2ModCod.6 -->
+<Instance
+name="rxS2ModCod.6"
+oid=".1.3.6.1.4.1.24386.50.2.2.1.4.1.1.6"
+valueType="Integer"
+>
+<Value><![CDATA[qpskTwoThird ]]></Value>
+</Instance>
+<!-- rxS2ModCod.4 -->
+<Instance
+name="rxS2ModCod.4"
+oid=".1.3.6.1.4.1.24386.50.2.2.1.4.1.1.4"
+valueType="Integer"
+>
+<Value><![CDATA[qpskHalf ]]></Value>
+</Instance>
+<!-- txAutostart.0 -->
+<Instance
+name="txAutostart.0"
+oid=".1.3.6.1.4.1.24386.50.2.3.1.1.0"
+valueType="Integer"
+>
+<Value><![CDATA[on  ]]></Value>
+</Instance>
+<!-- oduRxLnbType.0 -->
+<Instance
+name="oduRxLnbType.0"
+oid=".1.3.6.1.4.1.24386.50.2.4.1.1.0"
+valueType="Integer"
+>
+<Value><![CDATA[satLink403x ]]></Value>
+</Instance>
+<!-- oduRxLocalOscilliatorLowBand.0 -->
+<Instance
+name="oduRxLocalOscilliatorLowBand.0"
+oid=".1.3.6.1.4.1.24386.50.2.4.1.2.0"
+valueType="Integer"
+>
+<Value><![CDATA[9750000]]></Value>
+</Instance>
+<!-- oduRxLocalOscilliatorHighBand.0 -->
+<Instance
+name="oduRxLocalOscilliatorHighBand.0"
+oid=".1.3.6.1.4.1.24386.50.2.4.1.3.0"
+valueType="Integer"
+>
+<Value><![CDATA[10600000]]></Value>
+</Instance>
+<!-- oduRxSwitchingFrequency.0 -->
+<Instance
+name="oduRxSwitchingFrequency.0"
+oid=".1.3.6.1.4.1.24386.50.2.4.1.4.0"
+valueType="Integer"
+>
+<Value><![CDATA[11700000]]></Value>
+</Instance>
+<!-- oduRxDCSupply.0 -->
+<Instance
+name="oduRxDCSupply.0"
+oid=".1.3.6.1.4.1.24386.50.2.4.1.5.0"
+valueType="Integer"
+>
+<Value><![CDATA[on  ]]></Value>
+</Instance>
+<!-- oduTxType.0 -->
+<Instance
+name="oduTxType.0"
+oid=".1.3.6.1.4.1.24386.50.2.4.2.1.0"
+valueType="Integer"
+>
+<Value><![CDATA[satlink403x ]]></Value>
+</Instance>
+<!-- oduTxLocalOscilliatorFrequency.0 -->
+<Instance
+name="oduTxLocalOscilliatorFrequency.0"
+oid=".1.3.6.1.4.1.24386.50.2.4.2.2.0"
+valueType="Integer"
+>
+<Value><![CDATA[130500000]]></Value>
+</Instance>
+<!-- oduTxDCSupply.0 -->
+<Instance
+name="oduTxDCSupply.0"
+oid=".1.3.6.1.4.1.24386.50.2.4.2.3.0"
+valueType="Integer"
+>
+<Value><![CDATA[on24v  ]]></Value>
+</Instance>
+<!-- oduTxBucSerialNumber.0 -->
+<Instance
+name="oduTxBucSerialNumber.0"
+oid=".1.3.6.1.4.1.24386.50.2.4.2.4.0"
+valueType="OctetString"
+>
+<Value><![CDATA[104804040203080610130000]]></Value>
+</Instance>
+<!-- oduTxBucHWVersion.0 -->
+<Instance
+name="oduTxBucHWVersion.0"
+oid=".1.3.6.1.4.1.24386.50.2.4.2.5.0"
+valueType="OctetString"
+>
+<Value><![CDATA[4.2]]></Value>
+</Instance>
+<!-- oduTxBucSWVersion.0 -->
+<Instance
+name="oduTxBucSWVersion.0"
+oid=".1.3.6.1.4.1.24386.50.2.4.2.6.0"
+valueType="OctetString"
+>
+<Value><![CDATA[1.3]]></Value>
+</Instance>
+<!-- oduTx10MHzRef.0 -->
+<Instance
+name="oduTx10MHzRef.0"
+oid=".1.3.6.1.4.1.24386.50.2.4.2.7.0"
+valueType="Integer"
+>
+<Value><![CDATA[on  ]]></Value>
+</Instance>
+<!-- oduAntennaType.0 -->
+<Instance
+name="oduAntennaType.0"
+oid=".1.3.6.1.4.1.24386.50.2.4.3.1.0"
+valueType="Integer"
+>
+<Value><![CDATA[andrew123 ]]></Value>
+</Instance>
+<!-- oduAntennaGain.0 -->
+<Instance
+name="oduAntennaGain.0"
+oid=".1.3.6.1.4.1.24386.50.2.4.3.2.0"
+valueType="Integer"
+>
+<Value><![CDATA[433]]></Value>
+</Instance>
+<!-- oduAntennaDirection.0 -->
+<Instance
+name="oduAntennaDirection.0"
+oid=".1.3.6.1.4.1.24386.50.2.4.3.3.0"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- oduAntennaInclination.0 -->
+<Instance
+name="oduAntennaInclination.0"
+oid=".1.3.6.1.4.1.24386.50.2.4.3.4.0"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- oduAntennaPolarisationAngle.0 -->
+<Instance
+name="oduAntennaPolarisationAngle.0"
+oid=".1.3.6.1.4.1.24386.50.2.4.3.5.0"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- igmpEnable.0 -->
+<Instance
+name="igmpEnable.0"
+oid=".1.3.6.1.4.1.24386.50.2.5.1.1.1.0"
+valueType="Integer"
+>
+<Value><![CDATA[enable ]]></Value>
+</Instance>
+<!-- igmpProxyEnable.0 -->
+<Instance
+name="igmpProxyEnable.0"
+oid=".1.3.6.1.4.1.24386.50.2.5.1.1.2.0"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- igmpUnsolicitInterval.0 -->
+<Instance
+name="igmpUnsolicitInterval.0"
+oid=".1.3.6.1.4.1.24386.50.2.5.1.1.3.0"
+valueType="Integer"
+>
+<Value><![CDATA[10]]></Value>
+</Instance>
+<!-- igmpInterfaceIfIndex.1 -->
+<Instance
+name="igmpInterfaceIfIndex.1"
+oid=".1.3.6.1.4.1.24386.50.2.5.1.3.1.1.1"
+valueType="Integer"
+>
+<Value><![CDATA[1]]></Value>
+</Instance>
+<!-- igmpInterfaceIfIndex.3 -->
+<Instance
+name="igmpInterfaceIfIndex.3"
+oid=".1.3.6.1.4.1.24386.50.2.5.1.3.1.1.3"
+valueType="Integer"
+>
+<Value><![CDATA[3]]></Value>
+</Instance>
+<!-- igmpInterfaceVersion.1 -->
+<Instance
+name="igmpInterfaceVersion.1"
+oid=".1.3.6.1.4.1.24386.50.2.5.1.3.1.2.1"
+valueType="Integer"
+>
+<Value><![CDATA[version2 ]]></Value>
+</Instance>
+<!-- igmpInterfaceVersion.3 -->
+<Instance
+name="igmpInterfaceVersion.3"
+oid=".1.3.6.1.4.1.24386.50.2.5.1.3.1.2.3"
+valueType="Integer"
+>
+<Value><![CDATA[version2 ]]></Value>
+</Instance>
+<!-- igmpInterfaceQueryInterval.1 -->
+<Instance
+name="igmpInterfaceQueryInterval.1"
+oid=".1.3.6.1.4.1.24386.50.2.5.1.3.1.3.1"
+valueType="Integer"
+>
+<Value><![CDATA[125]]></Value>
+</Instance>
+<!-- igmpInterfaceQueryInterval.3 -->
+<Instance
+name="igmpInterfaceQueryInterval.3"
+oid=".1.3.6.1.4.1.24386.50.2.5.1.3.1.3.3"
+valueType="Integer"
+>
+<Value><![CDATA[125]]></Value>
+</Instance>
+<!-- igmpInterfaceMaxResponseTime.1 -->
+<Instance
+name="igmpInterfaceMaxResponseTime.1"
+oid=".1.3.6.1.4.1.24386.50.2.5.1.3.1.4.1"
+valueType="Integer"
+>
+<Value><![CDATA[10]]></Value>
+</Instance>
+<!-- igmpInterfaceMaxResponseTime.3 -->
+<Instance
+name="igmpInterfaceMaxResponseTime.3"
+oid=".1.3.6.1.4.1.24386.50.2.5.1.3.1.4.3"
+valueType="Integer"
+>
+<Value><![CDATA[10]]></Value>
+</Instance>
+<!-- igmpInterfaceEntryStatus.1 -->
+<Instance
+name="igmpInterfaceEntryStatus.1"
+oid=".1.3.6.1.4.1.24386.50.2.5.1.3.1.5.1"
+valueType="Integer"
+>
+<Value><![CDATA[1]]></Value>
+</Instance>
+<!-- igmpInterfaceEntryStatus.3 -->
+<Instance
+name="igmpInterfaceEntryStatus.3"
+oid=".1.3.6.1.4.1.24386.50.2.5.1.3.1.5.3"
+valueType="Integer"
+>
+<Value><![CDATA[1]]></Value>
+</Instance>
+<!-- natEnable.0 -->
+<Instance
+name="natEnable.0"
+oid=".1.3.6.1.4.1.24386.50.2.5.2.1.0"
+valueType="Integer"
+>
+<Value><![CDATA[disable]]></Value>
+</Instance>
+<!-- dhcpSrvEnable.0 -->
+<Instance
+name="dhcpSrvEnable.0"
+oid=".1.3.6.1.4.1.24386.50.2.5.3.1.1.0"
+valueType="Integer"
+>
+<Value><![CDATA[enable ]]></Value>
+</Instance>
+<!-- dhcpSrvConfSavedTime.0 -->
+<Instance
+name="dhcpSrvConfSavedTime.0"
+oid=".1.3.6.1.4.1.24386.50.2.5.3.1.2.0"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- dhcpLeaseAddrPoolIndex.1 -->
+<Instance
+name="dhcpLeaseAddrPoolIndex.1"
+oid=".1.3.6.1.4.1.24386.50.2.5.3.2.1.1.1"
+valueType="Integer"
+>
+<Value><![CDATA[1]]></Value>
+</Instance>
+<!-- dhcpLeaseAddrSubnet.1 -->
+<Instance
+name="dhcpLeaseAddrSubnet.1"
+oid=".1.3.6.1.4.1.24386.50.2.5.3.2.1.2.1"
+valueType="IpAddress"
+>
+<Value><![CDATA[10.21.0.0]]></Value>
+</Instance>
+<!-- dhcpLeaseAddrMask.1 -->
+<Instance
+name="dhcpLeaseAddrMask.1"
+oid=".1.3.6.1.4.1.24386.50.2.5.3.2.1.3.1"
+valueType="IpAddress"
+>
+<Value><![CDATA[255.255.255.248]]></Value>
+</Instance>
+<!-- dhcpLeaseAddrStartIpAddress.1 -->
+<Instance
+name="dhcpLeaseAddrStartIpAddress.1"
+oid=".1.3.6.1.4.1.24386.50.2.5.3.2.1.4.1"
+valueType="IpAddress"
+>
+<Value><![CDATA[10.21.0.1]]></Value>
+</Instance>
+<!-- dhcpLeaseAddrEndIpAddress.1 -->
+<Instance
+name="dhcpLeaseAddrEndIpAddress.1"
+oid=".1.3.6.1.4.1.24386.50.2.5.3.2.1.5.1"
+valueType="IpAddress"
+>
+<Value><![CDATA[10.21.0.6]]></Value>
+</Instance>
+<!-- dhcpLeaseAddrLeaseTime.1 -->
+<Instance
+name="dhcpLeaseAddrLeaseTime.1"
+oid=".1.3.6.1.4.1.24386.50.2.5.3.2.1.6.1"
+valueType="Integer"
+>
+<Value><![CDATA[86400]]></Value>
+</Instance>
+<!-- dhcpLeaseAddrPoolRowStatus.1 -->
+<Instance
+name="dhcpLeaseAddrPoolRowStatus.1"
+oid=".1.3.6.1.4.1.24386.50.2.5.3.2.1.7.1"
+valueType="Integer"
+>
+<Value><![CDATA[1]]></Value>
+</Instance>
+<!-- dhcpSrvExcludeStartIpAddress.1.10.21.0.6 -->
+<Instance
+name="dhcpSrvExcludeStartIpAddress.1.10.21.0.6"
+oid=".1.3.6.1.4.1.24386.50.2.5.3.3.1.1.1.10.21.0.6"
+valueType="IpAddress"
+>
+<Value><![CDATA[10.21.0.6]]></Value>
+</Instance>
+<!-- dhcpSrvExcludeEndIpAddress.1.10.21.0.6 -->
+<Instance
+name="dhcpSrvExcludeEndIpAddress.1.10.21.0.6"
+oid=".1.3.6.1.4.1.24386.50.2.5.3.3.1.2.1.10.21.0.6"
+valueType="IpAddress"
+>
+<Value><![CDATA[10.21.0.6]]></Value>
+</Instance>
+<!-- dhcpSrvExcludeAddressRowStatus.1.10.21.0.6 -->
+<Instance
+name="dhcpSrvExcludeAddressRowStatus.1.10.21.0.6"
+oid=".1.3.6.1.4.1.24386.50.2.5.3.3.1.3.1.10.21.0.6"
+valueType="Integer"
+>
+<Value><![CDATA[1]]></Value>
+</Instance>
+<!-- dhcpGblOptType.6 -->
+<Instance
+name="dhcpGblOptType.6"
+oid=".1.3.6.1.4.1.24386.50.2.5.3.4.1.1.6"
+valueType="Integer"
+>
+<Value><![CDATA[6]]></Value>
+</Instance>
+<!-- dhcpGblOptLen.6 -->
+<Instance
+name="dhcpGblOptLen.6"
+oid=".1.3.6.1.4.1.24386.50.2.5.3.4.1.2.6"
+valueType="Integer"
+>
+<Value><![CDATA[4]]></Value>
+</Instance>
+<!-- dhcpGblOptVal.6 -->
+<Instance
+name="dhcpGblOptVal.6"
+oid=".1.3.6.1.4.1.24386.50.2.5.3.4.1.3.6"
+valueType="OctetString"
+>
+<Value><![CDATA[0x0A 0x15 0x00 0x01]]></Value>
+</Instance>
+<!-- dhcpGblOptRowStatus.6 -->
+<Instance
+name="dhcpGblOptRowStatus.6"
+oid=".1.3.6.1.4.1.24386.50.2.5.3.4.1.4.6"
+valueType="Integer"
+>
+<Value><![CDATA[1]]></Value>
+</Instance>
+<!-- dhcpSrvBindIpAddress.10.21.0.2 -->
+<Instance
+name="dhcpSrvBindIpAddress.10.21.0.2"
+oid=".1.3.6.1.4.1.24386.50.2.5.3.5.1.1.10.21.0.2"
+valueType="IpAddress"
+>
+<Value><![CDATA[10.21.0.2]]></Value>
+</Instance>
+<!-- dhcpSrvBindHostName.10.21.0.2 -->
+<Instance
+name="dhcpSrvBindHostName.10.21.0.2"
+oid=".1.3.6.1.4.1.24386.50.2.5.3.5.1.2.10.21.0.2"
+valueType="OctetString"
+>
+<Value><![CDATA[Test-Vsat]]></Value>
+</Instance>
+<!-- dhcpSrvBindHwType.10.21.0.2 -->
+<Instance
+name="dhcpSrvBindHwType.10.21.0.2"
+oid=".1.3.6.1.4.1.24386.50.2.5.3.5.1.3.10.21.0.2"
+valueType="Integer"
+>
+<Value><![CDATA[clientid ]]></Value>
+</Instance>
+<!-- dhcpSrvBindHwAddress.10.21.0.2 -->
+<Instance
+name="dhcpSrvBindHwAddress.10.21.0.2"
+oid=".1.3.6.1.4.1.24386.50.2.5.3.5.1.4.10.21.0.2"
+valueType="OctetString"
+>
+<Value><![CDATA[00-11-D8-65-3F-68]]></Value>
+</Instance>
+<!-- dhcpSrvBindExpireTime.10.21.0.2 -->
+<Instance
+name="dhcpSrvBindExpireTime.10.21.0.2"
+oid=".1.3.6.1.4.1.24386.50.2.5.3.5.1.5.10.21.0.2"
+valueType="Integer"
+>
+<Value><![CDATA[1336052038]]></Value>
+</Instance>
+<!-- dhcpSrvBindAllocMethod.10.21.0.2 -->
+<Instance
+name="dhcpSrvBindAllocMethod.10.21.0.2"
+oid=".1.3.6.1.4.1.24386.50.2.5.3.5.1.6.10.21.0.2"
+valueType="Integer"
+>
+<Value><![CDATA[dynamic ]]></Value>
+</Instance>
+<!-- dhcpSrvBindState.10.21.0.2 -->
+<Instance
+name="dhcpSrvBindState.10.21.0.2"
+oid=".1.3.6.1.4.1.24386.50.2.5.3.5.1.7.10.21.0.2"
+valueType="Integer"
+>
+<Value><![CDATA[assigned ]]></Value>
+</Instance>
+<!-- dhcpSrvBindEntryStatus.10.21.0.2 -->
+<Instance
+name="dhcpSrvBindEntryStatus.10.21.0.2"
+oid=".1.3.6.1.4.1.24386.50.2.5.3.5.1.8.10.21.0.2"
+valueType="Integer"
+>
+<Value><![CDATA[1]]></Value>
+</Instance>
+<!-- dvbRouteSubnet.0.0.0.0.0.0.0.0.0 -->
+<Instance
+name="dvbRouteSubnet.0.0.0.0.0.0.0.0.0"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.1.0.0.0.0.0.0.0.0.0"
+valueType="IpAddress"
+>
+<Value><![CDATA[0.0.0.0]]></Value>
+</Instance>
+<!-- dvbRouteSubnet.0.0.0.0.0.0.0.0.1 -->
+<Instance
+name="dvbRouteSubnet.0.0.0.0.0.0.0.0.1"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.1.0.0.0.0.0.0.0.0.1"
+valueType="IpAddress"
+>
+<Value><![CDATA[0.0.0.0]]></Value>
+</Instance>
+<!-- dvbRouteSubnet.0.0.0.0.0.0.0.0.2 -->
+<Instance
+name="dvbRouteSubnet.0.0.0.0.0.0.0.0.2"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.1.0.0.0.0.0.0.0.0.2"
+valueType="IpAddress"
+>
+<Value><![CDATA[0.0.0.0]]></Value>
+</Instance>
+<!-- dvbRouteSubnet.0.0.0.0.0.0.0.0.3 -->
+<Instance
+name="dvbRouteSubnet.0.0.0.0.0.0.0.0.3"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.1.0.0.0.0.0.0.0.0.3"
+valueType="IpAddress"
+>
+<Value><![CDATA[0.0.0.0]]></Value>
+</Instance>
+<!-- dvbRouteSubnet.0.0.0.0.0.0.0.0.4 -->
+<Instance
+name="dvbRouteSubnet.0.0.0.0.0.0.0.0.4"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.1.0.0.0.0.0.0.0.0.4"
+valueType="IpAddress"
+>
+<Value><![CDATA[0.0.0.0]]></Value>
+</Instance>
+<!-- dvbRouteSubnet.0.0.0.0.0.0.0.0.5 -->
+<Instance
+name="dvbRouteSubnet.0.0.0.0.0.0.0.0.5"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.1.0.0.0.0.0.0.0.0.5"
+valueType="IpAddress"
+>
+<Value><![CDATA[0.0.0.0]]></Value>
+</Instance>
+<!-- dvbRouteSubnet.0.0.0.0.0.0.0.0.6 -->
+<Instance
+name="dvbRouteSubnet.0.0.0.0.0.0.0.0.6"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.1.0.0.0.0.0.0.0.0.6"
+valueType="IpAddress"
+>
+<Value><![CDATA[0.0.0.0]]></Value>
+</Instance>
+<!-- dvbRouteMask.0.0.0.0.0.0.0.0.0 -->
+<Instance
+name="dvbRouteMask.0.0.0.0.0.0.0.0.0"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.2.0.0.0.0.0.0.0.0.0"
+valueType="IpAddress"
+>
+<Value><![CDATA[0.0.0.0]]></Value>
+</Instance>
+<!-- dvbRouteMask.0.0.0.0.0.0.0.0.1 -->
+<Instance
+name="dvbRouteMask.0.0.0.0.0.0.0.0.1"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.2.0.0.0.0.0.0.0.0.1"
+valueType="IpAddress"
+>
+<Value><![CDATA[0.0.0.0]]></Value>
+</Instance>
+<!-- dvbRouteMask.0.0.0.0.0.0.0.0.2 -->
+<Instance
+name="dvbRouteMask.0.0.0.0.0.0.0.0.2"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.2.0.0.0.0.0.0.0.0.2"
+valueType="IpAddress"
+>
+<Value><![CDATA[0.0.0.0]]></Value>
+</Instance>
+<!-- dvbRouteMask.0.0.0.0.0.0.0.0.3 -->
+<Instance
+name="dvbRouteMask.0.0.0.0.0.0.0.0.3"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.2.0.0.0.0.0.0.0.0.3"
+valueType="IpAddress"
+>
+<Value><![CDATA[0.0.0.0]]></Value>
+</Instance>
+<!-- dvbRouteMask.0.0.0.0.0.0.0.0.4 -->
+<Instance
+name="dvbRouteMask.0.0.0.0.0.0.0.0.4"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.2.0.0.0.0.0.0.0.0.4"
+valueType="IpAddress"
+>
+<Value><![CDATA[0.0.0.0]]></Value>
+</Instance>
+<!-- dvbRouteMask.0.0.0.0.0.0.0.0.5 -->
+<Instance
+name="dvbRouteMask.0.0.0.0.0.0.0.0.5"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.2.0.0.0.0.0.0.0.0.5"
+valueType="IpAddress"
+>
+<Value><![CDATA[0.0.0.0]]></Value>
+</Instance>
+<!-- dvbRouteMask.0.0.0.0.0.0.0.0.6 -->
+<Instance
+name="dvbRouteMask.0.0.0.0.0.0.0.0.6"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.2.0.0.0.0.0.0.0.0.6"
+valueType="IpAddress"
+>
+<Value><![CDATA[0.0.0.0]]></Value>
+</Instance>
+<!-- dvbRouteQosClass.0.0.0.0.0.0.0.0.0 -->
+<Instance
+name="dvbRouteQosClass.0.0.0.0.0.0.0.0.0"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.3.0.0.0.0.0.0.0.0.0"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- dvbRouteQosClass.0.0.0.0.0.0.0.0.1 -->
+<Instance
+name="dvbRouteQosClass.0.0.0.0.0.0.0.0.1"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.3.0.0.0.0.0.0.0.0.1"
+valueType="Integer"
+>
+<Value><![CDATA[1]]></Value>
+</Instance>
+<!-- dvbRouteQosClass.0.0.0.0.0.0.0.0.2 -->
+<Instance
+name="dvbRouteQosClass.0.0.0.0.0.0.0.0.2"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.3.0.0.0.0.0.0.0.0.2"
+valueType="Integer"
+>
+<Value><![CDATA[2]]></Value>
+</Instance>
+<!-- dvbRouteQosClass.0.0.0.0.0.0.0.0.3 -->
+<Instance
+name="dvbRouteQosClass.0.0.0.0.0.0.0.0.3"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.3.0.0.0.0.0.0.0.0.3"
+valueType="Integer"
+>
+<Value><![CDATA[3]]></Value>
+</Instance>
+<!-- dvbRouteQosClass.0.0.0.0.0.0.0.0.4 -->
+<Instance
+name="dvbRouteQosClass.0.0.0.0.0.0.0.0.4"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.3.0.0.0.0.0.0.0.0.4"
+valueType="Integer"
+>
+<Value><![CDATA[4]]></Value>
+</Instance>
+<!-- dvbRouteQosClass.0.0.0.0.0.0.0.0.5 -->
+<Instance
+name="dvbRouteQosClass.0.0.0.0.0.0.0.0.5"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.3.0.0.0.0.0.0.0.0.5"
+valueType="Integer"
+>
+<Value><![CDATA[5]]></Value>
+</Instance>
+<!-- dvbRouteQosClass.0.0.0.0.0.0.0.0.6 -->
+<Instance
+name="dvbRouteQosClass.0.0.0.0.0.0.0.0.6"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.3.0.0.0.0.0.0.0.0.6"
+valueType="Integer"
+>
+<Value><![CDATA[6]]></Value>
+</Instance>
+<!-- dvbRouteMac.0.0.0.0.0.0.0.0.0 -->
+<Instance
+name="dvbRouteMac.0.0.0.0.0.0.0.0.0"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.4.0.0.0.0.0.0.0.0.0"
+valueType="OctetString"
+>
+<Value><![CDATA[00-60-C0-2F-42-43]]></Value>
+</Instance>
+<!-- dvbRouteMac.0.0.0.0.0.0.0.0.1 -->
+<Instance
+name="dvbRouteMac.0.0.0.0.0.0.0.0.1"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.4.0.0.0.0.0.0.0.0.1"
+valueType="OctetString"
+>
+<Value><![CDATA[00-60-C0-2F-42-43]]></Value>
+</Instance>
+<!-- dvbRouteMac.0.0.0.0.0.0.0.0.2 -->
+<Instance
+name="dvbRouteMac.0.0.0.0.0.0.0.0.2"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.4.0.0.0.0.0.0.0.0.2"
+valueType="OctetString"
+>
+<Value><![CDATA[00-60-C0-2F-42-43]]></Value>
+</Instance>
+<!-- dvbRouteMac.0.0.0.0.0.0.0.0.3 -->
+<Instance
+name="dvbRouteMac.0.0.0.0.0.0.0.0.3"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.4.0.0.0.0.0.0.0.0.3"
+valueType="OctetString"
+>
+<Value><![CDATA[00-60-C0-2F-42-43]]></Value>
+</Instance>
+<!-- dvbRouteMac.0.0.0.0.0.0.0.0.4 -->
+<Instance
+name="dvbRouteMac.0.0.0.0.0.0.0.0.4"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.4.0.0.0.0.0.0.0.0.4"
+valueType="OctetString"
+>
+<Value><![CDATA[00-60-C0-2F-42-43]]></Value>
+</Instance>
+<!-- dvbRouteMac.0.0.0.0.0.0.0.0.5 -->
+<Instance
+name="dvbRouteMac.0.0.0.0.0.0.0.0.5"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.4.0.0.0.0.0.0.0.0.5"
+valueType="OctetString"
+>
+<Value><![CDATA[00-60-C0-2F-42-43]]></Value>
+</Instance>
+<!-- dvbRouteMac.0.0.0.0.0.0.0.0.6 -->
+<Instance
+name="dvbRouteMac.0.0.0.0.0.0.0.0.6"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.4.0.0.0.0.0.0.0.0.6"
+valueType="OctetString"
+>
+<Value><![CDATA[00-60-C0-2F-42-43]]></Value>
+</Instance>
+<!-- dvbRouteChannelId.0.0.0.0.0.0.0.0.0 -->
+<Instance
+name="dvbRouteChannelId.0.0.0.0.0.0.0.0.0"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.5.0.0.0.0.0.0.0.0.0"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- dvbRouteChannelId.0.0.0.0.0.0.0.0.1 -->
+<Instance
+name="dvbRouteChannelId.0.0.0.0.0.0.0.0.1"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.5.0.0.0.0.0.0.0.0.1"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- dvbRouteChannelId.0.0.0.0.0.0.0.0.2 -->
+<Instance
+name="dvbRouteChannelId.0.0.0.0.0.0.0.0.2"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.5.0.0.0.0.0.0.0.0.2"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- dvbRouteChannelId.0.0.0.0.0.0.0.0.3 -->
+<Instance
+name="dvbRouteChannelId.0.0.0.0.0.0.0.0.3"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.5.0.0.0.0.0.0.0.0.3"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- dvbRouteChannelId.0.0.0.0.0.0.0.0.4 -->
+<Instance
+name="dvbRouteChannelId.0.0.0.0.0.0.0.0.4"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.5.0.0.0.0.0.0.0.0.4"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- dvbRouteChannelId.0.0.0.0.0.0.0.0.5 -->
+<Instance
+name="dvbRouteChannelId.0.0.0.0.0.0.0.0.5"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.5.0.0.0.0.0.0.0.0.5"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- dvbRouteChannelId.0.0.0.0.0.0.0.0.6 -->
+<Instance
+name="dvbRouteChannelId.0.0.0.0.0.0.0.0.6"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.5.0.0.0.0.0.0.0.0.6"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- dvbRouteEncapType.0.0.0.0.0.0.0.0.0 -->
+<Instance
+name="dvbRouteEncapType.0.0.0.0.0.0.0.0.0"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.6.0.0.0.0.0.0.0.0.0"
+valueType="Integer"
+>
+<Value><![CDATA[mpegMPEPacked  ]]></Value>
+</Instance>
+<!-- dvbRouteEncapType.0.0.0.0.0.0.0.0.1 -->
+<Instance
+name="dvbRouteEncapType.0.0.0.0.0.0.0.0.1"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.6.0.0.0.0.0.0.0.0.1"
+valueType="Integer"
+>
+<Value><![CDATA[mpegMPEPacked  ]]></Value>
+</Instance>
+<!-- dvbRouteEncapType.0.0.0.0.0.0.0.0.2 -->
+<Instance
+name="dvbRouteEncapType.0.0.0.0.0.0.0.0.2"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.6.0.0.0.0.0.0.0.0.2"
+valueType="Integer"
+>
+<Value><![CDATA[mpegMPEPacked  ]]></Value>
+</Instance>
+<!-- dvbRouteEncapType.0.0.0.0.0.0.0.0.3 -->
+<Instance
+name="dvbRouteEncapType.0.0.0.0.0.0.0.0.3"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.6.0.0.0.0.0.0.0.0.3"
+valueType="Integer"
+>
+<Value><![CDATA[mpegMPEPacked  ]]></Value>
+</Instance>
+<!-- dvbRouteEncapType.0.0.0.0.0.0.0.0.4 -->
+<Instance
+name="dvbRouteEncapType.0.0.0.0.0.0.0.0.4"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.6.0.0.0.0.0.0.0.0.4"
+valueType="Integer"
+>
+<Value><![CDATA[mpegMPEPacked  ]]></Value>
+</Instance>
+<!-- dvbRouteEncapType.0.0.0.0.0.0.0.0.5 -->
+<Instance
+name="dvbRouteEncapType.0.0.0.0.0.0.0.0.5"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.6.0.0.0.0.0.0.0.0.5"
+valueType="Integer"
+>
+<Value><![CDATA[mpegMPEPacked  ]]></Value>
+</Instance>
+<!-- dvbRouteEncapType.0.0.0.0.0.0.0.0.6 -->
+<Instance
+name="dvbRouteEncapType.0.0.0.0.0.0.0.0.6"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.6.0.0.0.0.0.0.0.0.6"
+valueType="Integer"
+>
+<Value><![CDATA[mpegMPEPacked  ]]></Value>
+</Instance>
+<!-- dvbRoutePid.0.0.0.0.0.0.0.0.0 -->
+<Instance
+name="dvbRoutePid.0.0.0.0.0.0.0.0.0"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.7.0.0.0.0.0.0.0.0.0"
+valueType="Integer"
+>
+<Value><![CDATA[511]]></Value>
+</Instance>
+<!-- dvbRoutePid.0.0.0.0.0.0.0.0.1 -->
+<Instance
+name="dvbRoutePid.0.0.0.0.0.0.0.0.1"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.7.0.0.0.0.0.0.0.0.1"
+valueType="Integer"
+>
+<Value><![CDATA[512]]></Value>
+</Instance>
+<!-- dvbRoutePid.0.0.0.0.0.0.0.0.2 -->
+<Instance
+name="dvbRoutePid.0.0.0.0.0.0.0.0.2"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.7.0.0.0.0.0.0.0.0.2"
+valueType="Integer"
+>
+<Value><![CDATA[512]]></Value>
+</Instance>
+<!-- dvbRoutePid.0.0.0.0.0.0.0.0.3 -->
+<Instance
+name="dvbRoutePid.0.0.0.0.0.0.0.0.3"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.7.0.0.0.0.0.0.0.0.3"
+valueType="Integer"
+>
+<Value><![CDATA[513]]></Value>
+</Instance>
+<!-- dvbRoutePid.0.0.0.0.0.0.0.0.4 -->
+<Instance
+name="dvbRoutePid.0.0.0.0.0.0.0.0.4"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.7.0.0.0.0.0.0.0.0.4"
+valueType="Integer"
+>
+<Value><![CDATA[513]]></Value>
+</Instance>
+<!-- dvbRoutePid.0.0.0.0.0.0.0.0.5 -->
+<Instance
+name="dvbRoutePid.0.0.0.0.0.0.0.0.5"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.7.0.0.0.0.0.0.0.0.5"
+valueType="Integer"
+>
+<Value><![CDATA[513]]></Value>
+</Instance>
+<!-- dvbRoutePid.0.0.0.0.0.0.0.0.6 -->
+<Instance
+name="dvbRoutePid.0.0.0.0.0.0.0.0.6"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.7.0.0.0.0.0.0.0.0.6"
+valueType="Integer"
+>
+<Value><![CDATA[511]]></Value>
+</Instance>
+<!-- dvbRouteVPI.0.0.0.0.0.0.0.0.0 -->
+<Instance
+name="dvbRouteVPI.0.0.0.0.0.0.0.0.0"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.8.0.0.0.0.0.0.0.0.0"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- dvbRouteVPI.0.0.0.0.0.0.0.0.1 -->
+<Instance
+name="dvbRouteVPI.0.0.0.0.0.0.0.0.1"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.8.0.0.0.0.0.0.0.0.1"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- dvbRouteVPI.0.0.0.0.0.0.0.0.2 -->
+<Instance
+name="dvbRouteVPI.0.0.0.0.0.0.0.0.2"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.8.0.0.0.0.0.0.0.0.2"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- dvbRouteVPI.0.0.0.0.0.0.0.0.3 -->
+<Instance
+name="dvbRouteVPI.0.0.0.0.0.0.0.0.3"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.8.0.0.0.0.0.0.0.0.3"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- dvbRouteVPI.0.0.0.0.0.0.0.0.4 -->
+<Instance
+name="dvbRouteVPI.0.0.0.0.0.0.0.0.4"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.8.0.0.0.0.0.0.0.0.4"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- dvbRouteVPI.0.0.0.0.0.0.0.0.5 -->
+<Instance
+name="dvbRouteVPI.0.0.0.0.0.0.0.0.5"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.8.0.0.0.0.0.0.0.0.5"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- dvbRouteVPI.0.0.0.0.0.0.0.0.6 -->
+<Instance
+name="dvbRouteVPI.0.0.0.0.0.0.0.0.6"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.8.0.0.0.0.0.0.0.0.6"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- dvbRouteVCI.0.0.0.0.0.0.0.0.0 -->
+<Instance
+name="dvbRouteVCI.0.0.0.0.0.0.0.0.0"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.9.0.0.0.0.0.0.0.0.0"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- dvbRouteVCI.0.0.0.0.0.0.0.0.1 -->
+<Instance
+name="dvbRouteVCI.0.0.0.0.0.0.0.0.1"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.9.0.0.0.0.0.0.0.0.1"
+valueType="Integer"
+>
+<Value><![CDATA[1]]></Value>
+</Instance>
+<!-- dvbRouteVCI.0.0.0.0.0.0.0.0.2 -->
+<Instance
+name="dvbRouteVCI.0.0.0.0.0.0.0.0.2"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.9.0.0.0.0.0.0.0.0.2"
+valueType="Integer"
+>
+<Value><![CDATA[1]]></Value>
+</Instance>
+<!-- dvbRouteVCI.0.0.0.0.0.0.0.0.3 -->
+<Instance
+name="dvbRouteVCI.0.0.0.0.0.0.0.0.3"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.9.0.0.0.0.0.0.0.0.3"
+valueType="Integer"
+>
+<Value><![CDATA[2]]></Value>
+</Instance>
+<!-- dvbRouteVCI.0.0.0.0.0.0.0.0.4 -->
+<Instance
+name="dvbRouteVCI.0.0.0.0.0.0.0.0.4"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.9.0.0.0.0.0.0.0.0.4"
+valueType="Integer"
+>
+<Value><![CDATA[2]]></Value>
+</Instance>
+<!-- dvbRouteVCI.0.0.0.0.0.0.0.0.5 -->
+<Instance
+name="dvbRouteVCI.0.0.0.0.0.0.0.0.5"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.9.0.0.0.0.0.0.0.0.5"
+valueType="Integer"
+>
+<Value><![CDATA[2]]></Value>
+</Instance>
+<!-- dvbRouteVCI.0.0.0.0.0.0.0.0.6 -->
+<Instance
+name="dvbRouteVCI.0.0.0.0.0.0.0.0.6"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.9.0.0.0.0.0.0.0.0.6"
+valueType="Integer"
+>
+<Value><![CDATA[3]]></Value>
+</Instance>
+<!-- dvbRouteSrvId.0.0.0.0.0.0.0.0.0 -->
+<Instance
+name="dvbRouteSrvId.0.0.0.0.0.0.0.0.0"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.10.0.0.0.0.0.0.0.0.0"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- dvbRouteSrvId.0.0.0.0.0.0.0.0.1 -->
+<Instance
+name="dvbRouteSrvId.0.0.0.0.0.0.0.0.1"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.10.0.0.0.0.0.0.0.0.1"
+valueType="Integer"
+>
+<Value><![CDATA[-1]]></Value>
+</Instance>
+<!-- dvbRouteSrvId.0.0.0.0.0.0.0.0.2 -->
+<Instance
+name="dvbRouteSrvId.0.0.0.0.0.0.0.0.2"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.10.0.0.0.0.0.0.0.0.2"
+valueType="Integer"
+>
+<Value><![CDATA[-1]]></Value>
+</Instance>
+<!-- dvbRouteSrvId.0.0.0.0.0.0.0.0.3 -->
+<Instance
+name="dvbRouteSrvId.0.0.0.0.0.0.0.0.3"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.10.0.0.0.0.0.0.0.0.3"
+valueType="Integer"
+>
+<Value><![CDATA[-1]]></Value>
+</Instance>
+<!-- dvbRouteSrvId.0.0.0.0.0.0.0.0.4 -->
+<Instance
+name="dvbRouteSrvId.0.0.0.0.0.0.0.0.4"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.10.0.0.0.0.0.0.0.0.4"
+valueType="Integer"
+>
+<Value><![CDATA[-1]]></Value>
+</Instance>
+<!-- dvbRouteSrvId.0.0.0.0.0.0.0.0.5 -->
+<Instance
+name="dvbRouteSrvId.0.0.0.0.0.0.0.0.5"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.10.0.0.0.0.0.0.0.0.5"
+valueType="Integer"
+>
+<Value><![CDATA[-1]]></Value>
+</Instance>
+<!-- dvbRouteSrvId.0.0.0.0.0.0.0.0.6 -->
+<Instance
+name="dvbRouteSrvId.0.0.0.0.0.0.0.0.6"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.10.0.0.0.0.0.0.0.0.6"
+valueType="Integer"
+>
+<Value><![CDATA[-1]]></Value>
+</Instance>
+<!-- dvbRouteEntryStatus.0.0.0.0.0.0.0.0.0 -->
+<Instance
+name="dvbRouteEntryStatus.0.0.0.0.0.0.0.0.0"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.11.0.0.0.0.0.0.0.0.0"
+valueType="Integer"
+>
+<Value><![CDATA[1]]></Value>
+</Instance>
+<!-- dvbRouteEntryStatus.0.0.0.0.0.0.0.0.1 -->
+<Instance
+name="dvbRouteEntryStatus.0.0.0.0.0.0.0.0.1"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.11.0.0.0.0.0.0.0.0.1"
+valueType="Integer"
+>
+<Value><![CDATA[1]]></Value>
+</Instance>
+<!-- dvbRouteEntryStatus.0.0.0.0.0.0.0.0.2 -->
+<Instance
+name="dvbRouteEntryStatus.0.0.0.0.0.0.0.0.2"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.11.0.0.0.0.0.0.0.0.2"
+valueType="Integer"
+>
+<Value><![CDATA[1]]></Value>
+</Instance>
+<!-- dvbRouteEntryStatus.0.0.0.0.0.0.0.0.3 -->
+<Instance
+name="dvbRouteEntryStatus.0.0.0.0.0.0.0.0.3"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.11.0.0.0.0.0.0.0.0.3"
+valueType="Integer"
+>
+<Value><![CDATA[1]]></Value>
+</Instance>
+<!-- dvbRouteEntryStatus.0.0.0.0.0.0.0.0.4 -->
+<Instance
+name="dvbRouteEntryStatus.0.0.0.0.0.0.0.0.4"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.11.0.0.0.0.0.0.0.0.4"
+valueType="Integer"
+>
+<Value><![CDATA[1]]></Value>
+</Instance>
+<!-- dvbRouteEntryStatus.0.0.0.0.0.0.0.0.5 -->
+<Instance
+name="dvbRouteEntryStatus.0.0.0.0.0.0.0.0.5"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.11.0.0.0.0.0.0.0.0.5"
+valueType="Integer"
+>
+<Value><![CDATA[1]]></Value>
+</Instance>
+<!-- dvbRouteEntryStatus.0.0.0.0.0.0.0.0.6 -->
+<Instance
+name="dvbRouteEntryStatus.0.0.0.0.0.0.0.0.6"
+oid=".1.3.6.1.4.1.24386.50.2.5.4.1.11.0.0.0.0.0.0.0.0.6"
+valueType="Integer"
+>
+<Value><![CDATA[1]]></Value>
+</Instance>
+<!-- qosCrClassIndex.0 -->
+<Instance
+name="qosCrClassIndex.0"
+oid=".1.3.6.1.4.1.24386.50.2.5.5.2.1.1.0"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- qosCrClassIndex.1 -->
+<Instance
+name="qosCrClassIndex.1"
+oid=".1.3.6.1.4.1.24386.50.2.5.5.2.1.1.1"
+valueType="Integer"
+>
+<Value><![CDATA[1]]></Value>
+</Instance>
+<!-- qosCrClassIndex.2 -->
+<Instance
+name="qosCrClassIndex.2"
+oid=".1.3.6.1.4.1.24386.50.2.5.5.2.1.1.2"
+valueType="Integer"
+>
+<Value><![CDATA[2]]></Value>
+</Instance>
+<!-- qosCrClassIndex.3 -->
+<Instance
+name="qosCrClassIndex.3"
+oid=".1.3.6.1.4.1.24386.50.2.5.5.2.1.1.3"
+valueType="Integer"
+>
+<Value><![CDATA[3]]></Value>
+</Instance>
+<!-- qosCrClassDescr.0 -->
+<Instance
+name="qosCrClassDescr.0"
+oid=".1.3.6.1.4.1.24386.50.2.5.5.2.1.2.0"
+valueType="OctetString"
+>
+<Value><![CDATA[]]></Value>
+</Instance>
+<!-- qosCrClassDescr.1 -->
+<Instance
+name="qosCrClassDescr.1"
+oid=".1.3.6.1.4.1.24386.50.2.5.5.2.1.2.1"
+valueType="OctetString"
+>
+<Value><![CDATA[]]></Value>
+</Instance>
+<!-- qosCrClassDescr.2 -->
+<Instance
+name="qosCrClassDescr.2"
+oid=".1.3.6.1.4.1.24386.50.2.5.5.2.1.2.2"
+valueType="OctetString"
+>
+<Value><![CDATA[]]></Value>
+</Instance>
+<!-- qosCrClassDescr.3 -->
+<Instance
+name="qosCrClassDescr.3"
+oid=".1.3.6.1.4.1.24386.50.2.5.5.2.1.2.3"
+valueType="OctetString"
+>
+<Value><![CDATA[]]></Value>
+</Instance>
+<!-- qosCrClassCRA.0 -->
+<Instance
+name="qosCrClassCRA.0"
+oid=".1.3.6.1.4.1.24386.50.2.5.5.2.1.3.0"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- qosCrClassCRA.1 -->
+<Instance
+name="qosCrClassCRA.1"
+oid=".1.3.6.1.4.1.24386.50.2.5.5.2.1.3.1"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- qosCrClassCRA.2 -->
+<Instance
+name="qosCrClassCRA.2"
+oid=".1.3.6.1.4.1.24386.50.2.5.5.2.1.3.2"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- qosCrClassCRA.3 -->
+<Instance
+name="qosCrClassCRA.3"
+oid=".1.3.6.1.4.1.24386.50.2.5.5.2.1.3.3"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- qosCrClassRbdcMax.0 -->
+<Instance
+name="qosCrClassRbdcMax.0"
+oid=".1.3.6.1.4.1.24386.50.2.5.5.2.1.4.0"
+valueType="Integer"
+>
+<Value><![CDATA[384]]></Value>
+</Instance>
+<!-- qosCrClassRbdcMax.1 -->
+<Instance
+name="qosCrClassRbdcMax.1"
+oid=".1.3.6.1.4.1.24386.50.2.5.5.2.1.4.1"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- qosCrClassRbdcMax.2 -->
+<Instance
+name="qosCrClassRbdcMax.2"
+oid=".1.3.6.1.4.1.24386.50.2.5.5.2.1.4.2"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- qosCrClassRbdcMax.3 -->
+<Instance
+name="qosCrClassRbdcMax.3"
+oid=".1.3.6.1.4.1.24386.50.2.5.5.2.1.4.3"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- qosCrClassVBDCMax.0 -->
+<Instance
+name="qosCrClassVBDCMax.0"
+oid=".1.3.6.1.4.1.24386.50.2.5.5.2.1.5.0"
+valueType="Integer"
+>
+<Value><![CDATA[38]]></Value>
+</Instance>
+<!-- qosCrClassVBDCMax.1 -->
+<Instance
+name="qosCrClassVBDCMax.1"
+oid=".1.3.6.1.4.1.24386.50.2.5.5.2.1.5.1"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- qosCrClassVBDCMax.2 -->
+<Instance
+name="qosCrClassVBDCMax.2"
+oid=".1.3.6.1.4.1.24386.50.2.5.5.2.1.5.2"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- qosCrClassVBDCMax.3 -->
+<Instance
+name="qosCrClassVBDCMax.3"
+oid=".1.3.6.1.4.1.24386.50.2.5.5.2.1.5.3"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- qosGroupIndex.0 -->
+<Instance
+name="qosGroupIndex.0"
+oid=".1.3.6.1.4.1.24386.50.2.5.5.3.1.1.0"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- qosGroupIndex.1 -->
+<Instance
+name="qosGroupIndex.1"
+oid=".1.3.6.1.4.1.24386.50.2.5.5.3.1.1.1"
+valueType="Integer"
+>
+<Value><![CDATA[1]]></Value>
+</Instance>
+<!-- qosGroupIndex.2 -->
+<Instance
+name="qosGroupIndex.2"
+oid=".1.3.6.1.4.1.24386.50.2.5.5.3.1.1.2"
+valueType="Integer"
+>
+<Value><![CDATA[2]]></Value>
+</Instance>
+<!-- qosGroupIndex.3 -->
+<Instance
+name="qosGroupIndex.3"
+oid=".1.3.6.1.4.1.24386.50.2.5.5.3.1.1.3"
+valueType="Integer"
+>
+<Value><![CDATA[3]]></Value>
+</Instance>
+<!-- qosGroupIndex.4 -->
+<Instance
+name="qosGroupIndex.4"
+oid=".1.3.6.1.4.1.24386.50.2.5.5.3.1.1.4"
+valueType="Integer"
+>
+<Value><![CDATA[4]]></Value>
+</Instance>
+<!-- qosGroupIndex.5 -->
+<Instance
+name="qosGroupIndex.5"
+oid=".1.3.6.1.4.1.24386.50.2.5.5.3.1.1.5"
+valueType="Integer"
+>
+<Value><![CDATA[5]]></Value>
+</Instance>
+<!-- qosGroupIndex.6 -->
+<Instance
+name="qosGroupIndex.6"
+oid=".1.3.6.1.4.1.24386.50.2.5.5.3.1.1.6"
+valueType="Integer"
+>
+<Value><![CDATA[6]]></Value>
+</Instance>
+<!-- qosGroupCrClass.0 -->
+<Instance
+name="qosGroupCrClass.0"
+oid=".1.3.6.1.4.1.24386.50.2.5.5.3.1.2.0"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- qosGroupCrClass.1 -->
+<Instance
+name="qosGroupCrClass.1"
+oid=".1.3.6.1.4.1.24386.50.2.5.5.3.1.2.1"
+valueType="Integer"
+>
+<Value><![CDATA[1]]></Value>
+</Instance>
+<!-- meshCnfEnable.0 -->
+<Instance
+name="meshCnfEnable.0"
+oid=".1.3.6.1.4.1.24386.50.2.24.1.1.0"
+valueType="Integer"
+>
+<Value><![CDATA[on  ]]></Value>
+</Instance>
+<!-- meshControllerIpAddress.0 -->
+<Instance
+name="meshControllerIpAddress.0"
+oid=".1.3.6.1.4.1.24386.50.2.24.1.2.0"
+valueType="IpAddress"
+>
+<Value><![CDATA[0.0.0.0]]></Value>
+</Instance>
+<!-- meshControllerUdpPort.0 -->
+<Instance
+name="meshControllerUdpPort.0"
+oid=".1.3.6.1.4.1.24386.50.2.24.1.3.0"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- meshStClientState.0 -->
+<Instance
+name="meshStClientState.0"
+oid=".1.3.6.1.4.1.24386.50.2.24.2.1.0"
+valueType="Integer"
+>
+<Value><![CDATA[initialisation   ]]></Value>
+</Instance>
+<!-- meshStSubnetName.0 -->
+<Instance
+name="meshStSubnetName.0"
+oid=".1.3.6.1.4.1.24386.50.2.24.2.2.0"
+valueType="OctetString"
+>
+<Value><![CDATA[                ]]></Value>
+</Instance>
+<!-- meshStSubnetId.0 -->
+<Instance
+name="meshStSubnetId.0"
+oid=".1.3.6.1.4.1.24386.50.2.24.2.3.0"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- meshStActiveLinks.0 -->
+<Instance
+name="meshStActiveLinks.0"
+oid=".1.3.6.1.4.1.24386.50.2.24.2.4.0"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- brxCnfAgcEnable.0 -->
+<Instance
+name="brxCnfAgcEnable.0"
+oid=".1.3.6.1.4.1.24386.50.2.24.4.1.0"
+valueType="Integer"
+>
+<Value><![CDATA[bypass]]></Value>
+</Instance>
+<!-- brxCnfAgcGain.0 -->
+<Instance
+name="brxCnfAgcGain.0"
+oid=".1.3.6.1.4.1.24386.50.2.24.4.2.0"
+valueType="Integer"
+>
+<Value><![CDATA[15]]></Value>
+</Instance>
+<!-- brxState.0 -->
+<Instance
+name="brxState.0"
+oid=".1.3.6.1.4.1.24386.50.2.24.5.1.0"
+valueType="Integer"
+>
+<Value><![CDATA[initSate     ]]></Value>
+</Instance>
+<!-- brxStPowerLevel.0 -->
+<Instance
+name="brxStPowerLevel.0"
+oid=".1.3.6.1.4.1.24386.50.2.24.5.2.0"
+valueType="Integer"
+>
+<Value><![CDATA[-19]]></Value>
+</Instance>
+<!-- brxStFrequencyOffset.0 -->
+<Instance
+name="brxStFrequencyOffset.0"
+oid=".1.3.6.1.4.1.24386.50.2.24.5.3.0"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+<!-- brxStTimingOffset.0 -->
+<Instance
+name="brxStTimingOffset.0"
+oid=".1.3.6.1.4.1.24386.50.2.24.5.4.0"
+valueType="Integer"
+>
+<Value><![CDATA[0]]></Value>
+</Instance>
+</Instances>
+</SnmpSimulatorData>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Modelo de Reparos</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+	<style>
+		.tabela{
+			border:1px solid #000;
+		}
+		.tabela tr{
+			border:1px solid #000;
+		}
+		.tabela tr:hover{
+			border:1px solid #000;
+			background:blue;
+			color:#fff;
+		}
+		.tabela tr td{
+			border:1px solid #000;
+			padding:5px;
+		}
+	</style>
+
+	<script>
+		function abreLink( link ){
+			window.location = link;
+		}
+	</script>
+</head>
+
+<body>
+
+	<center><h1>Reparos</h1></center>
+	
+	<div style="width:700px;margin:0 auto;border:1px solid #000;">
+
+		<div style="width:250px;float:left;">
+			<ul>
+				<li><a href="lista.html">Reparos</a></li>
+			</ul>
+		</div>
+
+		<div style="width:450px;float:left;">
+			<table class="tabela">
+				<tr>
+					<td>Reparo1</td>
+					<td>Vsat</td>
+					<td>Data</td>
+					<td>Responsável</td>
+					<td>Status</td>
+				</tr>
+				<tr style="cursor:pointer;" onclick="javascript:abreLink('visualizacao.html')">
+					<td>1</td>
+					<td>SES-Teste-9999</td>
+					<td>25/03/2013</td>
+					<td>Sávio</td>
+					<td>Aberto</td>
+				</tr>
+				<tr style="cursor:pointer" onclick="javascript:abreLink('visualizacao.html')">
+					<td>1</td>
+					<td>SES-Teste-9999</td>
+					<td>25/03/2013</td>
+					<td>Alex</td>
+					<td>Aberto</td>
+				</tr>
+			</table>
+		</div>
+
+		<div style="clear:both;"></div>
+
+	</div>
+
+</body>
+
+</html>

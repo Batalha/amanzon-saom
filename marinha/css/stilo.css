@@ -1,0 +1,209 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #EBEFF2;
+}
+
+#login{
+	margin: 200px auto 0px;
+	width: 400px;
+	height: 200px;
+	/*border: 1px solid red;*/
+	background-color: #E3E7EA;
+	border-radius: 8px;
+}
+
+#loginInterno{
+	width:380px;
+	height: 180px;
+	background-color: white;
+	position: absolute;
+	margin: 10px;
+	border-radius: 8px;
+	box-shadow: 0px 0px 25px #4C4C4C;
+	overflow:hidden;
+
+}
+
+#loginLabel{
+
+	height: 30px;
+	text-align:center;
+	font-size: 15px;
+	font-family:sans-serif;
+	padding-top: 5px;
+
+	border-bottom: 1px solid #B7B5B5;
+	box-shadow: 1px 0px 2px #4C4C4C;
+	color: #555555;
+	text-shadow: 1px 0px 2px white;
+
+
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(226,226,226,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(226,226,226,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(226,226,226,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(226,226,226,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(226,226,226,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(226,226,226,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e2e2e2',GradientType=0 ); /* IE6-9 */
+
+
+}
+
+#loginErro{
+	position: absolute;
+	margin: 10px 0px 0px -160px;
+	color: #F72533;
+}
+
+
+
+.input-div{
+
+	margin: 20px 15px 0px 0px;
+	padding:3px;
+	background-color: #E9E9E9;
+	border-radius: 5px;
+	float: right;
+}
+
+.input-div input{
+	width: 180px;
+	height: 20px;
+	padding-left: 5px;
+	font: normal 12px sans-serif;
+	color: #aeaeae;
+	border-radius: 3px;
+	border: 1px solid #bfc4c6;
+	outline: none;
+}
+.input-div:hover{
+	background-color: #C9CCFF;
+}
+.input-div:hover input{
+	background-color: #FAF9FF;
+}
+
+#input-senha{
+	margin-top: 10px
+}
+
+#botoes{
+	width: 180px;
+	margin: 10px 20px 0px 0px;
+	float: right;
+}
+
+#botao{
+	width: 70px;
+	height: 30px;
+	padding: 5px;
+	background-color: red;
+	font: bold 13px sans-serif;
+	border-radius: 25px;
+	text-shadow: 0px 1px white;
+	border: 1px solid #9eb9c3;
+
+	background: -moz-linear-gradient(top,  rgba(14,124,214,0.66) 0%, rgba(125,185,232,0.9) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(14,124,214,0.66)), color-stop(100%,rgba(125,185,232,0.9))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(14,124,214,0.66) 0%,rgba(125,185,232,0.9) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(14,124,214,0.66) 0%,rgba(125,185,232,0.9) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(14,124,214,0.66) 0%,rgba(125,185,232,0.9) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(14,124,214,0.66) 0%,rgba(125,185,232,0.9) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a80e7cd6', endColorstr='#e67db9e8',GradientType=0 ); /* IE6-9 */
+
+
+	color:#485A6D;
+	box-shadow: 0px 0px 10px #c9c9c9;
+
+}
+#botao:hover{
+	background: -moz-linear-gradient(top,  rgba(125,185,232,0.9) 0%, rgba(14,124,214,0.66) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(125,185,232,0.9)), color-stop(100%,rgba(14,124,214,0.66))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(125,185,232,0.9) 0%,rgba(14,124,214,0.66) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(125,185,232,0.9) 0%,rgba(14,124,214,0.66) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(125,185,232,0.9) 0%,rgba(14,124,214,0.66) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(125,185,232,0.9) 0%,rgba(14,124,214,0.66) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e67db9e8', endColorstr='#a80e7cd6',GradientType=0 ); /* IE6-9 */
+
+
+	cursor:pointer;
+
+}
+
+#loginLogo{
+	position: absolute;
+	margin: 25px 0px 0px 15px;
+}
+
+
+#contener{
+	width: 0 auto;
+	height: 0 auto;
+}
+
+#topo{
+	position: relative;
+	width: 1113;
+	height: 130px;
+	border: 1px solid;
+}
+
+#grafico{
+	margin-top: 20px;
+	height: 0 auto;
+}
+
+
+#logo{
+
+	position: absolute	;
+	width: 230px;
+	height: 40px;
+	background-image: url(../img/logo_gee.png);
+	background-repeat: no-repeat;
+	float: left;
+	margin: 30px 0 0 30px;
+	/*border: 1px solid red;*/
+
+}
+
+#graf{
+    margin-top: -35px;
+    margin-left: -20px;
+    position: absolute;
+    font-size: 16pt;
+    color: #FFFFFF;
+        
+}
+#acoes{
+	width: 1103px;
+	height: 35px;
+    padding-top: 10px;
+	padding-left: 10px;
+	background-color: white;
+	font-family: "Trebuchet MS", "Arial", "Helvetica", "Verdana", "sans-serif";
+
+}
+
+#acoes table td{
+	font-size: 13px;
+	color: #224FB0;
+}
+
+#logout{
+	position: absolute;
+	margin-left: 980px;
+	margin-top: 15px;
+	font-family: "Trebuchet MS", "Arial", "Helvetica", "Verdana", "sans-serif";
+}
+#logout a{
+	color: red;
+}
+
+#logout table td{
+	font-size: 14px;
+}
