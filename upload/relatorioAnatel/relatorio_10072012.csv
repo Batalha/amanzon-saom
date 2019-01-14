@@ -1,0 +1,192 @@
+Nome;"Latitude Graus";"Latitude Minutos";"Latitude Segundos";"Longitude Graus";"Longitude Minutos";"Longitude Segundos";"Marca Antena";CEP;Endereco;Numero;Bairro;Cidade;ODU;BUC;"Marca Antena"
+SES-PASO-0736;17;4;12;41;28;53;patriot;39818-000;"Rua Joalma";" 105 ";" DNER";"Padre Paraiso";"SL 4035";"Satlink 4033";patriot
+SES-META-0728;19;13;15;42;36;22;skyware;35166-000;"Rua Monsenhor Alipio";" 42 ";" Centro";Mesquita;"SL 4033";"Satlink 4033";patriot
+SES-TENI-0655;17;51;3;41;29;38;patriot;39800-224;"Rua Santos Dummont";" 30 cvv ";" São Jacinto";"Teofilo Otoni";"SL 4035";"Satlink 4033";patriot
+SES-CAHA-0646;17;41;12;42;30;54;skyware;39680-000;"avenida JK";" 0 CVV ";" Centro";Capelinha;"SL 4035";"Satlink 4033";patriot
+SES-COAS-0952;21;07;39;44;28;59;skyware;36360-000;"Rua Maria da Conceição Fonseca";" 130";;"CONCEIÇÃO DA BARRA DE MINAS";"SL 4033";;
+SES-ESIA-3270;19;31;14;45;47;23;patriot;35613-000;"Rua Joaquim Alves Belo";" 86";;"ESTRELA DO INDAIÁ";"SL 4033";;
+SES-OUAS-0735;18;04;03;41;16;14;skyware;39855-000;saude@ouroverdedeminas.mg.gov.br;;;"Ouro Verde de Minas";"SL 4033";"Satlink 4033";patriot
+SES-PEAO-0774;19;57;10;45;05;05;skyware;35515-000;"Avenida 12 de Dezembro";" 70 ";" Centro";PERDIGÃO;"SL 4033";;
+SES-ITTO-0814;20;15;02;43;48;24;patriot;35450-000;"Rua Antônio Carlos";" 292 ";" Boa Imagem";ITABIRITO;"SL 4033";"Satlink 4033";patriot
+SES-SANO-0789;18;28;59;41;23;23;patriot;39848-000;"Rua ANTONIO BASTOS BRAGA";" 99 ";" CENTRO.";"SÃO JOSÉ DO DIVINO";"SL 4035";;
+SES-FOSO-0803;14;56;51;46;13;54;skyware;38690-000;"Praça DA MATRIZ";" 0 ";" CENTRO";FORMOSO;"SL 4035";;
+SES-BIAS-0849;18;46;55;45;30;01;skyware;35621-000;"Rua SANTA CATARINA";" 0 ";" CENTRO";BIQUINHAS;"SL 4035";"Satlink 4033";patriot
+SES-CALO-0853;20;53;58;45;16;26;skyware;37270-000;"Rua EXPEDICIONÁRIO BOAVIDIR MASSOTE";" 0 ";" CENTRO";"CAMPO BELO";Patriot;"Satlink 4033";patriot
+SES-CONS-0894;19;37;51;43;59;12;skyware;33500-000;"Rua São José";" 508 ";" Centro";CONFINS;"SL 4035";"Satlink 4033";patriot
+SES-COUS-0895;16;41;14;44;21;28;skyware;39340-000;"Rua Nozinho Prates";" 1011 ";" Sagrada Família";"CORAÇÃO DE JESUS";;"Satlink 4033";patriot
+SES-DEOS-0859;20;39;33;44;20;05;patriot;35494-000;"Rua BRASILINO JOSE DE ANDRADE ";" 65 ";" CENTRO";"DESTERRO DE ENTRE RIOS";Patriot;"Satlink 4033";patriot
+SES-MEEL-0910;19;39;29;41;24;13;patriot;35270-000;"Rua Astolfo Silva";" 79 ";" Centro";"MENDES PIMENTEL";"SL 4035";"Satlink 4033";patriot
+SES-MOLO-0823;21;45;24;45;32;37;skyware;37405-000;"Rua Italo Totti";" 1 ";" Centro";"MONSENHOR PAULO";"SL 4033";"Satlink 4033";patriot
+SES-VIAS-0799;20;51;53;42;14;32;skyware;36895-000;"Rua LILIA MOREIRA";" 0 ";" CENTRO";VIEIRAS;"SL 4035";"Satlink 4033";patriot
+SES-CAHO-0674;19;00;25;50;00;35;skyware;38290-000;"Avenida Josefa Rodrigues da Silva";" 0 ";" Centro";CARNEIRINHO;"SL 4033";"Satlink 4033";patriot
+SES-LADA-0846;20;55;01;44;04;15;skyware;36345-000;"praça AMARO LOPES";" 606 ";" CENTRO";"LAGOA DOURADA";Patriot;"Satlink 4033";patriot
+SES-JABA-0848;20;08;26;45;30;27;skyware;35580-000;"Rua ANTENOR FLORUNCIO DIAS";" 0 ";" SAO JOSE I";JAPARAÍBA;Patriot;"Satlink 4033";patriot
+SES-LAAS-0816;21;15;01;45;00;00;patriot;37200-000;"Rua Lourenço Menicucci Filho";" 412 ";" Retiro";LAVRAS;"SL 4033";;
+SES-LITE-0725;19;32;35;50;34;21;skyware;38295-000;"Rua São Paulo";" 766 ";" Centro";"Limeira do Oeste";"SL 4035";;
+SES-PRES-0836;20;45;51;43;11;00;skyware;36475-000;"Rua TAQUARASSU";" 7 ";" CENTRO";"PRESIDENTE BERNARDES";Patriot;;
+SES-TAAS-0881;15;48;38;42;13;52;skyware;39550-000;"avenida São João";" 59 ";" Centro";TAIOBEIRAS;"SL 4035";;
+SES-SARA-0788;20;43;03;46;18;54;skyware;37945-000;"Avenida BARRA VELHA";" 405 ";" CENTRO.";"ABADIA DOS DOURADOS";"SL 4033";;
+SES-COTA-0682;19;56;15;47;32;27;patriot;38195-000;"Avenida Juquinha Mendonça";" 437 ";" Centro";Conquista;"SL 4033";;
+SES-PAIO-0653;18;57;47;46;59;07;skyware;38740-000;"avenida João Alves do Nascimento";" 600 cvv ";" centro";Patrocinio;"SL 4033";"Satlink 4033";patriot
+SES-SAAS-0877;20;02;54;44;15;35;skyware;32920-000;"avenida Maria do Carmo";" 810 ";" Tereza Cristina";"SÃO JOAQUIM DE BICAS";"SL 4033";;
+SES-PRIS-0778;19;29;19;44;09;37;skyware;35715-000;"Rua VICENTE VAZ DE MELO";" 864 ";" SAO JOAO II";"PRUDENTE DE MORAIS";"SL 4033";;
+SES-ROIA-0917;18;53;01;47;35;22;skyware;38520-000;"Rua Antônio Cunha de Oliveira";" 445 ";" Centro";ROMARIA;"SL 4033";;
+SES-AGIL-0886;20;56;42;45;23;23;skyware;37273-000;"Rua Coronel Antônio Inácio";" 133 ";" Centro";GUIDOVAL;"SL 4033";;
+SES-ESUL-0899;18;44;40;47;41;29;skyware;38525-000;"avenida Padre Julio Paz";" 88 ";" Centro";"ESTRELA DO SUL";"SL 4033";"Satlink 4033";patriot
+SES-UMBA-0800;17;15;24;40;34;59;patriot;39878-000;"Rua APARECIDA";" 140 ";" CENTRO";UMBURATIBA;"SL 4035";;
+SES-VAHA-0924;21;33;40;45;26;35;patriot;37010-000;"avenida Benjamim Constant";" 275 ";" centro";VARGINHA;;;
+SES-ANIA-0889;17;43;39;42;16;38;skyware;39685-000;"Rua Eduardo Ferreira de Souza";" 0 ";" Bela Vista.";ANGELÂNDIA;"SL 4035";;
+SES-ACCA-0930;20;21;58;43;08;44;patriot;35438-000;"Avenida Ezequiel Machado";" 258 ";" Centro.";ACAIACA;"SL 4033";;
+SES-SAHO-0785;19;10;06;43;42;50;skyware;35845-000;"Rua JOSE DE AZEREDO FILHO";" 55 ";" CENTRO";"SANTANA DO RIACHO";"SL 4033";"Satlink 4033";patriot
+SES-SEES-0793;21;48;02;42;56;48;patriot;36650-000;"Rua ELPIDIO DE SOUZA GUERRA";" 38 ";" CENTRO.";"SENADOR CORTES";"SL 4033";;
+SES-TRAS-0808;18;12;11;45;13;52;skyware;39205-000;"Avenida GETULIO VARGAS";" 3 ";" CENTRO.";"TRÊS MARIAS";"SL 4033";;
+SES-BRAS-0667;19;03;25;42;43;02;skyware;35169-000;"Rua Maria Izabel Moreira Pinto";" 0 ";" Centro";BRAÚNAS;"SL 4033";;
+SES-ITCU-0870;20;11;48;44;25;09;skyware;35685-000;"avenida JOSE FRANCISCO DA SILVA";" 0 ";" CENTRO";ITATIAIUÇU;"SL 4033";;
+SES-SAEU-0783;21;36;05;44;06;17;patriot;36146-000;"Rua CRISTIANO FAGUNDES";" 40 ";" CENTRO.";"SANTANA DO GARAMBÉU";"SL 4033";;
+SES-DETA-0686;19;58;22;47;46;16;patriot;38108-000;"Rua Aparecida Nunes";" 170 ";" Cohab";DELTA;"SL 4033";;
+SES-CRIA-0896;21;50;25;44;48;44;skyware;37445-000;"Rua Pedro Francisco Maciel";" 26 ";" Lourdes";CRUZÍLIA;"SL 4033";"Satlink 4033";patriot
+SES-LUUZ-0909;19;47;34;45;40;51;skyware;35595-500;"praça Antônio Eugênio Filho";" 10 ";" Rosário";LUZ;"SL 4033";;
+SES-PRHA-0775;19;45;12;46;23;08;patriot;38960-000;"Avenida FRANCISCO MACHADO BORGES";" 159 ";" ZACARIAS PEREIRA.";PRATINHA;"SL 4033";;
+SES-PROS-0913;21;03;58;44;04;59;patriot;36320-000;"Rua Sagrado Coração de Jesus";" 44 ";" Centro";PRADOS;"SL 4033";;
+SES-ARNA-0938;21;54;48;44;15;14;skyware;37360-000;"Rua Francisco Caetano";" 148 ";" Centro";ARANTINA;"SL 4033";;
+SES-BAIS-0940;19;56;35;43;28;59;skyware;35970-000;"Rua Doutor Antônio Soeiro";" 235 ";" Vila Regina";"BARÃO DE COCAIS";"SL 4033";;
+SES-DOIA-0862;19;27;46;45;35;48;skyware;35610-000;"Rua DOUTOR EDGARD PINTO FIUZA";" 1637 ";" SÃO SEBASTIÃO";"DORES DO INDAIÁ";"SL 4033";;
+SES-BOHA-0850;21;01;03;46;31;17;patriot;37948-000;"Rua Acre";" 80 ";" Centro";"BOM JESUS DA PENHA";"SL 4033";;
+SES-CADE-0854;19;04;10;41;51;40;patriot;35123-000;"Rua ANTÔNIO PEREIRA DA CUNHA";" 145 ";" Centro";"CAPITÃO ANDRADE";"SL 4035";;
+SES-CAIO-0855;20;36;55;46;03;07;skyware;37930-000;"Rua MONSENHOR MARIO DA SILVEIRA";" 205 ";" Centro";CAPITÓLIO;"SL 4033";;
+SES-CORA-0858;19;59;41;44;00;24;skyware;35668-000;"Rua ZICO BICALHO";" 125 ";" CENTRO";"CONCEIÇÃO DO PARÁ";"SL 4033";;
+SES-DOOS-0688;21;06;26;44;01;22;patriot;36213-000;"Rua Francisco Bernardes";" 484 ";" Centro";"DORES DE CAMPOS";"SL 4033";;
+SES-JOAS-0723;16;34;46;42;35;24;skyware;39642-000;"Rua Professora Juscelina Costa";" 420 ";" Centro";"JOSÉ GONÇALVES DE MINAS";"SL 4035";"Satlink 4033";patriot
+SES-CAIS-0942;19;17;09;44;24;54;skyware;35770-000;"Rua Coronel Victor Mascarenhas";" 388 ";" Centro";CAETANÓPOLIS;"SL 4033";;
+SES-MOAS-0806;18;36;27;45;21;19;patriot;35628-000;"Rua CORONEL INACIO PEREIRA";" 376 ";" CENTRO.";"MORADA NOVA DE MINAS";"SL 4033";;
+SES-AICA-0935;21;59;03;44;36;26;skyware;37450-000;"Rua Felipe Senador";" 1057 ";" Campo Prático";AIURUOCA;"SL 4033";;
+SES-ANOS-0937;21;19;10;43;44;47;patriot;36220-000;"Rua Euclides Ribeiro";" 46 ";" Centro";"ANTÔNIO CARLOS";"SL 4033";;
+SES-EUIS-0900;21;05;57;42;10;54;skyware;36855-000;"avenida Antenor Mazorque";" 400 ";" Centro";EUGENÓPOLIS;"SL 4033";;
+SES-ITRO-0869;19;25;07;43;19;15;skyware;35820-000;"Rua OLIVER CANDIDO GOMES";" 100 ";" CENTRO";"ITAMBÉ DO MATO DENTRO";"SL 4033";;
+SES-SAOA-0923;18;46;53;42;21;55;skyware;39728-000;"Rua Pepita Simões de Sardoá";" 53 ";" Centro";SARDOÁ;"SL 4035";;
+SES-CLIO-0951;20;26;43;44;46;03;skyware;35530-000;"avenida Araguaia";" 127";;CLÁUDIO;"SL 4033";;
+SES-CARA-0947;20;10;24;42;16;00;skyware;36925-000;"Avenida Ferreira Rios";" 0 ";" Centro";CAPUTIRA;"SL 4033";;
+SES-NORA-0840;19;46;02;43;02;27;patriot;35920-000;"Rua DO OURO";" 539 ";" MANJAHY";"NOVA ERA";"SL 4033";;
+SES-SAAS-0782;22;01;21;46;20;11;skyware;37775-000;"Praça 22 DE MAIO";" 0 ";" CENTRO.";"SANTA RITA DE CALDAS";"SL 4033";;
+SES-SAIA-3231;19;45;08;43;52;58;skyware;33045-090;"Av. VIII";" Numero 50";;"SANTA LUZIA";"SL 4035";;
+SES-MATA-0844;17;50;37;42;04;38;patriot;39690-000;"praça PIO XXII";" 0 ";" CENTRO";MALACACHETA;"SL 4035";;
+SES-SAIA-3236;19;47;06;43;55;40;patriot;33105-460;"Rua Pará de Minas";" 2333";;"SANTA LUZIA";"SL 4033";;
+SES-SAIA-3244;19;47;32;43;54;33;skyware;33115-090;"Rua Suiça";" 79";;"SANTA LUZIA";"SL 4035";;
+SES-SAIA-3252;19;45;47;43;51;26;patriot;33010-360;"Av. Teixeira da Costa Sobrinho";" 741";;"SANTA LUZIA";"SL 4033";;
+SES-DOVO-3266;20;58;38;43;11;42;skyware;36513-000;"Rua Francisco Grossi";" 0 ";;"DORES DO TURVO";"SL 4033";;
+"SES-SAIA- 3242";19;47;24;43;55;43;patriot;33120-170;"Rua Jabaquara";" 187";;"SANTA LUZIA";"SL 4033";;
+SES-AGAS-0934;17;05;16;40;56;19;skyware;39880-000;"Rua Joaquim Leandro";" 629 ";" São Vicente";"ÁGUAS FORMOSAS";"SL 4035";;
+"SES-SAIA- 3233";19;47;37;43;54;46;patriot;33115-340;"Rua Holanda";" 100";;"SANTA LUZIA";"SL 4033";;
+SES-SAIA-3246;19;46;36;43;52;34;skyware;33030-510;"Av. das Indústrias";" 675";;"SANTA LUZIA";"SL 4033";;
+SES-SAIA-3240;19;45;39;43;52;53;patriot;33045-270;"Rua G";" 70";;"SANTA LUZIA";"SL 4033";;
+SES-SARE-3272;21;04;27;42;38;10;skyware;36793-000;"Rua Ilca Fonseca Alves Duarte";" 0";;"SÃO SEBASTIÃO DA VARGEM ALEGRE";"SL 4033";"Satlink 4033";patriot
+SES-SAIA-3243;19;47;46;43;55;19;skyware;33115-560;"Rua Machado de Assis";" 269";;"SANTA LUZIA";"SL 4033";;
+SES-SARE-3271;21;04;22;42;08;13;patriot;36793-000;"Rua João Pinto de Faria";" 1323";;"SÃO SEBASTIÃO DA VARGEM ALEGRE";"SL 4033";;
+SES-SAIA-3237;19;46;48;43;51;28;skyware;33025-280;"Rua Coronel Lima e Silva";" 3";;"SANTA LUZIA";"SL 4033";"Satlink 4033";patriot
+SES-SAIA-3238;19;46;50;43;55;35;skyware;33145-160;"Rua Antônio de Pinho Tavares";" 268";;"SANTA LUZIA";"SL 4035";;
+SES-DIIS-0956;15;43;54;40;59;54;patriot;39912-000;"Rua Wilson Castro Mares";" 333";;DIVISÓPOLIS;"SL 4033";;
+SES-DOSO-3265;21;15;12;45;09;34;patriot;37474-000;"Rua Cônego José Divino";" 631";;"DOM VIÇOSO";"SL 4033";;
+SES-ITRA-3332;20;23;17;44;29;04;skyware;35514-000;"Rua Antônio Pacheco";" 420 ";" Centro";ITAGUARA;"SL 4033";;
+SES-SAIA-3247;19;46;26;43;55;28;patriot;33145-360;"Rua José Cândido Murta";" 260";;"SANTA LUZIA";"SL 4033";;
+SES-SAIA-3248;19;46;15;43;56;09;skyware;33140-180;"Rua Estefânia Sales Sotero";" s/n";;"SANTA LUZIA";"SL 4033";;
+SES-SAIA-3249;19;42;18;43;48;42;patriot;33055-000;"Rua Manoel Felix Homem";" 524";;"SANTA LUZIA";"SL 4033";;
+SES-SAIA-3255;19;47;30;43;56;15;skyware;33125-110;"Av. Nossa Senhora da Conceição";" 70";;"SANTA LUZIA";"SL 4033";;
+SES-COAO-0954;22;33;14;45;55;31;skyware;37670-000;"travessa José de Pinto Nogueira";;;CONSOLAÇÃO;"SL 4033";;
+SES-SAIA-3254;19;45;54;43;55;47;patriot;33140-660;"Rua Maria do Carmo Castro";" 50";;"SANTA LUZIA";"SL 4033";;
+SES-CAAS-0944;16;19;15;43;42;52;skyware;39445-000;"Rua 26";" 58 ";" Centro";"CAPITÃO ENÉAS";"SL 4035";"Satlink 4033";patriot
+SES-HERA-3326;22;03;57;45;32;24;patriot;37484-000;"Rua Fernando José Ribeiro";" 67hr";;HELIODORA;"SL 4033";;
+SES-LERA-3344;19;42;58;45;01;28;patriot;35657-000;"Rua Ernesto Ferreira";" 21";;"LEANDRO FERREIRA";"SL 4033";;
+SES-RIES-0818;19;49;01;44;01;26;skyware;33943-470;"Rua Geraldino Rocha";" 180 ";" Felixlândia.";"RIBEIRÃO DAS NEVES";"SL 4033";;
+SES-IAPU-3327;19;26;58;42;12;49;patriot;35190-000;"Rua Jaime Mafra";" 117";;IAPU;"SL 4033";;
+SES-JAAR-3337;15;59;55;44;16;49;skyware;39335-000;"Rua Ulisses Guimarães";" 135";;JAPONVAR;"SL 4035";;
+SES-JEIA-3340;21;59;52;45;17;24;skyware;37485-000;"Rua José Dias de Castro";" 74";;JESUÂNIA;"SL 4033";;
+SES-LAAR-3343;18;10;40;46;48;23;patriot;38785-000;"Praça Magalhães Pinto";" 68";;LAGAMAR;"SL 4033";;
+SES-SAIA-3232;19;46;30;43;56;34;patriot;33130-450;"Rua Poti";" 403";;"SANTA LUZIA";"SL 4033";;
+SES-SAIA-3235;19;46;00;43;51;10;skyware;33015-420;"Rua Francisco Jerônimo da Silva";" 25";;"SANTA LUZIA";"SL 4033";;
+SES-GUOR-3325;17;46;11;47;05;38;patriot;38570-000;"Rua Frei Cecilio";" 1375";;GUARDA-MOR;"SL 4033";;
+SES-FEHO-3319;19;09;12;42;04;47;patriot;35135-000;"Rua Francisco Pereira Leite";" 113";;"FERNANDES TOURINHO";"SL 4033";;
+SES-MAGA-3349;14;45;25;43;56;06;patriot;39460-000;"Rua Conselheiro Saraiva";" 40";;MANGA;"SL 4035";;
+SES-ATIA-3352;18;17;44;41;08;43;patriot;39853-000;"Rua Angelo Ribeiro";" s/n";;ATALÉIA;"SL 4035";;
+SES-CADE-3383;19;33;45;50;00;49;skyware;38270-000;"Rua 8";" 666";;"CAMPINA VERDE";"SL 4033";;
+SES-SAIA-3245;19;17;00;43;51;38;patriot;33030-340;"Rua Baldim";" 891";;"SANTA LUZIA";"SL 4033";;
+SES-ATIA-3357;18;02;07;41;06;22;patriot;39850-000;"Rua João J. de Almeida";" s/n";;ATALÉIA;"SL 4035";;
+SES-CADE-3382;19;32;27;49;28;57;skyware;38270-000;"Av. 25";" 794";;"CAMPINA VERDE";"SL 4033";;
+SES-DOCO-3259;16;39;07;46;16;18;patriot;38654-000;"Rua Maria Alves";" 416";;"DOM BOSCO";"SL 4033";;
+SES-PAAO-3374;17;25;29;41;00;10;patriot;39814-000;"Rua Alagoas";" s/n";;PAVÃO;"SL 4035";;
+SES-ATIA-3353;18;02;14;41;06;28;patriot;39850-000;"Rua João J. de Almeida";" 66";;ATALÉIA;"SL 4035";;
+SES-ATIA-3355;18;02;52;41;06;46;patriot;39850-000;"Rua Projetada";" s/n";;ATALÉIA;"SL 4035";;
+SES-CADE-3381;19;32;11;49;29;23;patriot;38270-000;"Rua 14";" 1132";;"CAMPINA VERDE";"SL 4033";;
+SES-CAIS-3385;18;43;47;49;11;48;patriot;38380-000;"Rua Francisco Angelo Sobrinho";" 200";;CANÁPOLIS;"SL 4033";"Satlink 4033";patriot
+SES-PAAO-3373;17;25;52;41;00;08;patriot;39814-000;"Av. Valdir Pinheiro Cangussu";" 99";;PAVÃO;"SL 4035";;
+SES-CAIS-3386;18;43;08;49;12;14;skyware;38380-000;"Rua 13";" 355";;CANÁPOLIS;"SL 4033";;
+SES-CAIS-3387;18;40;43;49;34;37;patriot;38360-000;"Rua Parreira";" 1500";;CAPINÓPOLIS;"SL 4033";;
+SES-CADA-3378;18;30;59;49;30;02;skyware;38370-000;"Av. 5";" 52";;"CACHOEIRA DOURADA";"SL 4033";;
+SES-CADA-3379;18;31;05;49;30;00;patriot;38370-000;"Av. das Nações";" 6";;"CACHOEIRA DOURADA";"SL 4033";;
+SES-FRES-3372;16;53;20;40;55;34;skyware;39870-000;"Av. Minas Gerais";" 416";;"FRONTEIRA DOS VALES";"SL 4033";;
+SES-CADE-3380;19;31;48;49;28;55;patriot;38270-000;"Av. Um";" 544";;"CAMPINA VERDE";"SL 4033";;
+SES-ENAS-3503;20;40;05;44;03;58;patriot;35490-000;"Rua Maestro Benedito Lisboa";" 25";;"ENTRE RIOS DE MINAS";"SL 4033";;
+SES-ITGI-3333;21;04;43;47;02;46;patriot;37955-000;"Rua Adolfo José de Paula";" 418  ";" Centro";ITAMOGI;"SL 4033";;
+SES-LADA-3508;20;55;01;44;04;45;skyware;36345-000;"Praça Conego Agostinho";" 389";;"LAGOA DOURADA";"SL 4033";;
+SES-BASO-3492;21;11;59;43;58;20;skyware;36212-000;"Av. Guanabara";" 300";;BARROSO;"SL 4033";;
+SES-FRES-3371;16;53;08;40;45;39;patriot;39870-000;"A. Joaquim Pinheiro de Almeida";" s/n";;"FRONTEIRA DOS VALES";"SL 4033";;
+SES-IJCI-3329;21;10;29;44;55;30;skyware;37205-000;"Rua João Francisco Lopes";" 430 – Centro";;IJACI;"SL 4033";;
+SES-BASO-3494;21;11;59;43;59;28;patriot;36212-000;"Rua Ritápolis";" 12";;BARROSO;"SL 4033";;
+SES-COAS-3496;21;07;49;44;28;38;patriot;36360-000;"Rua Maestro Mileto José Ambrósio";" 173";;"CONCEIÇÃO DA BARRA DE MINAS";"SL 4033";;
+SES-SANO-3377;18;28;59;41;23;22;skyware;39848-000;"Rua Professor Antônio Bastos Braga";" 99";;"SÃO JOSÉ DO DIVINO";"SL 4035";;
+SES-ITIM-3335;16;33;52;41;30;00;patriot;39625-000;"Rua da Bahia";" 420 ";" Centro";ITAOBIM;"SL 4035";;
+SES-BASO-3495;21;09;58;43;58;15;skyware;36212-000;"Rua Berlim";" 57";;BARROSO;"SL 4033";;
+SES-BEIS-3359;17;03;47;40;34;32;skyware;39875-000;"Rua Aparecido Gomes";" 407";;BERTÓPOLIS;"SL 4033";;
+SES-CAIS-3388;18;41;29;49;34;02;skyware;38360-000;"Av. 117";" 179";;CAPINÓPOLIS;"SL 4033";;
+SES-CAIS-3516;18;41;01;49;34;42;patriot;38360-000;"Av. Amazonas";" 138";;CAPINÓPOLIS;"SL 4033";;
+SES-SAAS-3376;16;56;09;40;41;04;patriot;39874-000;"Rua Marechal Floriano Peixoto";" s/n";;"SANTA HELENA DE MINAS";"SL 4035";;
+SES-BEIS-3358;17;03;51;40;34;20;patriot;39875-000;"Rua Governador Valadares";" s/n";;BERTÓPOLIS;"SL 4033";;
+SES-CAIO-3363;18;14;20;41;43;33;patriot;39835-000;"Rua Hidebrando Cabral";" 387";;CAMPANÁRIO;"SL 4035";;
+SES-SAAS-3375;16;56;09;40;41;05;patriot;39874-000;"Rua Princesa Isabel";" s/n";;"SANTA HELENA DE MINAS";"SL 4035";;
+SES-PEDA-3572;20;49;47;42;09;59;patriot;36847-000;"Rua Alexandre Fava";" n 25";;"PEDRA DOURADA";"SL 4033";;
+SES-CAIO-3362;18;14;20;41;43;33;skyware;39835-000;"Rua João Ferreira Coimbra";" 40";;CAMPANÁRIO;"SL 4033";;
+SES-PAOS-3564;19;27;03;44;44;52;patriot;35669-000;"Avenida Arthur Bernardes";" 203";;PAPAGAIOS;"SL 4033";;
+SES-PIDE-3531;21;28;04;44;11;38;skyware;36227-000;"Rua Isaac Teixeira de Andrade";" 59";;"PIEDADE DO RIO GRANDE";"SL 4033";;
+SES-PIDE-3532;21;27;42;44;09;45;skyware;36227-000;"Rua João Eleotério";" s/n";;"PIEDADE DO RIO GRANDE";"SL 4033";"Satlink 4033";patriot
+SES-PIDE-3533;21;28;09;44;11;36;patriot;36227-000;"Rua Francisco Monteiro";" 1";;"PIEDADE DO RIO GRANDE";"SL 4033";;
+SES-RETA-3538;20;55;13;44;14;07;patriot;36340-000;"Rua das Rosas";" 55";;"RESENDE COSTA";"SL 4033";;
+SES-BEIS-3361;16;56;00;40;30;24;patriot;39875-000;"Av. Belo Horizonte";" 25";;BERTÓPOLIS;"SL 4035";;
+SES-SAEI-3546;22;08;30;44;15;27;skyware;36307-458;"Rua Tenente Mario Cesar Lopes";" 240";;"SÃO JOÃO DEL REI";"SL 4033";;
+SES-SAEI-3548;21;08;28;44;16;29;patriot;36309-352;"Rua José Candido de Gouveia";" 72";;"SÃO JOÃO DEL REI";"SL 4033";;
+SES-DOIO-0861;20;09;54;42;58;08;skyware;35440-000;"Rua GERALDINO LESSA";" 0 ";" CENTRO";"DOM SILVÉRIO";"SL 4033";;
+SES-ENAS-3504;20;39;57;44;04;03;patriot;35490-000;"Praça Cassiano Campolina";" 17";;"ENTRE RIOS DE MINAS";"SL 4033";;
+SES-ENAS-3505;20;41;08;44;03;09;patriot;35490-000;"Av. Sagrados Corações";" 1129";;"ENTRE RIOS DE MINAS";"SL 4033";;
+SES-SAEI-3542;21;07;37;44;15;27;skyware;36300-382;"Praça Carmelo Cardoso";" 61";;"SÃO JOÃO DEL REI";"SL 4033";;
+SES-SAEI-3545;21;08;06;44;13;56;patriot;36305-186;"Rua Leticia Dangelo";" s/n";;"SÃO JOÃO DEL REI";"SL 4033";;
+SES-CAIO-0672;18;14;58;41;43;32;patriot;39835-000;"Rua Hildelbrando Cabral";" 0 ";" Centro";Campanario;"SL 4035";;
+SES-BURO-3450;17;22;12;44;58;08;patriot;39280-000;"Av. Brasil";" 108";;BURITIZEIRO;"SL 4035";;
+SES-LACE-3456;17;53;15;44;34;59;patriot;39250-000;"Rua Jair de Sousa Pinto";" 252";;LASSANCE;"SL 4035";;
+SES-LACE-3457;17;53;06;44;34;34;patriot;39250-000;"Rua Nossa senhora do Carmo";" 611";;LASSANCE;"SL 4035";;
+SES-PIRA-3467;17;18;53;44;54;13;patriot;39270-000;"Rua Efigênia de Oliveira";" 105";;PIRAPORA;"SL 4035";;
+SES-LACE-3453;17;53;39;44;34;45;patriot;39250-000;"Rua I";" 216";;LASSANCE;"SL 4035";;
+SES-BURO-3448;17;22;16;44;58;19;skyware;39280-000;"Rua Extremidade";" 480";;BURITIZEIRO;"SL 4035";;
+SES-GUMA-0694;21;00;33;42;43;09;patriot;36525-000;"Rua Vereador José Manoel";" 0 ";" Centro";GUIRICEMA;"SL 4033";"Satlink 4033";patriot
+SES-PASO-3445;17;04;10;41;28;52;patriot;39818-000;"Rua Manoel Rocha";" 84";;"PADRE PARAÍSO";"SL 4035";;
+SES-BURO-3443;17;21;42;44;58;05;skyware;39280-000;"Rua Professora Maria Geralda";" 161";;BURITIZEIRO;"SL 4035";;
+SES-BURO-3442;17;21;18;44;57;57;patriot;39280-000;"Rua Maria Benedita dos Santos";" 702";;BURITIZEIRO;"SL 4033";;
+SES-PIRA-3459;17;21;09;44;55;17;patriot;39270-000;"Rua Professora Alzira Ferreira";" 303";;PIRAPORA;"SL 4033";;
+SES-PIRA-3468;17;20;16;44;55;08;skyware;39270-000;"Rua Maestro Nery Teixeira";" 555";;PIRAPORA;"SL 4035";;
+SES-PIRA-3464;17;21;45;44;56;37;patriot;39270-000;"Rua Treze de Maio";" 821";;PIRAPORA;"SL 4033";;
+SES-PASO-3484;17;04;21;41;29;03;skyware;39818-000;"Rua Juca de Matos";" 210 ";" João de Lino";"PADRE PARAÍSO";"SL 4033";;
+SES-COES-3497;20;55;44;44;05;08;patriot;36330-000;"Rua Joana Mendonça";" s/n";;"CORONEL XAVIER CHAVES";"SL 4033";;
+SES-COES-3498;20;55;44;44;05;08;patriot;36330-000;"Largo Gonçalves Lara";" 17";;"CORONEL XAVIER CHAVES";"SL 4033";;
+"SES-DOOS- 3500";21;06;34;44;01;59;skyware;36213-000;"Rua Francisco Bernardes";" 484";;"DORES DE CAMPOS";"SL 4033";;
+SES-DOOS-3501;19;56;04;43;56;13;patriot;36213-000;"Av. Getúlio Vargas";" 540";;"DORES DE CAMPOS";"SL 4033";;
+SES-PROS-3534;21;03;25;44;04;45;patriot;36320-000;"Rua Cel João Luiz";" 61";;PRADOS;"SL 4033";;
+SES-MADE-3555;15;24;04;42;52;03;patriot;39527-000;"Avenida José Alves Miranda";" 525";;"MATO VERDE";"SL 4033";;
+SES-SADO-3592;20;55;19;42;50;08;patriot;36530-000;"Rua 21 de Abril";" 19 ";Fundos;"SÃO GERALDO";"SL 4033";;
+SES-SARO-3591;15;20;29;42;37;09;skyware;39538-000;"Praça Nazário Antunes";" 28";;"SANTO ANTÔNIO DO RETIRO";"SL 4033";;
+SES-MOMA-3557;15;10;03;42;30;10;patriot;39547000;"Avenida Augusto Sá";" 459";;MONTEZUMA;"SL 4033";;
+SES-PADO-3569;20;52;26;42;58;39;patriot;36544-000;"Rua Capitão Martinho";" s/n";;"PAULA CÂNDIDO";"SL 4033";;
+SES-DOOS-3502;;;;;;;;36213-000;"Rua Sebastião Rezende";" 725";;"DORES DE CAMPOS";;;
+SES-LADA-3512;20;54;43;44;04;13;skyware;36345-000;"Praça João Paulo II";" 101";;"LAGOA DOURADA";"SL 4033";;
+SES-MATA-3485;17;50;37;42;04;37;patriot;39690-000;"Praça Pio XII";" 137 ";" Centro";MALACACHETA;"SL 4033";;
+SES-PEIS-3573;19;13;56;47;28;17;patriot;38178-000;"Av. Josefina Ferreira dos Santos";" n 108";;PEDRINÓPOLIS;"SL 4033";;
+SES-PIRA-3470;17;21;08;44;55;19;skyware;39270-000;"Rua Rosiria Amorim Guerra";" 450";;PIRAPORA;"SL 4035";;
+SES-PIRA-3465;17;19;29;44;55;18;skyware;39270-000;"Rua Zizinha de Carvalho";" 500";;PIRAPORA;"SL 4033";;
+SES-PIRA-3466;17;20;53;44;55;06;skyware;39270-000;"Rua 22";" 55";;PIRAPORA;"SL 4035";;
+SES-RIIS-3539;21;01;44;44;19;37;patriot;36335-000;"Rua Dr";" João Ribeiro de Sousa";;RITÁPOLIS;"SL 4033";;

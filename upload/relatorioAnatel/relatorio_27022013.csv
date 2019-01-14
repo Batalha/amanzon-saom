@@ -1,0 +1,71 @@
+Nome;"Latitude Graus";"Latitude Minutos";"Latitude Segundos";"Longitude Graus";"Longitude Minutos";"Longitude Segundos";"Marca Antena";CEP;Endereco;Numero;Bairro;Cidade;ODU;BUC;"Marca Antena";Empresa
+SES-ARRI-4427;18;40;07;48;10;52;skyware;38446-144;"R. COROMANDEL";" BAIRRO AMORIM";;ARAGUARI;"SL 2000";;;Lider
+SES-ARGO-4301;21;32;58;45;46;59;skyware;37820-000;"rua Coronel Cândido de Souza Dias";" 52";;ARCEBURGO;"SL 4033";;;Lider
+SES-BAIM-3873;19;19;44;43;55;55;skyware;35707-000;"Rua Bonifácio Barbosa";" 45 Distrito de são Vicente";;BALDIM;"SL 4033";;;"SH Sat"
+SES-BAIS-5548;19;56;75;43;29;23;skyware;35970-000;"RUA BIAS FORTES";" 138 ";;"BARÃO DE COCAIS";"SL 4035";;;Lider
+SES-CAVA-4507;20;55;48;43;37;13;skyware;36290-000;"Rua Prefeito Romildo Gomes s/n";;;"CAPELA NOVA";"SL 4033";;;Lider
+"SES-DINO-4183 ";20;34;23;42;06;59;skyware;36820-000;"MG262 KM 05 USINA";;;DIVINO;"SL 2000";;;Lider
+"SES-DINO-4182 ";20;34;23;42;06;05;skyware;36820-000;"RUA JOAQUIM FABRICIO SOUZA";" 75";;DIVINO;"SL 2000";;;Lider
+SES-DINO-4181;20;34;23;42;06;05;skyware;36825-000;"RUA PRINCIPAL";" 692 ";" BOM JESUS";DIVINO;"SL 2000";;;Lider
+SES-FRAL-4206;20;22;48;48;55;12;skyware;38200-000;"Vila Barroso  - Zona Rural - Povoado";;;FRUTAL;"SL 2000";;;Lider
+"SES-FRAL-4205 ";19;56;53;49;11;18;patriot;38200-000;"Povoado de Boa Esperança/Zona Rural - Povoado";;;FRUTAL;"SL 2000";;;Lider
+"SES-FRAL-4202 ";20;01;97;48;56;52;skyware;38200-000;"Rau Tiradentes";" 330";;FRUTAL;"SL 4033";;;"SH Sat"
+SES-IBCI-5301;20;18;47;47;06;20;skyware;37990-000;"Avenida Aeroporto";" s/n.º ";" Bairro Lage";IBIRACI;"SL 4033";;;"SH Sat"
+SES-IBCI-5300;20;27;55;47;07;22;skyware;37990-000;"Avenida César Elias Jorge";" 941 ";" Bairro Centro";IBIRACI;"SL 4033";;;"SH Sat"
+SES-IBCI-5299;20;27;78;47;07;47;skyware;37990-000;"Rua João Pessoa";" 360 ";" Bairro Centro";IBIRACI;"SL 4035";;;"SH Sat"
+SES-IJCI-3872;21;10;42;44;55;73;skyware;37205-000;"Rua São João N: 160 - Vila Aparecida";;;IJACI;"SL 4035";;;"SH Sat"
+SES-INIS-4560;19;2;38;47;55;8;patriot;38490-000;"Rua Getulio Magalhães";" 82";;INDIANÓPOLIS;"SL 4033";;;Lider
+SES-INIS-4561;19;02;38;47;55;08;skyware;38490-000;"Elmiro Alves da Silva";;;INDIANÓPOLIS;"SL 2000";;;Lider
+SES-ITCA-4211;21;32;97;45;46;98;skyware;35550-000;"Praça Brigida Nascimento";;;ITAPECERICA;"SL 2000";;;Lider
+SES-ITCA-4210;21;32;58;44;46;59;skyware;35550-000;"Rua Amerio Vespúcio";" S/nº ";" Distrito de Marilandia";ITAPECERICA;"SL 2000";;;Lider
+SES-ITCA-4209;20;47;39;45;11;59;skyware;35550-000;"Rua Odilon Augusto de Castro";" S/nª";;ITAPECERICA;"SL 2000";;;Lider
+SES-LUGO-4577;20;26;58;42;06;27;skyware;36923-000;"Avenida Ayrton Senna - Boa Esperança	";;;LUISBURGO;"SL 2000";;;Lider
+SES-MAFE-5294;22;20;50;45;17;50;skyware;37517-000;"BAIRRO MATA DE BAIXO - Zona Rual";;;"MARIA DA FÉ";"SL 4033";;;"SH Sat"
+SES-MAPO-4602;00;16;56;42;20;30;skyware;35367-000;"Rua Laurindo Pita s/n - CENTRO";;;MATIPÓ;"SL 2000";;;Lider
+SES-OUNO-5059;22;19;01;46;28;12;skyware;37570-000;"Zona Rural Peitudos - Bairro Peitudos";;;"OURO FINO";"SL 4033";;;"SH Sat"
+SES-OUNO-5060;22;16;40;54;30;09;skyware;37570-000;"Zona Rural Caneleiras - Bairro Caneleiras";;;"OURO FINO";"SL 4033";;;"SH Sat"
+SES-OUNO-5062;22;17;11;46;22;56;skyware;37570-000;"Rua Treze de Maio";" 2054 ";" Bairro Bela Vista";"OURO FINO";"SL 4033";;;"SH Sat"
+SES-OUNO-5061;22;16;58;46;22;62;skyware;37570-000;"Avenida Barão de Rio Branco";" 145 ";" Bairro Capuchinhos";"OURO FINO";"SL 4033";;;"SH Sat"
+SES-PAOS-5212;20;43;40;46;36;44;skyware;37900-000;"RUA DOS PIANTINOS";" 633 ";" MUARAMA";PASSOS;"SL 4033";;;"SH Sat"
+SES-PAOS-5215;20;43;20;46;36;33;skyware;37900-000;" RUA RIO DE JANEIRO";" 26 ";" Bairro BELA VISTA";PASSOS;"SL 4033";;;"SH Sat"
+SES-PAOS-5216;20;42;88;46;36;10;skyware;37900-000;"RUA PONTA PORÃ";" 43 ";" Bairro BELA VISTA";PASSOS;"SL 4033";;;"SH Sat"
+SES-PAOS-5222;20;43;50;46;35;57;skyware;37900-000;"RUA SÃO GABRIEL";" 105 ";" VILA RICA";PASSOS;"SL 4033";;;"SH Sat"
+SES-PEVA-5068;22;14;40;45;28;02;skyware;37520-000;"Rua Xavier Lisboa";" 156 ";" Bairro Centro";PEDRALVA;"SL 4033";;;"SH Sat"
+SES-PEVA-5065;22;14;78;45;28;08;skyware;37520-000;"Rua Padre Mariano";" 20 ";" Bairro Centro";PEDRALVA;"SL 4033";;;"SH Sat"
+SES-PEVA-5063;22;14;73;45;27;57;skyware;37520-000;"Avenida Doutor Jorge Bacha";" 74 ";" Bairro Centro";PEDRALVA;"SL 4033";;;"SH Sat"
+SES-PEVA-5064;22;15;05;45;27;82;skyware;37520-000;"Rua Papa João Paulo II - Bairro São José";;;PEDRALVA;"SL 4033";;;"SH Sat"
+SES-PITA-4618;20;28;50;45;48;05;;35585-000;"Avenida JK ";"401 CENTRO";;PIMENTA;"SL 4035";;;Lider
+SES-PIBA-4620;19;54;37;48;42;02;skyware;38210-000;" PÇA TEOFILO PRATA DE CARVALHO";" nº 37 CENTRO";;PIRAJUBA;"SL 2000";;;Lider
+SES-RAOS-4339;19;59;58;43;46;59;skyware;34400-000;"Rua Herval Silva - Matadouro";;;RAPOSOS;"SL 4033";;;Vodanet
+SES-SADO-4348;19;46;55;43;15;45;skyware;36530-000;"Rua Capitão Machado";" s/n";;"SÃO GERALDO";"SL 4033";;;Lider
+SES-SAXO-4471;19;44;41;43;23;11;skyware;35935-000;"COMUNIDADE RURAL DE JURUBEBA";;;"SÃO GONÇALO DO RIO ABAIXO";"SL 2000";;;Lider
+SES-SAEI-3552;21;08;08;44;15;42;skyware;36309-024;"Rua Vereador Vicente Cantelmo";" 207";;"SÃO JOÃO DEL REI";"SL 4033";;;Lider
+SES-SARE-4638;21;04;03;42;38;02;skyware;36793-000;" RUA JOÃO PINTO DE FARIA nº 1.320 CENTRO";;;"SÃO SEBASTIÃO DA VARGEM ALEGRE";"SL 2000";;;Lider
+SES-SAIM-5088;22;47;23;45;51;11;patriot;37690-000;"Estrada Municipal Paiol - Bairro Rural";;;SAPUCAÍ-MIRIM;"SL 4033";;;"SH Sat"
+SES-SAIM-5087;22;45;00;45;44;34;skyware;37690-000;"Avenida Presidente tancredo Neves";" 368 ";" Bairro Centro";SAPUCAÍ-MIRIM;"SL 4033";;;"SH Sat"
+SES-TODO-5129;22;44;32;46;22;30;skyware;37630-000;"RUA BENJAMIM MACEDO 529 - Bairro JARDIM SÃO JOSÉ";;;TOLEDO;"SL 4033";;;"SH Sat"
+SES-TRES-5119;21;41;51;45;15;23;skyware;37410-000;"Travessa Casemiro Avelar";" 24 ";" Bairro Centro";"TRÊS CORAÇÕES";"SL 4033";;;"SH Sat"
+SES-TRES-5118;21;42;03;45;15;38;skyware;37410-000;"Rua Dr. Roberto Cruz";" 110 ";" Bairro Jardim Rio verde";"TRÊS CORAÇÕES";"SL 4035";;;"SH Sat"
+SES-TRES-5117;21;41;82;45;15;07;skyware;37410-000;"Av. Virgilio de Melo Franco";"204 ";" Bairro Centro";"TRÊS CORAÇÕES";"SL 4033";;;"SH Sat"
+SES-TRES-5116;21;41;85;45;15;18;skyware;37410-000;"Rua Cel Demetrio";" 44 ";" Bairro Centro";"TRÊS CORAÇÕES";"SL 4035";;;"SH Sat"
+SES-TRES-5114;21;42;51;45;16;11;skyware;37410-000;"Rua da serenidade";" 318 ";" Bairro Parque das Colinas";"TRÊS CORAÇÕES";"SL 4035";;;"SH Sat"
+SES-TRES-5113;21;40;95;45;15;38;patriot;37410-000;"Rua Nhá Chica";" 345 ";" Bairro São José";"TRÊS CORAÇÕES";"SL 4035";;;"SH Sat"
+SES-TRES-5112;21;42;01;45;14;28;skyware;37410-000;"Av. Orlando Rezende Andrade";" s/n ";" Bairro São pedro";"TRÊS CORAÇÕES";"SL 4033";;;"SH Sat"
+SES-TRES-5111;21;41;20;45;15;6;skyware;37410-000;"Rua pedro Rodrigues Chagas";" s/n ";" Bairro Rio do Peixe";"TRÊS CORAÇÕES";"SL 4035";;;"SH Sat"
+SES-TRES-5110;21;41;60;45;14;67;skyware;37410-000;"Rua Jose Capistrano de Souza";" 600 ";" Bairro Nossa Senhora de Fátima";"TRÊS CORAÇÕES";"SL 4033";;;"SH Sat"
+SES-TRES-5109;21;42;63;45;14;42;skyware;37410-000;"Rua dois";" 22 ";" Bairro Jardim Esperança";"TRÊS CORAÇÕES";"SL 4035";;;"SH Sat"
+SES-TRES-5115;21;41;46;45;15;20;skyware;37410-000;"Rua Julião Arbex ";" 143 ";" Bairro Centro";"TRÊS CORAÇÕES";"SL 4033";;;"SH Sat"
+SES-TRES-5107;21;43;32;45;15;42;skyware;37410-000;"Rua Joaquim Damas";" 429 ";" Bairro Jardim paraiso";"TRÊS CORAÇÕES";"SL 4035";;;"SH Sat"
+SES-TRES-5106;21;38;23;45;21;45;skyware;37410-000;"Rua B";" s/n ";" Bairro Distrito de Flora";"TRÊS CORAÇÕES";"SL 4033";;;"SH Sat"
+SES-TRES-5105;21;41;33;45;14;53;skyware;37410-000;"Rua Jose Capistrano de Souza";" 201 ";" Bairro Boa Ventura";"TRÊS CORAÇÕES";"SL 4035";;;"SH Sat"
+SES-TRES-5104;21;41;03;45;15;88;patriot;37410-000;"Rua João Santana Braz";"04 ";" Bairro Nossa Senhora Aparecida";"TRÊS CORAÇÕES";"SL 4033";;;"SH Sat"
+SES-TRES-5103;21;41;12;45;14;87;skyware;37410-000;"Rua Bem te Vi";"536 ";" Bairro Bela Vista";"TRÊS CORAÇÕES";"SL 4033";;;"SH Sat"
+SES-TRES-5101;21;40;50;45;19;47;skyware;34410-000;"Rua Sergipe";" 36 ";" Bairro Amadeu Miguel";"TRÊS CORAÇÕES";"SL 4033";;;"SH Sat"
+SES-UBBA-5535;19;42;28;47;51;34;;38017-030;"Estrada do Lageadinho";" km 4";;UBERABA;"SL 4033";;;"SH Sat"
+SES-UBIA-5546;18;57;17;48;21;06;skyware;38412-604;"RUA CIBIPIRUNA ";" 1460";;UBERLÂNDIA;"SL 4033";;;"SH Sat"
+SES-UBIA-5547;18;57;58;48;27;37;skyware;38412-608;"RUA ESPATODIA";" 805 B";;UBERLÂNDIA;"SL 4033";;;"SH Sat"
+SES-UBIA-5550;18;54;46;48;18;51;skyware;38414-050;"Rua opala";" 571 ";;UBERLÂNDIA;"SL 4033";;;"SH Sat"
+SES-UBIA-5551;19;01;08;48;22;19;skyware;38400-000;"Chácaras Douradinhos";" lote 33";;UBERLÂNDIA;"SL 4033";;;"SH Sat"
+SES-UBIA-5284;18;51;33;48;08;57;skyware;38418-000;"Estrada do Pau Furado s/ n.º - Bairro Tenda do Moreno";;;UBERLÂNDIA;"SL 4033";;;"SH Sat"
+SES-UBIA-5285;18;45;57;48;17;18;skyware;38418-000;"Fazenda Sobradinho";;;UBERLÂNDIA;"SL 4033";;;"SH Sat"
+SES-UBIA-5283;21;41;55;45;14;88;skyware;38418-000;"Rua da Abadia";" 10 ";" Distrito de Miraponga";UBERLÂNDIA;"SL 4033";;;"SH Sat"

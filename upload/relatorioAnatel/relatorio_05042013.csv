@@ -1,0 +1,159 @@
+Nome;"Latitude Graus";"Latitude Minutos";"Latitude Segundos";"Longitude Graus";"Longitude Minutos";"Longitude Segundos";"Marca Antena";CEP;Endereco;Numero;Bairro;Cidade;ODU;BUC;"Marca Antena";Empresa
+SES-CAHA-5310;21;50;48;45;23;88;skyware;37400-000;"Rua José Veiga de Almeida";" 81 ";" Bairro ";CAMPANHA;"SL 4033";;;"SH Sat"
+SES-CAHA-5312;21;48;73;45;25;22;skyware;37400-000;"Rua Adrielli Andriatta";" 255 ";" Bairro COHAB";CAMPANHA;"SL 4033";;;"SH Sat"
+SES-CAHA-5309;21;50;03;45;24;08;skyware;37400-000;"Rua Doutor Cesarino S/N - Bairro Centro";;;CAMPANHA;"SL 4033";;;"SH Sat"
+SES-CAAA-4505;20;41;27;42;36;60;skyware;36592-000;AV;" PEDRO DIAS LOPES ";;CANAÃ;"SL 4033";;;Lider
+SES-CHOR-4511;22;00;20;43;03;48;skyware;36630-000;"RUA: ARNOR ESTEVES";" 320";;CHIADOR;"SL 4033";;;Lider
+SES-CHOR-4548;22;00;11;43;03;29;skyware;36635-000;"RUA CORONEL VIRGÍLIO COUTINHO Nº 50";;;CHIADOR;"SL 4033";;;Lider
+SES-CHOR-4549;22;00;07;42;56;12;skyware;36630-000;"RUA JOAQUIM MONTEIRO DE CARVALHO Nº 123";;;CHIADOR;;;;Lider
+SES-CORA-4512;20;51;39;42;48;12;skyware;36550-000;"Avenida Matias Cunha S/N.º Centro";;;COIMBRA;"SL 4033";;;Lider
+SES-COCO-4185;21;35;27;43;15;87;skyware;36155-000;"Rua Aspirante José Manoel de Oliveira";" 40";;"CORONEL PACHECO";"SL 4033";;;Lider
+SES-COVO-4517;19;49;51;42;23;10;skyware;35345-000;"AV. PREFEITO CARLITO CAETANO CAMPOS";" 120 ";;"CÓRREGO NOVO";"SL 4033";;;Lider
+SES-ESIZ-4525;20;39;02;41;54;35;;36830-000;"RUA: HENRIQUE GRIPP FILHO";"nº 128 ";" CENTRO";"ESPERA FELIZ";"SL 4033";;;Lider
+SES-ITRI-3715;18;02;08;41;40;57;skyware;39830-000;"AV. FREI ARCANGELO ";" 1329  ";" Bairro Centro";ITAMBACURI;"SL 4033";;;Lider
+SES-LUGO-4576;20;26;30;42;06;12;skyware;36923-000;"Rua Orlando Muniz de Carvalho - Centro";;;LUISBURGO;;;;Lider
+SES-MAIS-3666;17;04;50;40;42;58;skyware;39873-000;"RUA PRIMEIRO DE JANEIRO ";" n 264";;MACHACALIS;"SL 4033";;;Lider
+SES-MATA-3488;17;56;35;42;11;40;skyware;39690-000;"Rua Nossa Senhora do Carmo";" s/n";;MALACACHETA;"SL 4033";;;Lider
+SES-MATA-3489;17;47;53;41;58;13;skyware;39690-000;" 	Rua do Campo ";" s/n Distrito Santo Antônio do Mucuri ";;MALACACHETA;"SL 4033";;;Lider
+SES-MATA-3490;17;49;85;42;13;70;skyware;39690-000;"Praça José Gomes Amaral";" s/n";;MALACACHETA;"SL 4033";;;Lider
+SES-MAIM-5028;20;20;49;41;57;14;skyware;36970-000;"Rua Joaquim Marciano de Oliveira";" s/n ";" Cidade Jardim";MANHUMIRIM;"SL 4033";;;Lider
+SES-MANA-4106;18;46;12;40;58;28;skyware;35290-000;" R. Juranir Silva";" S/N ";"  Bela Vista";MANTENA;;;;Lider
+SES-MAFE-5295;22;21;65;45;24;15;skyware;37517-000;"BAIRRO ILHA - Zona Rural";;;"MARIA DA FÉ";"SL 4033";;;"SH Sat"
+SES-MAFE-5292;22;18;28;45;17;37;skyware;37517-000;"BAIRRO RESERVA - Zona Rural";;;"MARIA DA FÉ";"SL 4033";;;"SH Sat"
+SES-MAES-5030;20;13;56;41;50;57;skyware;36972-000;"Rua Projetada 3 Nº 54 - Distrito Pinheiro de Minas";;;"MARTINS SOARES";"SL 4033";;;Lider
+SES-MAES-5031;20;15;16;41;52;36;skyware;36972-000;"Rua Cota Emerick Nº 257 - Centro";;;"MARTINS SOARES";"SL 4033";;;Lider
+SES-MOAS-5042;20;20;17;42;24;19;skyware;35628-000;"Rua Frei Orlando";" 574 ";" Centro";"MORADA NOVA DE MINAS";"SL 4033";;;Lider
+SES-MOAS-5043;19;51;35;43;55;75;skyware;35628-000;"Rua Floripes Campos";" 347 ";" São Geraldo";"MORADA NOVA DE MINAS";"SL 4033";;;Lider
+SES-NOEM-4289;18;29;33;41;06;17;skyware;35298-000;"AV. JOÃO ALVES DE PAULA";" 357 ";" CENTRO";"NOVA BELÉM";"SL 4033";;;Lider
+SES-NOEM-4609;18;29;45;41;06;32;skyware;35298-000;"JOÃO ALVES DE PAULA N/450 - CENTRO";;;"NOVA BELÉM";"SL 4033";;;Lider
+SES-NODE-5133;27;07;16;46;25;38;patriot;37860-000;"Av. Gabriel Cardoso";" 813";;"NOVA RESENDE";"SL 4033";;;"SH Sat"
+SES-PASO-3480;17;04;42;41;29;67;skyware;39818-000;"Rua Lopes Dias";" 518 ";" Vila Vieira";"PADRE PARAÍSO";"SL 4033";;;Lider
+SES-PASO-3482;17;04;48;41;29;23;skyware;39818-000;"Rua Juiz de Fora";" s/n ";" Bom Jeus";"PADRE PARAÍSO";"SL 4033";;;Lider
+SES-PAIS-3563;16;44;33;40;25;59;skyware;39945-000;"PRAÇA ALMIRANTE JOAQUIM DE OLIVEIRA";" S/N";;PALMÓPOLIS;"SL 4033";;;Lider
+SES-PARO-5167;22;23;06;44;57;55;patriot;37460-000;"RUA OSWALDO ORLANDO";" 60 ";" Bairro Centro";"PASSA QUATRO";"SL 4033";;;"SH Sat"
+SES-PAOS-5229;20;42;33;46;37;10;patriot;37900-000;"RUA BUENOS AIRES";" S/N ";" Bairro COIMBRAS";PASSOS;"SL 4033";;;"SH Sat"
+SES-PAOS-5230;20;41;54;46;36;59;patriot;37900-000;"RUA COIMBRAS";" 1170 ";" Bairro NOSSA SENHORA DE FÁTIMA";PASSOS;"SL 4033";;;"SH Sat"
+SES-PAOS-5231;20;42;42;46;35;95;skyware;37900-000;"RUA GUANABARA";" 1425 ";" Bairro SANTA LUZIA";PASSOS;"SL 4033";;;"SH Sat"
+SES-PAOS-5218;20;43;93;46;36;52;patriot;37900-000;"RUA ALFERES JOÃO PIMENTA DE ABREU";" 45 ";" Bairro NOSSA DAS GRAÇAS";PASSOS;"SL 4033";;;"SH Sat"
+SES-PAOS-5219;20;45;02;46;36;26;skyware;37900-000;"RUA JOÃO TEIXEIRA MENDES";" 940 ";" JARDIM ITÁLIA";PASSOS;"SL 4033";;;"SH Sat"
+SES-PAOS-5220;20;43;47;46;36;37;patriot;37900-000;"RUA DAVID BALDINI - CENTRO";;;PASSOS;"SL 4033";;;"SH Sat"
+SES-PAOS-5221;20;45;02;46;36;26;skyware;37900-000;"RUA JOÃO TEIXEIRA MENDES";" 940 ";" JARDIM ITÁLIA";PASSOS;"SL 4033";;;"SH Sat"
+SES-PAOS-5224;20;43;33;46;37;10;skyware;37900-000;"RUA DA GRAÇA";" 450 ";" SÃO FRANCISCO";PASSOS;"SL 4033";;;"SH Sat"
+SES-PAOS-5223;20;43;43;46;35;70;skyware;37900-000;"RUA SÃO PAULO";" 1120 ";" JD COLÉGIO DE PASSOS";PASSOS;"SL 4033";;;"SH Sat"
+SES-PAOS-5211;20;44;05;46;36;17;patriot;37900-000;"RUA LAVRAS";" 418 ";" MUARAMA";PASSOS;"SL 4033";;;"SH Sat"
+SES-PAOS-5214;20;42;95;46;37;03;skyware;37900-000;"AV BRASIL";" 66 ";" PENHA";PASSOS;"SL 4033";;;"SH Sat"
+SES-PAOS-5213;20;42;10;46;36;59;skyware;37900-000;"RUA HONDURAS";" S/N ";" JARDIM POLIVALENTE";PASSOS;"SL 4033";;;"SH Sat"
+SES-PETA-4616;20;35;42;42;42;58;skyware;36585-000;" RUA A ";" Nº 115 CENTRO";;"PEDRA DO ANTA";"SL 4033";;;Lider
+SES-PEVA-5066;22;14;01;45;29;38;skyware;37520-000;"Zona Rural de Contendas - Bairro Contendas";;;PEDRALVA;"SL 4033";;;"SH Sat"
+SES-PEDO-5165;19;41;48;44;03;02;skyware;33600-000;"Rua Dos Couras s/n - Bairro Vera Cruz";;;"PEDRO LEOPOLDO";"SL 4033";;;Lider
+SES-PEDO-5164;19;41;80;44;08;03;skyware;33600-000;"Rua Elias Marques 50 - Bairro Teotonio Batista de Freitas";;;"PEDRO LEOPOLDO";"SL 4033";;;Lider
+SES-PEES-4402;21;05;37;45;05;13;skyware;37260-000;"RUA JOSÉ DOMINGOS DO NASCIMENTO";" 97";;PERDÕES;"SL 4033";;;Lider
+SES-SAAS-5247;16;10;28;42;17;28;skyware;39560-000;"Praça das Palmeiras 238B - Bairro Vila Aparecida";;;SALINAS;"SL 4035";;;"SH Sat"
+SES-SAAS-5245;16;10;15;42;17;47;skyware;39560-000;"Rua José Martins dos Anjos 260 - Bairro Centro";;;SALINAS;"SL 4035";;;"SH Sat"
+SES-SAAS-5244;16;09;46;42;17;17;skyware;39560-000;"Rua Aristides Brito 410 - Bairro Floresta";;;SALINAS;"SL 4035";;;"SH Sat"
+SES-SAHO-3972;19;19;58;43;37;13;skyware;35845-000;"Rod. MG 10 Km 100";;;"SANTANA DO RIACHO";"SL 4033";;;Lider
+SES-SAXO-4475;19;50;06;43;20;46;;35935-000;"Rua Duilho Guedes Bicalho 80 - RECREIO";;;"SÃO GONÇALO DO RIO ABAIXO";"SL 4033";;;Lider
+SES-SERO-5097;18;36;20;43;22;85;skyware;39150-000;"Rua Alferes Luiz Pinto";" S/N ";" Bairro Centro";SERRO;"SL 4033";;;"SH Sat"
+SES-SERO-5093;18;33;54;43;31;31;skyware;39150-000;"Rua Ladainha";" s/n ";" Bairro Dist. Pedro Lessa";SERRO;"SL 4033";;;"SH Sat"
+SES-SERO-5092;18;35;60;43;23;62;skyware;39150-000;"Rua Coronel João Lemos";" 146 ";" Bairro Morro de Areia";SERRO;"SL 4035";;;"SH Sat"
+SES-SERO-5091;18;25;19;43;29;49;skyware;39150-000;"Rua José Felipe";" 125 ";" Bairro Dist. São Gonçalo do Rio das Pedras";SERRO;"SL 4033";;;"SH Sat"
+SES-SERO-5090;18;28;32;43;29;56;skyware;39150-000;"Rua do Cruzeirinho";" 330 ";" Bairro Dist. Milho Verde";SERRO;"SL 4033";;;"SH Sat"
+SES-TAAS-5268;15;48;18;42;13;67;patriot;39550-000;"Rua São João";" 920 ";" Bairro Vila Formosa";TAIOBEIRAS;"SL 4033";;;Vodanet
+SES-TAAS-5271;15;48;32;42;13;54;skyware;39550-000;"Rua Araçuaí";" 388 ";" Bairro Centro";TAIOBEIRAS;"SL 4033";;;"SH Sat"
+SES-TENI-3694;17;52;90;41;18;72;patriot;39800-000;"Avenida Bahia Minas ";" s/n ";" Zona Rural";"TEÓFILO OTONI";"SL 4033";;;Lider
+SES-TENI-3705;17;38;29;41;22;58;;39800-000;"Rua José Hermógenes";" n51 ";" Zona Rural";"TEÓFILO OTONI";"SL 4033";;;Lider
+SES-TENI-3678;17;57;42;41;29;43;skyware;39800-000;"Rua Principal";" Correio Central ";;"TEÓFILO OTONI";"SL 4033";;;Lider
+SES-TOJI-5100;22;22;16;46;05;45;skyware;37563-000;"Praça Pedro Felipe Rosa";" 136 ";" Bairro Centro";"TOCOS DO MOJI";"SL 4033";;;"SH Sat"
+SES-TRES-5120;21;41;44;45;15;25;skyware;37410-000;"Rua Desembargador Alberto Luz";"304 ";" Bairro centro";"TRÊS CORAÇÕES";"SL 4033";;;"SH Sat"
+SES-GOES-5553;18;51;49;41;58;04;skyware;35053-240;"Rua: GERALDO VIEIRA S/N - SÃO ANTONIO";;;"GOVERNADOR VALADARES";"SL 4033";;;Lider
+SES-AIES-4492;19;29;41;41;04;16;skyware;35200-000;"AV. RAUL SOARES 4492 - CENTRO";;;AIMORÉS;"SL 4033";;;Lider
+SES-CAGA-5608;19;49;38;42;07;03;skyware;36600-000;" Fazenda:Córrego dos Claros ";;;CARATINGA;"SL 4033";;;Lider
+SES-ENAS-4524;19;37;57;42;13;85;skyware;35324-000;"TRAVESSA JOSÉ ARREGUY CAMPOS";" nº 58";;"ENTRE FOLHAS";"SL 4033";;;Lider
+SES-FERO-4528;20;43;13;42;16;12;skyware;36815-000;"AVENIDA MARIA AMELIA DE SOUZA PEDROSA nº 326";;;FERVEDOURO;"SL 4033";;;Lider
+SES-FERO-4551;20;43;05;42;25;07;skyware;36815-000;"R. Jota Ferreira";" sem Distrito de Sao Pedro do Gloria";;FERVEDOURO;"SL 4033";;;Lider
+SES-FERO-4552;20;43;05;42;25;05;skyware;36815-000;"Comunidade Bom Jesus do Madeira";;;FERVEDOURO;"SL 4033";;;Lider
+SES-FERO-4554;20;43;13;42;16;12;skyware;36815-000;"Rua Estrada São Pedro S/N - Cidade Nova";;;FERVEDOURO;"SL 4033";;;Lider
+SES-FERO-4555;20;39;06;42;17;09;skyware;36815-000;"Comunidade Ribeirão Jorge";;;FERVEDOURO;"SL 4033";;;Lider
+SES-FERO-4557;20;43;12;42;16;12;skyware;36815-000;"AVENIDA MARIA AMELIA DE SOUZA PEDROSA nº 880";;;FERVEDOURO;"SL 4033";;;Lider
+SES-FERO-4559;20;43;13;42;16;12;skyware;36815-000;"Rua Maria Amelia de Souza Pedrosa - centro";;;FERVEDOURO;"SL 4033";;;Lider
+SES-GROL-4583;16;33;68;42;53;48;skyware;39570-000;"R. José Devier";" n 80 ";" CENTRO";"GRÃO MOGOL";"SL 4033";;;Lider
+SES-IBTE-5188;19;59;78;44;03;72;skyware;32400-000;"AV. DR. PAULO SOUZA LIMA";" Nº 557 ";" Bairro SOL NASCENTE";IBIRITÉ;"SL 4033";;;Lider
+SES-IBTE-5187;20;01;00;44;05;59;skyware;32400-000;"AV. AVELINO PINHEIRO";" Nº 255 ";" Bairro CANAL ";IBIRITÉ;"SL 4033";;;Lider
+SES-IBTE-5186;19;59;03;44;03;55;;32400-000;"RUA LADEIRA";" Nº 63 ";" Bairro DUVAL DE BARROS ";IBIRITÉ;"SL 4033";;;Lider
+SES-IBTE-5185;19;58;52;44;04;00;skyware;32400-000;"AV. CORONEL DUVAL DE BARROS";" Nº 1194 – Bairro DUVAL DE BARROS ";;IBIRITÉ;"SL 4033";;;Lider
+SES-IBTE-5184;19;59;25;44;05;17;skyware;32400-000;"RUA JOSE MATEUS DOS REIS";" Nº 60 ";" Bairro CASCATA";IBIRITÉ;"SL 4033";;;Lider
+SES-IBTE-5183;20;0;93;44;5;92;skyware;32400-000;"RUA C";" Nº 14 ";" Bairro CANAÃ ";IBIRITÉ;;;;Lider
+SES-IBTE-5182;19;32;97;44;46;98;skyware;32400-000;"AV. MARECHAL HERMES";" 70 ";" DURVAL DE BARROS";IBIRITÉ;"SL 4033";;;Lider
+SES-IBTE-5181;20;01;77;44;02;30;skyware;32400-000;"Rua A ";" 58 ";" Bairro Barrerinho";IBIRITÉ;"SL 4033";;;Lider
+SES-IBTE-5180;20;01;55;44;04;00;skyware;32400-000;"RUA AlLTIVAS CALDAS";" Nº 700 ";" Bairro NOVO HORIZONTE";IBIRITÉ;"SL 4033";;;Lider
+SES-IBTE-5179;20;01;10;44;04;08;skyware;32400-000;"Av. São Paulo n°1043 - Bairro MACAUBAS";;;IBIRITÉ;"SL 4033";;;Lider
+SES-IBTE-5178;20;01;12;44;03;23;skyware;32400-000;"RUA PANTANA";"Nº 25 ";" Bairro CENTRO ";IBIRITÉ;"SL 4033";;;Lider
+SES-IBTE-5200;20;00;23;44;03;70;skyware;32400-000;"AV. PAU BRASIL. Nº 14 - SERRA DOURADA";;;IBIRITÉ;"SL 4033";;;Lider
+SES-IBTE-5199;20;01;03;44;07;32;skyware;32400-000;"RUA SEIS";" Nº 150 ";" RECANTO DA LAGOA";IBIRITÉ;"SL 4033";;;Lider
+SES-IBTE-5198;19;59;49;44;03;38;skyware;32400-000;" RUA CARMEM SILVA GUIMARÃES";" Nº 71  – WASHINGTON PIRES";;IBIRITÉ;"SL 4033";;;Lider
+SES-IBTE-5196;20;00;30;44;07;04;skyware;32400-000;"R. Acre";" nº112 ";" Ouro Negro Petrovale A. ";IBIRITÉ;"SL 4033";;;Lider
+SES-IBTE-5197;19;59;48;44;04;08;skyware;32400-000;"RUA SALINAS";" Nº 20 ";" PALMARES A";IBIRITÉ;"SL 4033";;;Lider
+SES-IBTE-5195;20;00;53;44;02;65;skyware;32400-000;"R PRINCESA IZABEL";" Nº 25 ";"  PARQUE ELIZABETH ";IBIRITÉ;"SL 4033";;;Lider
+SES-IBTE-5194;19;59;57;44;04;37;skyware;32400-000;"R BELLA PETRUSCHE ";" Nº 621 ";" PALMARES B ";IBIRITÉ;"SL 4033";;;Lider
+SES-IBTE-5193;20;01;45;44;02;45;skyware;32400-000;"AV. MINAS GERAIS";" 700 ";" MORADA DA SERRA ";IBIRITÉ;"SL 4033";;;Lider
+SES-IBTE-5192;20;02;97;44;03;25;skyware;32400-000;"AV. ANTONIO ANACLETO DE OLIVEIRA";" Nº 454 ";" MONSENHOR HORTA";IBIRITÉ;"SL 4033";;;Lider
+SES-IBTE-5191;20;00;01;44;02;49;skyware;32400-000;"RUA SÃO PEDRO";" Nº 171 ";" MARILANDIA";IBIRITÉ;"SL 4033";;;Lider
+SES-IBTE-5189;20;00;09;44;05;15;skyware;32400-000;"RUA MANTIQUEIRA";" Nº 12 ";" JARDIM DAS ROSAS";IBIRITÉ;"SL 4033";;;Lider
+SES-IBTE-5190;19;59;78;44;03;68;skyware;32400-000;" Rua Marechal Deodoro da Fonseca ";" n°27  ";" DUVAL DE BARROS";IBIRITÉ;"SL 4033";;;Lider
+SES-ITGI-4278;21;13;29;47;07;24;skyware;37955-000;"Rua Geraldo Meirelli Suzano 45 Bairro Vila Nova.";;;ITAMOGI;"SL 4033";;;Lider
+SES-LADA-5773;20;55;20;44;04;11;skyware;36345-000;"Rua Marieta Pires de Resende";" 20 ";" Bairro Novo Horizonte";"LAGOA DOURADA";"SL 4033";;;Lider
+SES-MAIS-3667;17;04;46;40;43;13;skyware;39873-000;"AVENIDA MONTE PASCOAL ";" s/n ";" Centro";MACHACALIS;"SL 4033";;;Lider
+SES-MASO-4601;14;51;17;43;55;19;skyware;39478-000;"AVENIDA MACHADO DE ASSIS";" 1026  ";" ALTO BONITO";"MATIAS CARDOSO";"SL 4035";;;Lider
+SES-MASO-5205;14;51;17;43;55;19;skyware;39478-000;"Rua Duque Caxias";" 436 ";" Gameleira";"MATIAS CARDOSO";"SL 4033";;;Vodanet
+SES-MASO-5206;14;51;17;43;55;19;skyware;39478-000;"Rua Machado de Assis";" 1.418 ";" Alto Bonito";"MATIAS CARDOSO";"SL 4035";;;Vodanet
+"SES-MOAS-4214 ";21;20;57;46;58;59;skyware;37958-000;"Rua Lamana";" 919 ";" Jardim dos Italianos";"MONTE SANTO DE MINAS";"SL 4033";;;Lider
+SES-MOAS-5041;18;36;04;45;20;58;skyware;35628-000;"Rua Vau das Flores";" 574 ";" Varginha";"MORADA NOVA DE MINAS";"SL 4033";;;Lider
+SES-NAUE-3732;17;50;33;40;21;10;skyware;39860-000;"RUA PRINCIPAL ";" s/n ";" Centro";NANUQUE;"SL 4033";;;Lider
+SES-NOEM-4287;18;29;33;41;06;17;skyware;35298-000;"RUA HENRIQUE TEIXEIRA DE SIQUEIRA";" 230 ";" CENTRO";"NOVA BELÉM";"SL 4033";;;Lider
+SES-NOAO-5044;19;41;14;43;34;57;skyware;34990-000;"Rua Carolino Machado";" 350 ";" Centro ";"NOVA UNIÃO";"SL 4033";;;Lider
+SES-OUTO-4047;20;29;50;43;27;43;patriot;35400-000;"Rua Geraldo Paiva";;;"OURO PRETO";"SL 4033";"Satlink 4033";;Lider
+SES-PAEM-4307;19;21;08;43;08;19;skyware;35810-000;"RUA DAS PALMEIRAS N 14 - CENTRO";;;PASSABÉM;"SL 4033";;;Lider
+SES-PAOS-5217;20;42;54;46;36;24;skyware;37900-000;"RUA SANTA MÔNICA";" 43 ";" Bairro CARMELO";PASSOS;"SL 4033";;;"SH Sat"
+SES-PEDO-5166;19;31;53;43;57;57;skyware;33600-000;"Rua Traquilino José de Bastos - Bairro Fidalgo";;;"PEDRO LEOPOLDO";"SL 4033";;;Lider
+SES-PIRA-5027;17;20;18;44;56;17;skyware;39270-000;"Rua Montes Claros";" 1228 ";" Santo Antônio";PIRAPORA;"SL 4033";;;Lider
+SES-POTE-5238;17;46;73;41;41;93;skyware;39827-000;"Rua Agripino Borges";" 297 ";" Bairro Zona Rural";POTÉ;"SL 4035";;;"SH Sat"
+SES-POTE-5237;17;47;55;41;47;12;skyware;39827-000;"Rua Venancio Rodrigues";" 37 ";" Bairro Vila Paula";POTÉ;"SL 4033";;;"SH Sat"
+SES-POTE-5236;17;48;18;41;47;05;skyware;39827-000;"Rua Domiciano Ferreira";" 300 ";" Bairro Maristela";POTÉ;"SL 4033";;;"SH Sat"
+SES-POTE-5235;17;48;37;41;47;34;skyware;39827-000;"Rua Dom Pedro II";" 76";" Bairro Floresta";POTÉ;"SL 4033";;;"SH Sat"
+SES-POTE-5234;17;48;75;41;47;48;skyware;39827-000;"Rua Vital Brasil";" s/ n.º ";" Bairro Floresta";POTÉ;"SL 4033";;;"SH Sat"
+SES-SARA-5474;19;53;11;43;48;24;skyware;34500-000;"AV.PREF.VÍTOR FANTINI";" 499 ";" Bairro CENTRO";SABARÁ;"SL 4033";;;Vodanet
+SES-SAAS-5253;15;59;27;42;13;68;patriot;39560-000;"Rua Maria José s/n - Bairro PSF Ferreiropolis";;;SALINAS;"SL 4035";;;"SH Sat"
+SES-SAAS-5252;16;06;36;42;04;16;patriot;39560-000;"Rua Nossa Senhora Aparecida s/n  - Bairro Pov Curralinho'";;;SALINAS;"SL 4035";;;"SH Sat"
+SES-SAAS-5251;16;10;28;42;04;59;;39560-000;"Praça Nossa Senhora de Fatima s/n  - Bairro Pov. Nova Fatima Dist de Nova Fátima";;;SALINAS;"SL 4035";;;"SH Sat"
+SES-SAAS-5248;16;09;22;42;17;04;skyware;39560-000;"Rua Pedro Alvares Cabral 25B - Bairro Santo Antonio";;;SALINAS;"SL 4035";;;"SH Sat"
+SES-SAAS-5254;15;57;45;42;17;57;skyware;39560-000;"Rua Santa Helena s/n - Bairro PSF Nova Matrona";;;SALINAS;"SL 4035";;;"SH Sat"
+SES-SAAS-4465;16;56;24;40;40;49;skyware;39874-000;"R. HERMINIO FERREIRA NEVES";" S/N";;"SANTA HELENA DE MINAS";"SL 4033";;;Lider
+SES-SAAS-4466;16;49;36;40;37;24;skyware;39874-000;"R. JOSE CARDOSO";" S/N ";" CENTRO";"SANTA HELENA DE MINAS";"SL 4033";;;Lider
+SES-SAMA-5255;19;00;30;44;02;33;skyware;35785-000;"Rua Ozório Joaquim Ribeiro";" nº90 ";" Bairro São Sebastião ";"SANTANA DE PIRAPAMA";"SL 4033";;;Lider
+SES-SARO-5259;15;13;53;42;44;82;skyware;39538-000;"FAZENDA RIACHO FUNDO - ZONA RURAL";;;"SANTO ANTÔNIO DO RETIRO";"SL 4035";;;"SH Sat"
+SES-SARO-5258;15;20;28;42;37;35;skyware;39538-000;"RUA GUILHERMINO LIMA";" S/N ";" Bairro CENTRO";"SANTO ANTÔNIO DO RETIRO";"SL 4035";;;"SH Sat"
+SES-SATO-4632;18;17;50;44;13;18;skyware;39210-000;"RUA ENIR SALES";" 25 CENTRO";;"SANTO HIPÓLITO";"SL 4033";;;Lider
+SES-SAES-5315;19;31;93;42;00;67;skyware;35335-000;"Rua Orquidea";" 51 ";" Bairro Das Oliveiras";"SÃO DOMINGOS DAS DORES";"SL 4033";;;Lider
+SES-SATA-5086;19;52;35;42;58;18;patriot;35995-000;"Rua Paulo Rola";" 90";;"SÃO DOMINGOS DO PRATA";"SL 4035";;;"SH Sat"
+SES-SATA-5084;19;45;59;42;51;52;skyware;35995-000;"RUA PRINCIPAL";"S/N ";" Bairro SANTANA DO ALFIÉ";"SÃO DOMINGOS DO PRATA";"SL 4033";;;"SH Sat"
+SES-SATA-5081;19;51;85;42;57;97;skyware;35995-000;"Rua José Recreio";" 222";;"SÃO DOMINGOS DO PRATA";;;;"SH Sat"
+SES-SATA-5080;20;00;15;42;55;60;skyware;35995-000;"RUA QUARESMA";" DISTRITO CÔNEGO JOÃO FILHO";;"SÃO DOMINGOS DO PRATA";"SL 4033";;;"SH Sat"
+SES-SATA-5077;19;52;01;42;58;01;skyware;35995-000;"RUA CRISTIANO MORAIS ";"134 ";" Bairro CENTRO ";"SÃO DOMINGOS DO PRATA";"SL 4033";;;"SH Sat"
+SES-SATA-5314;19;29;55;41;58;37;skyware;35334-000;"Praça Antonio Carlos Pacheco";" 05 ";" Bairro Centro";"SÃO SEBASTIÃO DO ANTA";"SL 4033";;;Lider
+SES-SATE-5261;20;11;97;45;07;85;skyware;35506-000;"COMUNIDADE ÁGUA LIMPA";"SN ";" ZONA RURAL";"SÃO SEBASTIÃO DO OESTE";"SL 4033";;;Lider
+SES-SATE-5260;20;16;93;45;00;28;skyware;35506-000;"RUA: SETE DE SETEMNBRO";"325 ";" Bairro CENTRO";"SÃO SEBASTIÃO DO OESTE";"SL 4033";;;Lider
+SES-SERO-5096;18;41;42;43;26;16;;39150-000;"Rua Nossa Senhora de Fátima";" 59 ";" Bairro Dist. Deputado Augusto Clementino";SERRO;"SL 4033";;;"SH Sat"
+SES-SEHA-5262;17;36;00;42;09;40;skyware;39688-000;"Rua Inácio Esteves Lima 165 - Bairro Centro";;;SETUBINHA;"SL 4033";;;Lider
+SES-SEHA-5265;17;36;12;42;09;60;skyware;39688-000;"Praça Geraldo Paulino Rosa - Bairro centro";;;SETUBINHA;"SL 4033";;;Lider
+SES-TAAS-5276;15;48;47;42;13;28;patriot;39550-000;"Pç Vereador Farley Martins de Oliveira";" 20 ";" Bairro Sagrada Família";TAIOBEIRAS;"SL 4035";;;Vodanet
+SES-TAAS-5275;15;48;47;42;13;72;patriot;39550-000;"Rua Caiçara";" 663 ";" Bairro Vila Formosa";TAIOBEIRAS;"SL 4033";;;"SH Sat"
+SES-TAAS-5272;15;48;22;42;13;08;skyware;39550-000;"Rua Guaicurus";" 1625 ";" Bairro Sagrada Família";TAIOBEIRAS;"SL 4033";;;Vodanet
+SES-TAAS-5269;15;48;02;42;13;43;skyware;39550-000;"Rua Bambui";" 281 ";" Bairro Bom Jardim";TAIOBEIRAS;"SL 4033";;;"SH Sat"
+SES-TAAS-5267;15;48;16;42;14;10;skyware;39550-000;"Rua Rua Paraíba";" 170 ";" Bairro Planalto";TAIOBEIRAS;"SL 4033";;;"SH Sat"
+SES-TAAS-5270;15;49;22;42;13;26;skyware;39550-000;"Rua JK 150 - Bairro Santos Cruzeiros ";;;TAIOBEIRAS;"SL 4033";;;"SH Sat"
+SES-TAAS-5266;15;48;56;42;13;31;skyware;39550-000;"Praça 13 de maio";"85 ";" Bairro Nossa Senhora de Fátima";TAIOBEIRAS;"SL 4033";;;"SH Sat"
+SES-TRES-5102;21;41;37;45;15;29;skyware;37410-000;"Rua Aureliano Martins de Andrade";"38 ";" Bairro Centro";"TRÊS CORAÇÕES";"SL 4033";;;"SH Sat"
+SES-TRAS-5278;18;11;98;45;13;37;skyware;38205-000;"Rua Goias 400 - Bairro São Jorge";;;"TRÊS MARIAS";"SL 4033";;;Lider
+SES-TRAS-5277;18;11;54;45;13;43;skyware;39205-000;"Rua Ozorio Nunes de Lima - Bairro Ermirio de Morais";;;"TRÊS MARIAS";"SL 4033";;;Lider
+SES-VARE-4649;19;36;29;42;18;00;skyware;35199-000;"Rua antonio jose silveira 50";;;"VARGEM ALEGRE";;;;Lider
+SES-PASO-3481;17;04;38;41;28;37;skyware;39818-000;"Rua Santa Rita N: 43 - Bela Vista";;;"PADRE PARAÍSO";"SL 4033";;;Lider

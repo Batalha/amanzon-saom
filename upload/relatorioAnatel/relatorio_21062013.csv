@@ -1,0 +1,75 @@
+Nome;"Latitude Graus";"Latitude Minutos";"Latitude Segundos";"Longitude Graus";"Longitude Minutos";"Longitude Segundos";"Marca Antena";CEP;Endereco;Numero;Bairro;Cidade;ODU;BUC;"Marca Antena";Empresa
+SES-ITTE-5750;22;17;45;44;51;70;skyware;37466-000;" Rua Custório Francisco da Rocha";" 57 ";" Bairro Berta";ITAMONTE;"SL 4033";;;"SH Sat"
+SES-ITTE-6308;22;16;97;44;52;05;skyware;37466-000;" Rua Antônio Ribeiro Couto";" 44 ";" Bairro Vila Santos";ITAMONTE;"SL 4033";;;"SH Sat"
+SES-ITDU-5711;22;17;20;44;59;78;skyware;37464-000;"Estrada do Condado - Bairro Condado";;;ITANHANDU;"SL 4035";;;"SH Sat"
+SES-ITDU-5714;22;17;90;44;56;53;skyware;37464-000;" Av.Ary Carneiro ";"S/N ";" Bairro Vila Maria";ITANHANDU;"SL 4035";;;"SH Sat"
+SES-ITDU-5732;22;18;37;44;55;88;skyware;37464-000;"Antônio Pereira Leite";" 256 ";" Bairro Renne Charlier";ITANHANDU;"SL 4035";;;"SH Sat"
+SES-ITDU-5733;22;17;32;44;56;25;skyware;37464-000;" Dr. Paiva";" 125 ";" Bairro Nossa Senhora de Fátima";ITANHANDU;"SL 4035";;;"SH Sat"
+SES-ITDU-5734;22;18;10;44;55;83;skyware;37464-000;" Neusa Fonseca Monteiro";" 06 ";" Bairro Portal";ITANHANDU;"SL 4035";;;"SH Sat"
+SES-ITDU-5735;22;17;34;44;56;09;skyware;37464-000;" Praça Irmã Carvalho";" 20 ";" Bairro Centro";ITANHANDU;"SL 4035";;;"SH Sat"
+SES-JAAS-5987;19;31;33;43;44;82;skyware;35830-000;" Rua Eduardo Goes nº 305. - Bairro Centro";;;JABOTICATUBAS;"SL 4033";;;Lider
+SES-JAAS-5988;19;29;97;43;49;93;skyware;35830-000;" Rua das Rosas nº 287. - Bairro das Flores. Distrito de São José de Almeida";;;JABOTICATUBAS;"SL 4033";;;Lider
+SES-JAAS-5989;19;31;03;43;44;73;skyware;35830-000;" Rua Dom Carlos de Vasconcelos nº 350 - Bairro Centro";;;JABOTICATUBAS;"SL 4033";;;Lider
+SES-JUIA-6068;21;12;68;46;25;77;skyware;37805-000;" 	Bairro Grama - Grama";;;JURUAIA;"SL 4033";;;"SH Sat"
+SES-JUIA-6069;21;15;10;46;34;60;skyware;37805-000;"Rua Gonçalves Rezente 372";;;JURUAIA;"SL 4035";;;"SH Sat"
+SES-JUIA-6070;21;15;28;46;35;02;skyware;37805-000;"Rua Antônio Guilherme Cabral";" S/N ";" Bairro Mirante II";JURUAIA;"SL 4033";;;"SH Sat"
+SES-JUIA-6066;21;14;90;46;34;82;skyware;37805-000;" Rua Alderico Pinto de Aguiar";" Nº 305 ";" Bairro Jardim Santo Antônio II";JURUAIA;"SL 4033";;;"SH Sat"
+SES-JUIA-6067;21;10;77;46;31;50;skyware;37805-000;" Praça Rodrigues Antônio Magalhães";" Nº 205 ";" Bairro Mata do Sino";JURUAIA;"SL 4033";;;"SH Sat"
+SES-LATA-6074;19;34;13;43;56;95;skyware;33400-000;"Rua Guilhermina";" s/n ";" Bairro Lapinha";"LAGOA SANTA";"SL 4033";;;Lider
+SES-LATA-6075;19;35;75;43;54;48;skyware;33400-000;"Avenida Pinto Alves";" 3755 ";" Bairro Palmital";"LAGOA SANTA";"SL 4033";;;Lider
+SES-LATA-6078;19;35;82;43;54;38;skyware;33400-000;"Rua Nelson Guimarâes";" 65 ";" Bairro Vila Maria ";"LAGOA SANTA";"SL 4033";;;Lider
+SES-LATA-6079;19;38;70;42;52;88;skyware;33400-000;"Rua Ouro Preto";" 895 ";" Bairro Francisco Pereira";"LAGOA SANTA";"SL 4033";;;Lider
+SES-LATA-6080;19;38;96;43;52;98;skyware;33400-000;"Praça das Estrelas";" 45 ";" Bairro Solarium";"LAGOA SANTA";"SL 4033";;;Lider
+SES-LATA-6081;19;39;43;43;52;50;skyware;33400-000;"Rua Raimunda Mariano";" 604 ";" Bairro Novo Santos Dumont";"LAGOA SANTA";"SL 4033";;;Lider
+SES-LATA-6082;19;41;11;43;51;23;skyware;33400-000;"Praça Santo Antônio";" 20 ";" Bairro Lagoinha de Fora";"LAGOA SANTA";"SL 4033";;;Lider
+SES-LATA-6083;19;37;59;43;54;08;skyware;33400-000;" 	Rua Marechal Deodoro da Fonseca";" 410 ";" Bairro Centro";"LAGOA SANTA";"SL 4033";;;Lider
+SES-LATA-6084;19;38;25;43;54;43;skyware;33400-000;"Rua Comandante Victor";"100 ";" Bairro Joana D'Arc";"LAGOA SANTA";"SL 4033";;;Lider
+SES-LATA-6085;19;37;98;43;54;13;skyware;33400-000;" 	Avenida Portugal";" 237 ";" Bairro Lundcéia";"LAGOA SANTA";"SL 4033";;;Lider
+SES-LATA-6086;19;38;72;43;54;63;skyware;33400-000;"Rua José Magalhães Pinto";" 270 ";" Bairro Ovídeo Guerra ";"LAGOA SANTA";"SL 4033";;;Lider
+SES-LATA-6087;19;37;48;43;53;44;;33400-000;" 	Rua Modestino Gonçalves";" 36 ";" Bairro Bela Vista";"LAGOA SANTA";"SL 4033";;;Lider
+SES-LATA-6088;19;37;47;43;53;90;skyware;33400-000;"Rua João Pinheiro";" 505 ";" Bairro Promissão";"LAGOA SANTA";"SL 4033";;;Lider
+SES-LERA-6094;19;42;59;45;01;28;skyware;35657-000;" Rua dos Pedreiros";" nº 02 ";" Bairro Centro";"LEANDRO FERREIRA";"SL 4033";;;"SH Sat"
+SES-MACU-6050;20;15;00;42;02;05;skyware;36900-000;"R. José Bertolace de Barros";" 125 ";" Bairro Santa Terezinha";MANHUAÇU;"SL 4033";;;Lider
+SES-MACU-6056;20;18;22;42;04;08;skyware;36900-000;"Av. Gesio Carlos da Silva ";" s/n ";" Bairro Vila Formosa";MANHUAÇU;"SL 4033";;;Lider
+SES-MACU-6057;20;17;28;42;09;98;skyware;36900-000;"Av Alfredo Garcia";" s/n ";" Bairro Bom Jesus";MANHUAÇU;"SL 4033";;;Lider
+SES-MACU-6054;20;08;03;42;05;45;skyware;36900-000;"Rua Tancredo Neves ";" s/n ";" Bairro Palmeiras";MANHUAÇU;"SL 4033";;;Lider
+SES-MASO-5202;14;55;45;43;30;23;skyware;39478-000;"Rua Possidônio Francisco Melo";" s/n ";" Rio Verde de Minas (Zona Rural)";"MATIAS CARDOSO";"SL 4033";;;"SH Sat"
+SES-MAOS-6139;19;42;58;44;46;02;skyware;35720-000;"Rua Tranquilino José Pereira";" 110 ";" Bairro Estação";MATOZINHOS;"SL 4033";;;Lider
+SES-MAOS-6140;19;32;87;44;05;25;skyware;35720-000;" Rua Sergipe";" 522 ";" Bairro Cruzeiro";MATOZINHOS;"SL 4033";;;Lider
+SES-MAOS-6141;19;33;80;44;04;62;skyware;35720-000;" Rua Geralda Drummond Alves";" 185 ";" Bairro Florestal";MATOZINHOS;"SL 4033";;;Lider
+SES-MAOS-6142;19;32;52;44;05;85;skyware;35720-000;" Rua Angelim";" 35 ";" Bairro Vista Alegre";MATOZINHOS;"SL 4033";;;Lider
+SES-MAOS-6143;19;38;65;43;54;13;skyware;35725-000;" Rua Brasilia";" 86 ";" Bairro Mocambeiro";MATOZINHOS;"SL 4033";;;Lider
+SES-MAOS-6145;19;34;50;44;24;73;skyware;35720-000;" Rua Dona Balá";" 100 ";" Bairro Floresta";MATOZINHOS;"SL 4033";;;Lider
+SES-MAOS-6146;19;32;44;44;04;58;skyware;35720-000;" Rua São Vicente nº05 de esquina comRua Fernando Pezzini";" 1003 ";" Bairro Nossa Senhora de Fátima";MATOZINHOS;"SL 4033";;;Lider
+SES-MAOS-6147;19;33;93;44;04;88;skyware;35720-000;" Rua Padre Alípio";" 95 ";" Bairro Progresso";MATOZINHOS;"SL 4033";;;Lider
+SES-MUAE-0946;21;07;78;42;22;63;skyware;36880-000;"Rua Benedito Valadares";" 398 Barra ";" Centro";MURIAÉ;"SL 4033";;;Lider
+SES-NAIA-5790;22;7;30;45;30;47;patriot;37524-000;" R.Manuel José Enéias";"236 ";" Bairro Centro";NATÉRCIA;"SL 4035";;;"SH Sat"
+SES-NAIA-6169;22;07;25;45;30;70;skyware;35724-000;"RUA MANOEL JOSÉ ENEAS";" 197";;NATÉRCIA;"SL 4033";;;"SH Sat"
+SES-ONUI-6170;19;43;46;44;48;22;skyware;35655-000;" RUA JOSÉ FELICIANO DA SILVA";" S/N";;"ONÇA DE PITANGUI";"SL 4033";;;"SH Sat"
+SES-PAIS-6171;22;32;93;45;46;82;skyware;37660-000;"RUA SÃO JOSÉ";" 6";;PARAISÓPOLIS;"SL 4033";;;"SH Sat"
+SES-PATE-5317;22;12;28;44;14;01;;37330-000;"Rua Arantina";" 241 ";" Bairro Centro";"PASSA VINTE";"SL 4033";;;"SH Sat"
+SES-PADO-5794;20;52;25;42;59;58;skyware;36544-000;" Travessa Teotônio T. Oliveira";" S/N ";" Bairro Treze de Maio ";"PAULA CÂNDIDO";"SL 4033";;;"SH Sat"
+SES-PADO-5795;20;48;65;42;57;47;skyware;36544-000;" Praça Nossa Senhora das Dores - Bairro Airões  ";;;"PAULA CÂNDIDO";"SL 4033";;;"SH Sat"
+SES-PEUI-6191;19;37;77;44;39;60;skyware;35667-000;" Rua João de Souzas Barbosa";" 330 ";" Bairro Centro";PEQUI;"SL 4033";;;Lider
+SES-PEUI-6192;19;38;02;44;39;53;skyware;35667-000;" Praça São Vicente";" ";" Bairro Várzea";PEQUI;"SL 4033";;;Lider
+SES-PEUI-6193;19;37;60;44;39;95;skyware;35667-000;" Rua Nair Barbosa";" S/N ";" Bairro Cidade Nova";PEQUI;"SL 4033";;;Lider
+SES-PEES-5797;19;21;00;47;18;10;skyware;38170-000;" RUA: OLINDA MARIA DA CUNHA 336 - BAIRRO NOVO HORIZONTE";;;PERDIZES;"SL 4033";;;"SH Sat"
+SES-PEES-5798;19;21;22;47;17;65;skyware;38170-000;" RUA: JOÃO LUCIANO BARBOSA";" 103 ";" BAIRRO CENTRO";PERDIZES;"SL 4033";;;"SH Sat"
+SES-PEES-5800;19;19;87;47;00;98;skyware;38170-000;" RUA: ROSA CAMELO LEÃO - ZONA RURAL/ANTINHA";;;PERDIZES;"SL 4033";;;"SH Sat"
+SES-PEES-5801;19;19;90;47;17;13;skyware;38170-000;" RUA: IRIS EUREPEDES DE CARVALHO 247 - BAIRRO MORADA NOVA";;;PERDIZES;"SL 4033";;;"SH Sat"
+SES-POVA-6202;20;24;27;42;54;00;skyware;35430-153;" Rua Antônio Moraes";" 255 ";" Bairro Triângulo";"PONTE NOVA";;;;"SH Sat"
+SES-ROAS-4626;21;37;83;43;01;18;skyware;36604-000;" RUA JOSÉ ARAÚJO PORTO";" S/N CENTRO";;"ROCHEDO DE MINAS";"SL 4033";;;Lider
+SES-SADE-6233;21;35;15;45;04;22;skyware;37414-000;"RUA SÃO VICENTE Nº137 - CENTRO";;;"SÃO BENTO ABADE";"SL 4033";;;"SH Sat"
+SES-SEOS-6277;21;53;42;44;30;43;skyware;37452-000;" Rua Alvarenga Peixoto";" 237 ";" Bairro Centro";SERRANOS;"SL 4033";;;"SH Sat"
+SES-SERO-5094;18;36;20;43;22;85;skyware;39150-000;"Rua Alferes Luiz Pinto";" 30 ";" Bairro Centro";SERRO;"SL 4035";;;"SH Sat"
+SES-SEAS-6716;19;27;95;44;14;80;skyware;35702-314;"AV JOSE SERVULO SOALHEIRO";" 2958 ";" BAIRRO OROZIMBO MACEDO";"SETE LAGOAS";"SL 4033";;;Lider
+SES-SEAS-6701;19;28;57;44;13;12;skyware;35701-115;"RUA VIRGINIA OLIVEIRA MACIEL";" 528 ";" BAIRRO PROGRESSO";"SETE LAGOAS";"SL 4033";;;Lider
+SES-SEAS-6696;19;27;83;44;13;33;skyware;35700-000;"AVENIDA ANTÔNIO DE MENDONÇA CHAVES";" 493 ";" BAIRRO VAPABUÇU";"SETE LAGOAS";"SL 4033";;;Lider
+SES-SEAS-6679;19;25;76;44;13;75;skyware;35701-367;"RUA PREFEITO ALBERTO MOURA";" 173 ";" BAIRRO OROZIMBO MACEDO";"SETE LAGOAS";"SL 4033";;;Lider
+SES-SEAS-6678;19;27;57;44;14;48;skyware;35702-271;"RUA HAITI ";" 24 ";" BAIRRO NOVA CIDADE";"SETE LAGOAS";"SL 4033";;;Lider
+SES-SEAS-6677;19;25;85;44;12;38;skyware;35701-410;"RUA MARIA AUGUSTA SANTIAGO";" 210 ";" BAIRRO MONTE CARLO";"SETE LAGOAS";"SL 4033";;;Lider
+SES-SEAS-6671;19;27;95;44;14;47;skyware;35702-342;"RUA ITAMBACURI";" 182 ";" BAIRRO  LUXEMBURGO";"SETE LAGOAS";"SL 4033";;;Lider
+SES-SEAS-6662;19;27;95;44;14;80;skyware;35702-427;" 	RUA EDSON SOARES";" 377 ";" BAIRRO BERNARDO VALADARES";"SETE LAGOAS";"SL 4033";;;Lider
+SES-TARO-5607;21;21;23;43;14;53;skyware;36165-000;"RUA SINVAL BORGES S/N - BAIRRO CENTRO";;;TABULEIRO;"SL 4033";;;Lider
+SES-TENI-3682;17;51;23;41;30;16;skyware;39800-000;"Rua Benedito Oliveira";" n121 ";" Bairro Grão Pará";"TEÓFILO OTONI";"SL 4033";;;Lider
+SES-TUIA-6291;21;52;70;45;47;43;skyware;37496-000;" Praça Possidônio Gonçalves";" 108 ";" Bairro Campo do Rosário ";TURVOLÂNDIA;"SL 4033";;;"SH Sat"
