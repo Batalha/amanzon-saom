@@ -1,0 +1,8 @@
+@CHARSET "UTF-8";
+
+.filtros_flexigrid{
+	float:left;
+	padding:6px;
+	margin-left:2px;
+	margin-right:0px;
+}

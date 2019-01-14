@@ -1,0 +1,121 @@
+
+/* ---------------------------------------------------------------- */
+/* ------------------ MENU --------------------------- */
+/* ---------------------------------------------------------------- */
+
+#MainMenu {
+    z-index: 6;
+    height: 31px;
+    width: 100%;
+    background: #FFF url(../menu/images/bmid_091.gif);
+    border: 0;
+    margin: 0 auto;
+}
+
+#menuCover {
+    margin: 0 auto;
+}
+
+#tab {
+    top: 0;
+    height: 0;
+    background: repeat-x top;
+    margin: 0;
+}
+
+#tab ul {
+    list-style: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+#linkMenu {
+    display: block;
+    background: url(../menu/images/bleft_091.gif) no-repeat left top;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #FFF;
+    font-weight: 700;
+    line-height: 31px;
+    padding: 0 15px 0 13px;
+}
+
+#tab li {
+    display: inline;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+#tab a {
+    background: #000 url(../menu/images/bright_0912.gif) no-repeat right top;
+    text-decoration: none;
+    border: 0;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+#tab a span {
+    display: block;
+    /*background: url(../menu/images/bleft_091.gif) no-repeat left top;*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #FFF;
+    font-weight: 700;
+    line-height: 31px;
+    padding: 0 15px 0 13px;
+}
+
+#tab a:hover,#tab li.item_active a {
+    background-position: right bottom;
+}
+
+#tab a:hover span,#tab li.item_active a span {
+    background-position: left bottom;
+    color: #000;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+}
+
+
+/* ---------------------------------------------------------------- */
+/* ---------------- DROP MENU ----------------------- */
+/* ---------------------------------------------------------------- */
+
+.drop_menu {
+    display:block;
+    position:absolute;
+    margin-top:30px;
+    padding-left:12px;
+    margin-left:-10px;
+    display:none;
+    overflow:hidden;
+    z-index:100;
+}
+.drop_menu .item_drop_menu{
+    background:#3C40BC;
+    position:relative;
+    height:28px;
+    padding:5px 10px 5px 10px;
+    border:1px solid #000;
+    cursor:pointer;
+    color:#fff;
+}
+.drop_menu .item_drop_menu:hover{
+    background: #5553ED;
+    padding:5px 10px 5px 10px;
+    border:1px solid #000;
+}
+
+.drop_menu .item_drop_menu a{
+    text-decoration:none;
+    color:#fff;
+    margin:0px;
+    padding:0px;
+    line-height:normal;
+    background:none;
+}

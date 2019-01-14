@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.layoutPDFContrato{
+	width: 97%;
+	height: 750px;
+	border: 1px solid;
+	margin-left: 20px;
+}
+
+#imagem{
+	background-image: url("../imagens/logoEMC.png");
+	background-repeat: no-repeat;
+}
+
+#osContrato{
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 17px;
+	font-style: italic;	
+	
+}
+
+#dadosLocais{
+	
+	font-family: Arial, Verdana, Helvetica, sans-serif; 
+	font-size: 11px;
+}
+#dadosLocais td{
+	height: 20px;
+}
+
+
+#dadosImport{
+	font-family: Arial, Verdana, Helvetica, sans-serif; 
+	font-size: 11px;
+}
+
+#dadosEquip{
+	font-family: Arial, Verdana, Helvetica, sans-serif; 
+	font-size: 11px;
+	border-collapse: collapse;
+}
+#dadosEquip .linhaLeft td{
+	border-left: 1px solid;
+}
+#dadosEquip .linhaBottom td{
+	border-bottom: 1px solid;
+}
+#dadosEquip .linhaTop td{
+	border-top: 1px solid;
+}
+#dadosEquip .linhaRight td{
+	border-right: 1px solid;
+}
+#dadosEquip .tdPreco{
+	border: 1px solid;
+}
+#dadosEquip td span{
+	color: white;
+}
+
+
+

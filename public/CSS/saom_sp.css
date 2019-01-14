@@ -1,0 +1,660 @@
+/*.body {*/
+    /*margin-top: 0;*/
+    /*padding: 0;*/
+    /*font-family: Verdana, Arial, Helvetica, sans-serif;*/
+    /*font-size: 12px;*/
+    /*text-align: center;*/
+    /*background-color: #F7F7F7;*/
+/*}*/
+
+/*.alinhamento{*/
+    /*margin: 0px;*/
+    /*padding: 0px;*/
+    /*margin-left: 16%;*/
+/*}*/
+#fonts th{
+    font-weight: bold;
+}
+
+.panel-body{
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+.row{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.form-group{
+    margin-top: -10px;
+    padding: 4px;
+}
+
+
+
+
+
+.layoutCadInc{
+    width: 980px;
+    height: 250px;
+    margin-top: 30px;
+    padding-top: 8px;
+    background-image: url(../imagens/Cadastro_os_top.fw_r2_c2.png);
+    background-repeat:repeat-x;
+    background-color: #D0DFED;
+    box-shadow: 0px 0px 0px #b0b0b0;
+    /*background-color: #E9E9E9;*/
+    border-left: 1px solid #D0DFED;
+    border-right: 1px solid #D0DFED;
+    border-bottom: 1px solid #D0DFED;
+}
+
+.layoutCadInc .inputClear::-ms-clear {
+    display: none;
+}
+
+
+.layoutCadOs {
+
+    width: 980px;
+    height: 250px;
+    margin-top: 30px;
+    padding-top: 8px;
+    background-image: url(../imagens/Cadastro_os_top.fw_r2_c2.png);
+    background-repeat:repeat-x;
+    background-color: #D0DFED;
+    box-shadow: 0px 0px 8px #b0b0b0;
+    /*background-color: #E9E9E9;*/
+    border-left: 1px solid #AAAAAA;
+    border-right: 1px solid #AAAAAA;
+    border-bottom: opx solid #AAAAAA;
+}
+
+.layoutCadMeio{
+    width: 980px;
+    height: 200px;
+    margin-top: 10px;
+    padding-top: 8px;
+    background-color: #D7E5D5;
+    box-shadow: 0px 0px 8px #b0b0b0;
+    border: 1px solid #AAAAAA;
+}
+
+.layoutCadOsFaturamento {
+
+    width: 980px;
+    height: 330px;
+    margin-top: 10px;
+    padding-top: 8px;
+    background-image: url(../imagens/Cadastro_os_top.fw_r2_c2.png);
+    background-repeat:repeat-x;
+    background-color: #D0DFED;
+    box-shadow: 0px 0px 8px #b0b0b0;
+    border-left: 1px solid #AAAAAA;
+    border-right: 1px solid #AAAAAA;
+    border-bottom: 1px solid #AAAAAA;
+
+}
+
+.layoutTableOs{
+    position: absolute; margin: 20px 0px 0px 10px; width: 960px;
+}
+
+.separador{
+    width: 940px; margin-top: 70px;
+    background-image: url(../imagens/Cadastro_os_separador.fw_r2_c2.png);
+    background-repeat:repeat-x;
+    font-size: 1px;
+
+}
+
+#acoesOs {
+    -moz-box-shadow:inset 0px 1px 9px 1px #ffffff;
+    -webkit-box-shadow:inset 0px 1px 9px 1px #ffffff;
+    box-shadow:inset 0px 1px 9px 1px #ffffff;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fafafa), color-stop(1, #ebebeb) );
+    background:-moz-linear-gradient( center top, #fafafa 5%, #ebebeb 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endColorstr='#ebebeb');
+    background-color:#fafafa;
+
+
+    -webkit-border-top-left-radius:6px;
+    -moz-border-radius-topleft:6px;
+    border-top-left-radius:6px;
+    -webkit-border-top-right-radius:6px;
+    -moz-border-radius-topright:6px;
+    border-top-right-radius:6px;
+    -webkit-border-bottom-right-radius:6px;
+    -moz-border-radius-bottomright:6px;
+    border-bottom-right-radius:6px;
+    -webkit-border-bottom-left-radius:6px;
+    -moz-border-radius-bottomleft:6px;
+    border-bottom-left-radius:6px;
+
+
+    padding: 5px;
+    /* 	text-indent:12px; */
+    border:1px solid #bababa;
+    /* 	display:inline-block; */
+    color:#4a4a4a;
+    /* 	font-family:arial; */
+    /* 	font-size:11px; */
+    /* 	font-weight:normal; */
+    /* 	font-style:normal; */
+    height:0 auto;
+    /* 	line-height:100px; */
+    width:100%;
+    /* 	text-decoration:none; */
+    /* 	text-align:center; */
+}
+.estilotextarea{
+    width:98%;
+    height:100px;
+}
+/*-------------------------------------------CADASTRO DO COMISSIONAMENTO------------------------------------*/
+
+.layoutCadComiss {
+
+    width: 980px;
+    height: 120px;
+    margin-top: 30px;
+    padding-top: 8px;
+    background-image: url(../imagens/Cadastro_os_top.fw_r2_c2.png);
+    background-repeat:repeat-x;
+    background-color: #D0DFED;
+    box-shadow: 0px 0px 8px #b0b0b0;
+    /*background-color: #E9E9E9;*/
+    border-left: 1px solid #AAAAAA;
+    border-right: 1px solid #AAAAAA;
+    border-bottom: 1px solid #AAAAAA;
+}
+
+.layoutTableComiss{
+    position: absolute; margin: 30px 0px 0px 10px; width: 960px;
+}
+
+.layoutTableComiss .tr1{
+    height: 40px;
+}
+
+.inicioTest tr{
+    border-bottom: 1px solid #a7b2be;
+    height: 30px;
+}
+
+.divObs {
+    /* 	font-size: 11px; */
+    /* 	margin: 290px; */
+    font-size: 11px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+.cadEquipamento{
+    width:450px;
+    /*width: 980px;*/
+    /*height: 120px;*/
+    margin-top: 20px;
+    padding-top: 8px;
+    background-image: url(../imagens/Cadastro_os_top.fw_r2_c2.png);
+    background-repeat:repeat-x;
+    background-color: #D0DFED;
+    box-shadow: 0px 0px 8px #b0b0b0;
+    /*background-color: #E9E9E9;*/
+    border-left: 1px solid #AAAAAA;
+    border-right: 1px solid #AAAAAA;
+    border-bottom: 1px solid #AAAAAA;
+}
+
+
+.formulario_cadastro_equipamento{
+    width:450px !important;
+}
+
+.formulario_cadastro_equipamento .col1{
+    text-align:right;
+}
+
+
+
+
+/*-------------------------------------------DADOS DA AGENDA------------------------------------*/
+
+
+.layoutCadAgenda {
+
+    width: 960px;
+    margin-top: 30px;
+    padding-top: 8px;
+    padding-left: 10px;
+    background-image: url(../imagens/Cadastro_os_top.fw_r2_c2.png);
+    background-repeat:repeat-x;
+    background-color: #D0DFED;
+    box-shadow: 0px 0px 8px #b0b0b0;
+    /*background-color: #E9E9E9;*/
+    border-left: 1px solid #AAAAAA;
+    border-right: 1px solid #AAAAAA;
+    border-bottom: 1px solid #AAAAAA;
+}
+
+.tbFormAg {
+    margin-top: 20px;
+    /*padding: 5px;*/
+    font-size: 14px;
+    text-align: left;
+}
+
+.tbFormAg td {
+    padding: 5px 0px 0px 5px;
+}
+
+.tbFormAg tr {
+    /* 	padding: 5px; */
+}
+
+.tbFormAg input {
+    height: 19px;
+}
+
+/*-------------------------------------------DADOS DA VSAT------------------------------------*/
+
+.cadastroVsat{
+    width: 800px;
+    margin-top: 30px;
+    padding-top: 8px;
+    padding-left: 10px;
+    background-image: url(../imagens/Cadastro_os_top.fw_r2_c2.png);
+    background-repeat:repeat-x;
+    background-color: #D0DFED;
+    box-shadow: 0px 0px 8px #b0b0b0;
+    /*background-color: #E9E9E9;*/
+    border-left: 1px solid #AAAAAA;
+    border-right: 1px solid #AAAAAA;
+    border-bottom: 1px solid #AAAAAA;
+}
+.tbFormVsat {
+    margin-top: 20px;
+    /*padding: 5px;*/
+    font-size: 14px;
+    text-align: left;
+}
+
+.tbFormVsat td {
+    padding: 5px 0px 0px 5px;
+}
+
+.tbFormVsat tr {
+    /* 	padding: 5px; */
+}
+
+.tbFormVsat input {
+    height: 19px;
+}
+
+.form #borda {
+    border: 1px solid #CCCCCC;
+    -moz-border-radius-topleft: 18px;
+    -moz-border-radius-topright: 18px;
+    -webkit-border-top-left-radius: 18px;
+    -webkit-border-top-right-radius: 18px;
+
+}
+
+.form #topDadosInstal{
+    background:#006600;
+    border:1px solid #888;
+    margin:5px 5px 0px 5px ;
+    padding: 0.5em;
+    font-weight: bold;
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+    border-radius:12px;
+}
+
+#localSaom{
+    padding: 25px;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.tipoDadosGlobal .topoDados{
+    float: left;
+    margin-top: 20px;
+    margin-left: 40px;
+    position: relative;
+    background:#CCCCCC;
+    width: 300px;
+    height: 30px;
+    border:1px solid #888;
+    padding: 0.5em;
+    font-weight: bold;
+
+}
+.tipoDadosGlobal .topoDadosResumo{
+    float: left;
+    margin-top: 20px;
+    margin-left: 40px;
+    position: relative;
+    background:#CCCCCC;
+    width: 980px;
+    height: 30px;
+    border:1px solid #888;
+    padding: 0.5em;
+    font-weight: bold;
+
+}
+.tipoDadosGlobal .AreaDados{
+
+    float: left;
+    margin-left: 40px;
+    position: relative;
+    background:#ffffff;
+    width: 300px;
+    height: 185px;
+    border:1px solid #888;
+    padding: 0.5em;
+
+
+}
+.tipoDadosGlobal .perguntaDados{
+
+    float: left;
+    margin: 0px 0px 0px 40px;
+    background:#ffffff;
+    width: 980px;
+    height: 0 auto;
+    border:1px solid #888;
+    padding: 0.5em;
+    color: #777777;
+
+}
+
+
+.tipoDadosGlobal .butao{
+    float: left;
+    width:  70%;
+    margin: 10px 0px 0px 130px;
+    font-size: 8pt;
+
+
+}
+.tipoDadosGlobal .InfDados{
+    float: left;
+    margin: 10px 0px 0px 130px;
+    font-size: 8pt;
+
+
+}
+
+.tipoDadosGlobal .AreaDados{
+    color: #777777;
+}
+
+.tableDados{
+    width: 100%;
+
+}
+.borda{
+    border: none;
+
+}
+
+.tipoDadosGlobal .tableDados td{
+    padding: 5px;
+}
+
+.tipoDadosGlobal {
+
+    margin-top: 10px;
+    width: 1070px;
+    height: 250px;
+
+}
+.form .linhaDados{
+    margin-top: 50px;
+    width: 1000px;
+    border-bottom: 1px solid #bfbbbb;
+}
+
+
+.tipoDadosGlobal .topoDadosObs{
+    float: left;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 40px;
+    background:#BBBBBB;
+    font-weight: bold;
+    text-align: left;
+    width: 640px;
+    height: 27px;
+    border:1px solid #888;
+    padding: 0.5em;
+
+}
+
+.tipoDadosGlobal .dadosObs{
+
+    float: left;
+    position: relative;
+    border: 1px solid #646473;
+    width: 640px;
+    margin-left: 40px;
+    height: 0 auto;
+    background: #fff;
+
+}
+
+/*--------------------------------------LAYOUT DO INCIDENTE-------------------------------*/
+
+.incContener{
+    margin-top: 10px;
+    width: 880px;
+    height: 0 auto;
+}
+
+.incContener .dadoIncidente{
+
+    float: left;
+    position: relative;
+    background-color: #FFF;
+    width: 876px;
+    height: 0 auto;
+    border: 1px solid #888;
+}
+.incContener .vsatIncidente{
+
+    float: left;
+    position: relative;
+    background-color: #FFF;
+    width: 876px;
+    height: 0 auto;
+    border: 1px solid #888;
+
+}
+.incContener .descIncidente{
+
+}
+
+.incTable{
+    width: 100%;
+}
+.incTable tr{
+    height: 30px;
+    color: #646472;
+    font-size: 14px;
+
+}
+.incTable1{
+    width: 100%;
+}
+.incTable1 tr td{
+    padding-left: 10px;
+
+}
+
+/* --- TABELAS --- */
+
+.colInstal{
+    background-image: url(../imagens/Cadastro_os_top.fw_r2_c2.png);
+    background-repeat:repeat-x;
+
+}
+
+.tbForm {
+    margin-top: 20px;
+    /* 	padding: 2px; */
+    font-size: 11.4px;
+    text-align: center;
+}
+
+.tbForm td {
+    padding: 5px 5px 5px 5px;
+}
+
+.tbForm tr {
+    /* 	padding: 5px; */
+}
+
+.tbForm input {
+    height: 19px;
+}
+
+.black{
+    background-color: #c7eafc;
+    height: 20px;
+    font-size: 8pt;
+}
+.blue{
+    background-color: #f7fcff;
+    height: 20px;
+    font-size: 8pt;
+}
+
+/*--------------------------------------FIM LAYOUT DO INCIDENTE-------------------------------*/
+
+
+
+/*-------------------------------------LAYOUT DE ATENDIMENTOS-------------------------------*/
+
+div .borda1{
+    float: left; width: 100%; height: auto;  margin-top: 20px; border: 7px solid #e1e1e1;
+}
+div .borda2{
+    width: 100%; height: auto; border: 2px solid #BFBFBF;
+}
+div .atendmensagem{
+    margin-top: 0px; margin-bottom: -20px; padding: 5px; width: 100%; height: auto;
+}
+div .atendmensagem table{
+    border: 1.3pt solid #A6A9AD;
+}
+
+div .atendmensagem table #tr1{
+    border: 1.3pt ridge #BFBFBF;
+}
+div .atendmensagem table #td1{
+    border-right: 3pt solid #BFBFBF; background-color: #E4E3F7;
+}
+
+div .atendmensagem table #td3{
+    border-right: 4pt solid #BFBFBF; background-color: #E4E3F7;
+}
+div .atendmensagem #atenddados{
+    height: 250px; width: 200px; padding-top: 20px;
+    float: left;
+    text-align: center;
+    /*border: 1px solid red;*/
+}
+
+div .atendmensagem #atenddados b{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    color: #10698C;
+
+}
+
+
+div .atendmensagem #privadodados{
+    width: 200px;
+    text-align: center;
+    /*border: 1px solid red;*/
+}
+
+div .atendmensagem #privadodados b{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    color: #10698C;
+
+}
+div .atendmensagem #atenddados p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+
+}
+
+div #dadosmensagem{
+    width: 600px;
+    margin-top: 5px;
+    float: left;
+    position: relative;
+    padding: 15px 0px 40px 15px;
+    font-size: 10pt;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+div .dadosprivado{
+    width: 600px;
+    margin-top: 5px;
+    float: left;
+    position: relative;
+    padding: 15px 0px 40px 15px;
+    font-size: 10pt;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+
+}
+
+div #envioEmail{
+    margin-top: 45px;
+    margin-left: 15px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+}
+
+div #arquivos{
+    margin-top: -35px;
+    border-bottom: 1px solid #A6A9AD;
+    width: auto; height: 20px;
+    padding-left: 15px;
+    font-size: 8pt;
+    font-family: Verdana, Arial, Helvetica, sans-serif; position: relative;
+}
+/*#A6A9AD*/
+div #arquivos1{
+    border: 1px solid #A6A9AD;
+    margin-top: 5px;
+    width: 100%;
+    height: 20px auto;
+    padding-left: 15px;
+    font-size: 8pt;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+div #publicado{
+    text-align: left; color: white; margin-left: 188px;  width: 49%; height: 20px; position: absolute;
+    float: inherit; border: 1px solid #2F65C4; background-color: #82B6CE; margin-top: 20px;
+}
+
+div #idgoogle{
+    /*border: 1px solid;*/
+    margin-bottom: 80px;
+}
+
+.nav {
+    margin-left: 0;
+    margin-bottom: 0px;
+    list-style: none;
+}
+
+

@@ -1,0 +1,115 @@
+# device show
+System Information:
+    Name                : VIVO-PER-31145271-MG
+    Location            : Sete Lagoas-MG
+    Contact             :
+    System Up time      : 0 days, 00:03:39
+    CPU Load            : 9%
+    System time(UTC)    : 19 November 2016 13:43:38
+    Broadcast Message   : not set
+
+HW:
+    Model               : SatLink 2000
+    HW ID               : 120033
+    Main board ID       : 120026 R6.2
+
+MAC addresses:
+    Ethernet (LAN)      : 00:20:0e:10:89:66
+    Satellite (DVB)     : 00:20:0e:10:89:66
+
+
+
+SatLink 2000
+- Main board ID 120026, Revision R6.2
+- SW ID 120208, Revision 16.0.1 Build 57
+# dvb rx show
+
+Satellite (DVB) RX Configuration
+--------------------------------
+Auto start            : Enabled
+Max Traffic MODCOD    : 23   16APSK-9/10
+RX watchdog           : 15 minute
+
+Idx  Pri  SymbRate[Msps] Freq[GHz] Mode   PopId   SatId  Pos   SatName          Name             Enable
+* 0  0     9.320000      12.055825 DVB-S2 102        0   0.0 E                                   Yes
+
+Satellite (DVB) Receiver Status
+--------------------------------
+Rx State            : On
+DVB State           : Forward link up
+Network             : 1326,  T14R Beam
+Frequency           : 12.055778 GHz
+Symbol Rate         : 9.319963 Msps
+S2 ModCod
+      - receiving   : 7   QPSK-3/4
+      - current max : 16   8PSK-8/9
+Pilot               : On
+Frame length        : Short
+DVB S2 Mode         : ACM
+DVB S2 Stream type  : MPEG-TS
+Roll off            : 0.20
+SNR                 : 13.7 dB
+Input Power         : -27 dBm
+# dvb tx show
+
+Satellite (DVB) TX Configuration
+--------------------------------
+Auto start          : Enabled
+IDU Output Power    : -30 dBm
+IDU Max Output Power: 0.0 dBm
+ODU Output Power    : max
+EIRP                : max
+Default CW Frequency: 0.000000 GHz
+ATM mode            : VC-Mux
+Header Compression  :  None
+
+
+Satellite (DVB) Transmitter Status
+--------------------------------
+State               : On  (DVB-RCS)
+IDU Output Power    : -24.9 dBm
+ODU Output Power    : 33.0 dBm
+EIRP                : 46.3 dBW
+Es/No               : 12.5 dB
+Header Compression  : Disabled
+Timing correction   : -148 us (261655 us)
+Frequency correction: -280 Hz
+
+
+# dvb pos show
+Latitude                  :  19d  5.02'S ( 19d  5'  1''S )
+Longitude                 :  44d  2.00'W ( 44d  2'  0''W )
+Altitude                  :        728 m
+Timing Reference          : SatLabs
+PositionSearchN           : 0
+
+
+ping -t 172.18.131.211
+
+Pinging 172.18.131.211 with 32 bytes of data:
+Reply from 172.18.131.211: bytes=32 time=555ms TTL=62
+Reply from 172.18.131.211: bytes=32 time=573ms TTL=62
+Reply from 172.18.131.211: bytes=32 time=687ms TTL=62
+Reply from 172.18.131.211: bytes=32 time=956ms TTL=62
+Reply from 172.18.131.211: bytes=32 time=1631ms TTL=62
+Reply from 172.18.131.211: bytes=32 time=1103ms TTL=62
+Reply from 172.18.131.211: bytes=32 time=580ms TTL=62
+Reply from 172.18.131.211: bytes=32 time=560ms TTL=62
+Reply from 172.18.131.211: bytes=32 time=535ms TTL=62
+Reply from 172.18.131.211: bytes=32 time=640ms TTL=62
+
+Ping statistics for 172.18.131.211:
+    Packets: Sent = 10, Received = 10, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 535ms, Maximum = 1631ms, Average = 782ms
+Control-C
+
+
+
+[11:48:38] sidinei de paula silva: 30 rx
+[11:48:40] sidinei de paula silva: 30 tx
+[11:49:03] sidinei de paula silva: vou ligar o cabo de rede no pc
+[11:49:11] sidinei de paula silva: el 58,2
+[11:49:16] sidinei de paula silva: az 314,5
+
+

@@ -1,0 +1,28 @@
+#submenu_os_pedido{
+	margin-top: -5px;
+	margin-bottom: 8px;
+	width:1158px;
+}
+
+.li_submenu{
+	float:left;
+	margin-right:10px;
+}
+
+.li_submenu a{
+	color:#000;
+}
+
+.li_submenu a:hover{
+	text-decoration:none;
+}
+
+.submenu-os-item {
+	/*margin: 5px !important;*/
+	padding-top: 2px;
+}
+
+/*osContrato tr{*/
+	/*height: 40px;*/
+/*}*/
+
