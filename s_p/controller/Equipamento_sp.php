@@ -181,8 +181,6 @@ class Equipamento_sp extends Controller
 
 		$this->carregaDependencias();
 
-$a['msg']= 'teste'; die_json($a);
-
 		$this->smarty->assign('obj',$this->equipamento);
         $this->smarty->display("{$this->tplDir}/view.tpl");
     }
