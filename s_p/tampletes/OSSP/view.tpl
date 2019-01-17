@@ -17,8 +17,8 @@
                 <tr style=" border-bottom: 1px solid #BABABA; height: 40px;">
                     <td colspan="3">
                         {if $obj.os_status_idos_status != 2}
-                            {if $login.perfis_idperfis != 10 && $login.perfis_idperfis != 12}
-                                {if isset($obj.rel.instalacoes_sp.idinstalacoes_sp)}
+                            {if isset($obj.rel.instalacoes_sp.idinstalacoes_sp)}
+                                {if $login.perfis_idperfis != 10 && $login.perfis_idperfis != 12}
                                     <div class="divInstOk">
                                         {if $login.perfis_idperfis != 3}
                                             Uma <b>VSAT</b> para esta OS já existe, é a {$obj.rel.instalacoes_sp.nome},
@@ -128,6 +128,13 @@
                                         {/if}
                                     </div>
                                 {else}
+                                    <div class="divInstOk">
+                                        Uma <b>VSAT</b> para esta OS já existe, é a {$obj.rel.instalacoes_sp.nome},
+                                    </div>
+                                {/if}
+
+                            {else}
+                                {if $login.perfis_idperfis != 10 && $login.perfis_idperfis != 12}
                                     <div class="divInstAviso">
                                         {if $login.perfis_idperfis != 3}
                                             Uma <b>VSAT</b> para esta OS ainda não existe, é a {$obj.rel.instalacoes_sp.nome},
@@ -155,6 +162,10 @@
                                                        onclick="return btmenuOS(this);">
                                             {/if}
                                         {/if}
+                                    </div>
+                                {else}
+                                    <div class="divInstAviso">
+                                        Uma <b>VSAT</b> para esta OS ainda não existe, é a {$obj.rel.instalacoes_sp.nome},
                                     </div>
                                 {/if}
                             {/if}
