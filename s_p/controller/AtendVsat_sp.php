@@ -851,10 +851,9 @@ class AtendVsat_sp extends Controller
 	public function trocaResponsavel(){
 
 		$user = $this->dadosP['form']['usuarios_idusuarios'];
-		$sala = $this->dadosP['form']['sala'];
+		$sala = ($this->dadosP['form']['sala']? $this->dadosP['form']['sala'] : '2');
 		$linhasIncidentes['incidentes_sp_idincidentes'] = $this->dadosP['form']['idincidente'];
 
-//		echo die_json($this->dadosP['form']['tecnico_ticket']);
 		if($this->dadosP['form']['tecnico_ticket']){
 			$this->alterarTecnicoResponsavel($linhasIncidentes, $user);
 		}
@@ -864,6 +863,7 @@ class AtendVsat_sp extends Controller
     		SET usuarios_idusuarios = '$user', sala = $sala
     		WHERE idatend_vsat = '{$this->dadosP['form']['idatendVsat']}';
     	";
+		
 		$result = $this->DB->query($sql);
 		if( !$result )
 			die_json(array(

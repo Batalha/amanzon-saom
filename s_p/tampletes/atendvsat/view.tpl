@@ -97,13 +97,13 @@
                         <div class="col-md-7">
                             <div class="input-group">
                                 <span class="input-group-addon">
-                                    <input type="radio" name="sala" value="2" {if $obj.sala == 2}checked="checked"{else}{/if}>
+                                    <input type="radio" name="sala" id="" value="2" {if $obj.sala == 2}checked="checked"{else}{/if}>
                                 </span>
                                 <input type="text" class="form-control" readonly="readonly"  value="Noc?"
 
                                 >
                                 <span class="input-group-addon">
-                                    <input type="radio" name="sala" value="3" {if $obj.sala == 3}checked="checked"{else}{/if}>
+                                    <input type="radio" name="sala" id="" value="3" {if $obj.sala == 3}checked="checked"{else}{/if}>
                                 </span>
                                 <input type="text" class="form-control" readonly="readonly" value="Campo?">
                             </div>
