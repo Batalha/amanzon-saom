@@ -1332,14 +1332,13 @@ class Incidente_sp extends Controller implements IncidenteInterface
 	public function trocaResponsavel(){
 
 		$user = $this->dadosP['form']['usuarios_idusuarios'];
-		$sala = $this->dadosP['form']['sala'];
+		$sala = ($this->dadosP['form']['sala']? $this->dadosP['form']['sala'] : '2');
 		$linhasIncidentes['incidentes_sp_idincidentes'] = $this->dadosP['form']['idincidente'];
 
 		if($this->dadosP['form']['tecnico_ticket']){
 			$this->alterarTecnicoResponsavel($linhasIncidentes, $user);
 		}
-
-//		echo die_json($this->dadosP['form']['idatendVsat']);
+		
 		$sql = "
     		UPDATE atend_vsat_sp
     		SET usuarios_idusuarios = '$user', sala = $sala
