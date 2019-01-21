@@ -127,7 +127,7 @@
 //-----Esta enviando com sucesso--------
 		$host       = 'smtp.office365.com';
 		$username   = 'saom@globaleagle.com';
-		$password   = '6uaJXQNY2=xK#VE';
+		$password   = 'X0o4*Hf73nGD%dq';
 		$port       = 587;
 		$secure     = 'tls';
 
@@ -180,7 +180,7 @@ function sendMailAberturaIncidente($assunto, $to, $msg)
 
 	$host       = 'smtp.office365.com';
 	$username   = 'saom@globaleagle.com';
-	$password   = '6uaJXQNY2=xK#VE';
+	$password   = 'X0o4*Hf73nGD%dq';
 	$port       = 587;
 	$secure     = 'tls';
 
@@ -238,7 +238,7 @@ function sendMailConfirmacaoIncidente($assunto, $to, $msg)
 //------o $from tem que ser o mesmo do $username------
 	$host       = 'smtp.office365.com';
 	$username   = 'saom@globaleagle.com';
-	$password   = '6uaJXQNY2=xK#VE';
+	$password   = 'X0o4*Hf73nGD%dq';
 	$port       = 587;
 	$secure     = 'tls';
 
@@ -290,7 +290,7 @@ function sendAtivacaoUpdate($assunto, $to, $msg)
 //------o $from tem que ser o mesmo do $username------
 	$host       = 'smtp.office365.com';
 	$username   = 'saom@globaleagle.com';
-	$password   = '6uaJXQNY2=xK#VE';
+	$password   = 'X0o4*Hf73nGD%dq';
 	$port       = 587;
 	$secure     = 'tls';
 
@@ -341,7 +341,7 @@ function sendMailComissionamento($assunto, $to, $msg)
 //------o $from tem que ser o mesmo do $username------
 	$host       = 'smtp.office365.com';
 	$username   = 'saom@globaleagle.com';
-	$password   = '6uaJXQNY2=xK#VE';
+	$password   = 'X0o4*Hf73nGD%dq';
 	$port       = 587;
 	$secure     = 'tls';
 

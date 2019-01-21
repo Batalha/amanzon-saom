@@ -415,7 +415,7 @@ class Incidente_sp extends Controller implements IncidenteInterface
 					"</br>".
 					"Descrição : " . $descricao . '<br/>' .
 					"</br>".
-					"<img src='http://saom.globaleagle.com.br/public/imagens/logo_gee.png' height='50' width='350'/>";
+					"<img src='https://saom.globaleagle.com.br/public/imagens/logo_gee.png' height='50' width='350'/>";
 
 				$msg2 = $confirmacao." Instalação " . $instalacaoDados['nome'] . '<br/>' .
 					"Data da Abertura : " . date('Y-m-d H:i:s') . '<br/>' .
@@ -425,11 +425,11 @@ class Incidente_sp extends Controller implements IncidenteInterface
 					"</br>".
 					"Descrição : " . $descricao . '<br/>' .
 					"</br>".
-					"Acesse o Incidente: <a href='http://saom.globaleagle.com.br/SP#listaincidentes_sp'> aqui</a>".
+					"Acesse o Incidente: <a href='https://saom.globaleagle.com.br/SP#listaincidentes_sp'> aqui</a>".
 					"</br>".
 					"<p style='font-family:arial'>Em breve estaremos Respondendo o seu Atendimento!<p>".'</br>'.
 					"</br>".
-					"<img src='http://saom.globaleagle.com.br/public/imagens/logo_gee.png' height='50' width='350'/>";
+					"<img src='https://saom.globaleagle.com.br/public/imagens/logo_gee.png' height='50' width='350'/>";
 
 
 				//Envio de Email para NOC - fim

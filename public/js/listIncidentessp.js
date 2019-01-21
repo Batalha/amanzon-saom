@@ -47,8 +47,8 @@ function desenhaTabelaIncidentessp()
 			{display: 'Associacao', name : 'associacao'},
 			{display: 'Opções', name : 'opcoes'}
         ],
-        sortname: "nome_instalacao",
-        sortorder: "asc",
+        sortname: "idincidentes",
+        sortorder: "desc",
         usepager: true,
         title: "Lista de Tickets",
         useRp: true,

@@ -627,7 +627,7 @@ class AtendVsat_sp extends Controller
 				$to = ['noc.sp@globaleagle.com'];
 				$to2 = $lista;
 //				$to = ['celio.batalha@globaleagle.com'];
-//				$to2 = ['celio.batalha@globaleagle.com'];
+//				$to2 = ['celio.batalha@gmail.com'];
 
 				if(!($status == 'Finalizado')){
 
@@ -648,7 +648,7 @@ class AtendVsat_sp extends Controller
 						"<br/>".
 						"Descrição : " .$descricao.'<br/>'.
 						"</br>".
-						"<img src='http://saom.globaleagle.com.br/public/imagens/logo_gee.png' height='50' width='300'/>";
+						"<img src='https://saom.globaleagle.com.br/public/imagens/logo_gee.png' height='50' width='300'/>";
 
 					$assunto2 = 'Atendimento Enviado - Ticket Nº:  '.$idincidente ;
 					$msg2 = "O Ticket Nº:  ".$idincidente ."  Foi Atualizado".'<br/>'.
@@ -663,7 +663,7 @@ class AtendVsat_sp extends Controller
 						"===================================================================".'<br/>'.
 						"Descrição : " .$descricao.'<br/>'.
 						"</br>".
-						"<img src='http://saom.globaleagle.com.br/public/imagens/logo_gee.png' height='50' width='300'/>";
+						"<img src='https://saom.globaleagle.com.br/public/imagens/logo_gee.png' height='50' width='300'/>";
 
 
 				}else{
@@ -681,7 +681,7 @@ class AtendVsat_sp extends Controller
 						"Descrição : " .$descricao.'</br>'.
 						"<br/><br/><br/><br/>".
 						//                    "Prioridade : " .$this->dadosP['form']['prioridade'].'<br/>'.
-						"<img src='http://saom.globaleagle.com.br/public/imagens/logo_gee.png' height='50' width='300'/>";
+						"<img src='https://saom.globaleagle.com.br/public/imagens/logo_gee.png' height='50' width='300'/>";
 
 					$assunto2 = 'Atendimento Finalizado - SAOM';
 					$msg2 = "O Ticket Nº:  ".$idincidente ."  Foi Atualizado".'<br/>'.
@@ -696,10 +696,10 @@ class AtendVsat_sp extends Controller
 						"===================================================================".'<br/>'.
 						"Descrição : " .$descricao.'</br>'.
 						"<br/><br/>".
-						"(<a href='http://saom.globaleagle.com.br/avaliacao/index.php?idatend=$idatend'>Click aqui</a>) para fazer Avaliação do nosso Atendimento.".
+						"(<a href='https://saom.globaleagle.com.br/avaliacao/index.php?idatend=$idatend'>Click aqui</a>) para fazer Avaliação do nosso Atendimento.".
 						"<br/><br/>".
 						//                    "Prioridade : " .$this->dadosP['form']['prioridade'].'<br/>'.
-						"<img src='http://saom.globaleagle.com.br/public/imagens/logo_gee.png' height='50' width='300'/>";
+						"<img src='https://saom.globaleagle.com.br/public/imagens/logo_gee.png' height='50' width='300'/>";
 
 				}
 
