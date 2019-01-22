@@ -704,6 +704,7 @@ class AtendVsat_sp extends Controller
 				}
 
 				//Envio de Email para NOC - fim
+				/*
 				if(!sendMailIncidente($assunto, $to, $msg)){
 					$arrReturn['status']  = 'erro';
 					$arrReturn['msg']     = 'Erro ao enviar Email!';
@@ -713,6 +714,7 @@ class AtendVsat_sp extends Controller
 					$arrReturn['msg']     = 'Erro ao enviar Email!';
 					die_json($arrReturn);
 				}
+				*/
 				exit('<div class="alert alert-success">Edição realizada com sucesso!</div>');
 				$arrReturn['status']  = 'ok';
 				$arrReturn['msg']     = 'Cadastro efetuado com sucesso!';
