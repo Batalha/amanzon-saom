@@ -624,10 +624,10 @@ class AtendVsat_sp extends Controller
 					$email_secundario = explode(',',$this->dadosP['form']['email']);
 				}
 				$lista = array_merge($email, $email_secundario);
-//				$to = ['noc.sp@globaleagle.com'];
-//				$to2 = $lista;
-				$to = ['celio.batalha@globaleagle.com','alex.castillo@globaleagle.com'];
-				$to2 = ['celio.batalha@gmail.com'];
+				$to = ['noc.sp@globaleagle.com'];
+				$to2 = $lista;
+//				$to = ['celio.batalha@globaleagle.com','alex.castillo@globaleagle.com'];
+//				$to2 = ['celio.batalha@gmail.com'];
 
 				if(!($status == 'Finalizado')){
 
