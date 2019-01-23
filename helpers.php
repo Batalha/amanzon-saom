@@ -125,11 +125,18 @@
         $fromName   = '';
 
 //-----Esta enviando com sucesso--------
-		$host       = 'smtp.office365.com';
-		$username   = 'saom@globaleagle.com';
-		$password   = '';
-		$port       = 587;
-		$secure     = 'tls';
+//		$host       = 'smtp.office365.com';
+//		$username   = 'saom@globaleagle.com';
+//		$password   = '';
+//		$port       = 587;
+//		$secure     = 'tls';
+
+		//-----Esta enviando com sucesso--------
+        $host       = 'smtp.gmail.com';
+        $username   = 'saom.emc@gmail.com';
+        $password   = 'emc123#@!';
+        $port       = 587;
+        $secure     = 'tls';
 
         $mail->SMTPDebug = '0';
         $mail->isSMTP();
@@ -178,18 +185,18 @@ function sendMailAberturaIncidente($assunto, $to, $msg)
 	$fromName   =  '';
 
 
-	$host       = 'smtp.office365.com';
-	$username   = 'saom@globaleagle.com';
-	$password   = '';
-	$port       = 587;
-	$secure     = 'tls';
-
-//------o $from tem que ser o mesmo do $username------
 //	$host       = 'smtp.office365.com';
-//	$username   = 'saom@emcconnected.com';
-//	$password   = 'Cogu3309';
+//	$username   = 'saom@globaleagle.com';
+//	$password   = '';
 //	$port       = 587;
 //	$secure     = 'tls';
+
+	//-----Esta enviando com sucesso--------
+	$host       = 'smtp.gmail.com';
+	$username   = 'saom.emc@gmail.com';
+	$password   = 'emc123#@!';
+	$port       = 587;
+	$secure     = 'tls';
 
 	$mail->SMTPDebug = '0';
 	$mail->isSMTP();
@@ -236,9 +243,16 @@ function sendMailConfirmacaoIncidente($assunto, $to, $msg)
 	$fromName   = '';
 
 //------o $from tem que ser o mesmo do $username------
-	$host       = 'smtp.office365.com';
-	$username   = 'saom@globaleagle.com';
-	$password   = '';
+//	$host       = 'smtp.office365.com';
+//	$username   = 'saom@globaleagle.com';
+//	$password   = '';
+//	$port       = 587;
+//	$secure     = 'tls';
+
+	//-----Esta enviando com sucesso--------
+	$host       = 'smtp.gmail.com';
+	$username   = 'saom.emc@gmail.com';
+	$password   = 'emc123#@!';
 	$port       = 587;
 	$secure     = 'tls';
 
@@ -288,9 +302,16 @@ function sendAtivacaoUpdate($assunto, $to, $msg)
 	$fromName   = '';
 
 //------o $from tem que ser o mesmo do $username------
-	$host       = 'smtp.office365.com';
-	$username   = 'saom@globaleagle.com';
-	$password   = '';
+//	$host       = 'smtp.office365.com';
+//	$username   = 'saom@globaleagle.com';
+//	$password   = '';
+//	$port       = 587;
+//	$secure     = 'tls';
+
+	//-----Esta enviando com sucesso--------
+	$host       = 'smtp.gmail.com';
+	$username   = 'saom.emc@gmail.com';
+	$password   = 'emc123#@!';
 	$port       = 587;
 	$secure     = 'tls';
 
@@ -339,9 +360,16 @@ function sendMailComissionamento($assunto, $to, $msg)
 	$fromName   = '';
 
 //------o $from tem que ser o mesmo do $username------
-	$host       = 'smtp.office365.com';
-	$username   = 'saom@globaleagle.com';
-	$password   = '';
+//	$host       = 'smtp.office365.com';
+//	$username   = 'saom@globaleagle.com';
+//	$password   = '';
+//	$port       = 587;
+//	$secure     = 'tls';
+
+	//-----Esta enviando com sucesso--------
+	$host       = 'smtp.gmail.com';
+	$username   = 'saom.emc@gmail.com';
+	$password   = 'emc123#@!';
 	$port       = 587;
 	$secure     = 'tls';
 

@@ -624,10 +624,10 @@ class AtendVsat_sp extends Controller
 					$email_secundario = explode(',',$this->dadosP['form']['email']);
 				}
 				$lista = array_merge($email, $email_secundario);
-				$to = ['noc.sp@globaleagle.com'];
-				$to2 = $lista;
-//				$to = ['celio.batalha@globaleagle.com'];
-//				$to2 = ['celio.batalha@gmail.com'];
+//				$to = ['noc.sp@globaleagle.com'];
+//				$to2 = $lista;
+				$to = ['celio.batalha@globaleagle.com','alex.castillo@globaleagle.com'];
+				$to2 = ['celio.batalha@gmail.com'];
 
 				if(!($status == 'Finalizado')){
 
@@ -704,7 +704,7 @@ class AtendVsat_sp extends Controller
 				}
 
 				//Envio de Email para NOC - fim
-				/*
+
 				if(!sendMailIncidente($assunto, $to, $msg)){
 					$arrReturn['status']  = 'erro';
 					$arrReturn['msg']     = 'Erro ao enviar Email!';
@@ -714,7 +714,7 @@ class AtendVsat_sp extends Controller
 					$arrReturn['msg']     = 'Erro ao enviar Email!';
 					die_json($arrReturn);
 				}
-				*/
+
 				exit('<div class="alert alert-success">Edição realizada com sucesso!</div>');
 				$arrReturn['status']  = 'ok';
 				$arrReturn['msg']     = 'Cadastro efetuado com sucesso!';

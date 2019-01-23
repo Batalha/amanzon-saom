@@ -434,7 +434,7 @@ class Incidente_sp extends Controller implements IncidenteInterface
 
 				//Envio de Email para NOC - fim
 
-				/*
+
 				if(!sendMailIncidente($assunto, $to, $msg)){
 					$arrReturn['status']  = 'erro';
 					$arrReturn['msg']     = 'Erro ao enviar Email!';
@@ -445,7 +445,7 @@ class Incidente_sp extends Controller implements IncidenteInterface
 					$arrReturn['msg']     = 'Erro ao enviar Email de Confirmaçao!';
 					die_json($arrReturn);
 				}
-				*/
+
 				$arrReturn['status']  = 'ok';
 				$arrReturn['msg']     = 'Cadastro efetuado com sucesso!';
 				$arrReturn['idinserido'] = $return;
