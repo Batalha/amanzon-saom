@@ -402,6 +402,8 @@ class AtendVsat_sp extends Controller
 
 			//TRATAMENTO PARA ASSINATURA DE MODIFICAÇÃO ATUAL DO ATENDIMENTO
 			//TODO: bagunça
+			
+			$nomearquivo = "";	
 
 			foreach($atendarquivos as $atendarquivo ){
 				if($atendarquivo['atendente'] == $_SESSION['login']['nome']){
@@ -419,6 +421,7 @@ class AtendVsat_sp extends Controller
 					}
 					$nome[] =  $href;
 					$nomearquivo = implode("','", $nome);
+
 				}
 			}
 
@@ -561,13 +564,15 @@ class AtendVsat_sp extends Controller
 				}
 				$listaUsuarios = $this->DBUsuarios->liste();
 
-
-				$emails = '';
+				$tecnico = '';	
+				$idtecnico = "";
 				foreach($listaUsuarios  as $listaUsuario){
 					if ($listaUsuario['idusuarios'] == $this->dadosP['form']['novoResponsavel']){
 						$tecnico = $listaUsuario['nome'];
 						$idtecnico = $listaUsuario['idusuarios'];
 					}
+
+					/*
 					if($listaUsuario['empresas_idempresas'] == $osspdados['empresas_idempresas']){
 						if($emails!=''){
 							$emails .= ','.$listaUsuario['email'];
@@ -577,6 +582,7 @@ class AtendVsat_sp extends Controller
 						}
 
 					}
+					*/
 				}
 
 				if($idtecnico){
@@ -626,8 +632,8 @@ class AtendVsat_sp extends Controller
 				$lista = array_merge($email, $email_secundario);
 				$to = ['noc.sp@globaleagle.com'];
 				$to2 = $lista;
-//				$to = ['celio.batalha@globaleagle.com','alex.castillo@globaleagle.com'];
-//				$to2 = ['celio.batalha@gmail.com'];
+				//$to = ['celio.batalha@globaleagle.com','alex.castillo@globaleagle.com'];
+				//$to2 = ['celio.batalha@gmail.com'];
 
 				if(!($status == 'Finalizado')){
 
@@ -707,11 +713,11 @@ class AtendVsat_sp extends Controller
 
 				if(!sendMailIncidente($assunto, $to, $msg)){
 					$arrReturn['status']  = 'erro';
-					$arrReturn['msg']     = 'Erro ao enviar Email!';
+					$arrReturn['msg']     = 'Erro ao enviar Email-1!';
 					die_json($arrReturn);
 				}elseif(!sendMailAberturaIncidente($assunto2, $to2, $msg2)){
 					$arrReturn['status']  = 'erro';
-					$arrReturn['msg']     = 'Erro ao enviar Email!';
+					$arrReturn['msg']     = 'Erro ao enviar Email-2!';
 					die_json($arrReturn);
 				}
 
