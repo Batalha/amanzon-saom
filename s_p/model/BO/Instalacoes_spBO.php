@@ -225,7 +225,7 @@ class Instalacoes_spBO extends Instalacoes_spModel
 
     		//ENVIO DE EMAILS
 
-		/*	
+			
 		if($os['empresas_idempresas'] != 23){
     			$assunto = "Ativação da OS {$instalacao->nome}";
     			$to = array(
@@ -242,8 +242,8 @@ class Instalacoes_spBO extends Instalacoes_spModel
 						<br/>
 						Tecnico Responsavel: {$_SESSION['login']['nome']}<br/>
 						Vodanet Telecomunicações Ltda.<br/>
-						http://www.vodanet-telecom.com<br/>
-						<img src='http://saom.vodanet-telecom.com/public/imagens/logo_vodanet.jpg' />";
+						http://www.globaleagle.com<br/>
+						<img src='https://saom.globaleagle.com/public/imagens/logo_vodanet.jpg' />";
     			if( !sendAtivacaoUpdate( $assunto , $to , $msg) )
     			{
     				$arrReturn['status'] = 'erro';
@@ -252,7 +252,7 @@ class Instalacoes_spBO extends Instalacoes_spModel
     			}
 		}
 
-		*/
+		
 		
     		return $data_final_comiss;
         }
