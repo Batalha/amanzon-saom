@@ -125,12 +125,9 @@
                         <div class="item_drop_menu" onClick="javascript:chama_item_menu_principal( 'atend_vsat_sp' , 'lista' , '#listaatendimentos_sp' )">
                             Atendimentos
                         </div>
-
-                        {if $login.perfis_idperfis != 10}
-                            <div class="item_drop_menu" onClick="javascript:chama_item_menu_principal( 'relatorio_inci' , 'create_r' , '#relatorio_incidente_sp' )">
-                                Relatorio
-                            </div>
-                        {/if}
+                        <div class="item_drop_menu" onClick="javascript:chama_item_menu_principal( 'relatorio_inci' , 'create_r' , '#relatorio_incidente_sp' )">
+                            Relatorio
+                        </div>
                     </div>
                 </div>
             </li>

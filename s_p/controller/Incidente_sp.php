@@ -1,26 +1,5 @@
 <?php
 
-/**
- * Description of Incidente
- *
- * @author Daniel
- *
- *
- * -- INCIDENTES --
- *
- * Status:
- * 	1.Aberto
- * 	2.Em atendimento
- * 	3.Finalizado
- *
- * Origem Incidente:
- * P.Proddemge
- * S.Saom
- * N.Nagios
- */
-
-//zend
-
 include_once realpath(dirname(__FILE__) . '/../model/') . '/Saom_spModel.php';
 include_once realpath(dirname(__FILE__) . '/../model/') . '/Emails_spModel.php';
 
@@ -497,11 +476,6 @@ class Incidente_sp extends Controller implements IncidenteInterface
 	}
 
 
-	/*
-	 * metodo utilizado em:
-	 * 1.Incidente.php (controller)
-	 * 2.PreIncidentes.php (controller)
-	 */
 	public function insereTelefonemas( $idassociacao )
 	{
 		$objeto_tempo = new DateTime();
@@ -599,12 +573,7 @@ class Incidente_sp extends Controller implements IncidenteInterface
 				$status			= @$_SESSION['status'];
 				$nomeTecnico	= @$_SESSION['nomeTecnico'];
 			if($_SESSION['login']['perfis_idperfis'] == '10'){
-//				if($_SESSION['login']['empresa']=='Telefonica'){
-//					$login = 'VIVO';
-//				}elseif($_SESSION['login']['empresa']=='OI-Operacoes'){
-//					$login = 'HUB-OI-';
-//				}else{
-//				}
+
 				$login = $_SESSION['login']['empresa'];
 				$query = "
 						  idincidentes LIKE '%$idincidentes%' AND
@@ -816,12 +785,7 @@ class Incidente_sp extends Controller implements IncidenteInterface
 			$status = $_SESSION['status'];
 			$nomeTecnico = $_SESSION['nomeTecnico'];
 			if ($_SESSION['login']['perfis_idperfis'] == '10') {
-//				if ($_SESSION['login']['empresa'] == 'Telefonica') {
-//					$login = 'VIVO';
-//				} elseif ($_SESSION['login']['empresa'] == 'OI-Operacoes') {
-//					$login = 'HUB-OI-';
-//				} else {
-//				}
+
 					$login = $_SESSION['login']['empresa'];
 				$query = "
 						  idincidentes LIKE '%$idincidentes%' AND
@@ -1073,8 +1037,6 @@ class Incidente_sp extends Controller implements IncidenteInterface
 			$sql .= " AND data LIKE '%{$dados['data']}%'" . PHP_EOL;
 		}
 
-
-
 		// ordenaÃ§Ã£o
 		if (!empty($sortname) && !empty($sortorder)) {
 			$sortOptions = array(
@@ -1085,7 +1047,6 @@ class Incidente_sp extends Controller implements IncidenteInterface
 				'data'            => 'inci.data',
 				'prioridade'      => 'inci.prioridade',
 				'descricao'       => 'inci.descricao',
-//			'numero_prodemge' => 'p.numero_prodemge',
 				'status'		  => 'st.status',
 				'nomeTecnico'      => 'u.nome',
 				'solicitacao'      => 's.nomeSolicitacao',
@@ -1778,18 +1739,17 @@ class Incidente_sp extends Controller implements IncidenteInterface
 		if ($_POST['data_inicio'] && $_POST['data_fim']){
 			$dataI = $this->Helpers->data_br_us($_POST['data_inicio'] );
 			$dataF = $this->Helpers->data_br_us($_POST['data_fim']);
-//			if($_SESSION['login']['empresas_idempresas'] == 66){
-//				$where = "WHERE inci.`data` BETWEEN '$dataI' AND '$dataF' AND ' os.empresas_idempresas ='{$_SESSION['login']['empresas_idempresas']}'";
-//			}else{
-//			}
+			if ($_SESSION['login']['empresas_idempresas'] != 1 ){
+				$where = "WHERE inci.`data` BETWEEN '$dataI' AND '$dataF' AND emp.idempresas = {$_SESSION['login']['empresas_idempresas']}";
+			}else{
 				$where = "WHERE inci.`data` BETWEEN '$dataI' AND '$dataF'";
+			}
 		}else{
-//			if($_SESSION['login']['empresas_idempresas'] == 66){
-//				$where ="WHERE os.empresas_idempresas ='{$_SESSION['login']['empresas_idempresas']}'";
-//			}else{
-//
-//			}
-			$where ="";
+			if ($_SESSION['login']['empresas_idempresas'] != 1 ){
+				$where ="WHERE emp.idempresas = {$_SESSION['login']['empresas_idempresas']}";
+			}else{
+				$where = "";
+			}
 		}
 
 		$this->relatorioContent($where);
