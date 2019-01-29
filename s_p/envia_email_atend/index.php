@@ -13,6 +13,7 @@
 
 require_once 'VerificandoAtend.php';
 //
+
 $emailIncidentes = new VerificandoAtend();
 //
 $emailIncidentes->atendimentoFeito();

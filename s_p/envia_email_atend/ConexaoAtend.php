@@ -17,8 +17,8 @@ class ConexaoAtend
 //        $dbname = "saomnovo";
 
         $servername = "localhost";
-        $username = "saom";
-        $password = "1sat2vsat";
+        $username = "root";
+        $password = "saom@123";
         $dbname = "saomnovo";
 
         $this->con = mysqli_connect($servername, $username, $password, $dbname);

@@ -7,6 +7,7 @@ class VerificandoAtend
 
     public function atendimentoFeito()
     {
+
         $DBCon = new ConexaoAtend();
 
         $data_envio = date('Y-m-d H:i:s');
@@ -87,7 +88,6 @@ class VerificandoAtend
             $sql = "UPDATE atend_vsat_envio_sp SET data_envio = '$data_envio'";
             $DBCon->queryDados($sql);
 
-
             $to = ['noc.sp@globaleagle.com','celio.batalha@globaleagle.com'];
             $assunto = 'Cliente em espera';
             $tr = "";
@@ -157,12 +157,9 @@ class VerificandoAtend
                 "</table>".
                     "<br>" .
                     "<br>" .
-                    "<img src='http://saom.globaleagle.com.br/public/imagens/logo_gee.png' height='50' width='300'/>";
+                    "<img src='https://saom.globaleagle.com.br/public/imagens/logo_gee.png' height='50' width='300'/>";
 
-            $teste = $this->atendimentoEmAtraso($assunto, $to, $msg);
-            echo "<pre>";
-                print_r($teste);
-            echo "</pre>";
+            $this->atendimentoEmAtraso($assunto, $to, $msg);            
 
         }
     }
@@ -182,17 +179,17 @@ class VerificandoAtend
             $fromName   = '';
 
 //------o $from tem que ser o mesmo do $username------
-            $host       = 'smtp.office365.com';
-            $username   = 'saom@globaleagle.com';
-            $password   = '6uaJXQNY2=xK#VE';
+            //$host       = 'smtp.office365.com';
+            //$username   = 'saom@globaleagle.com';
+            //$password   = '6uaJXQNY2=xK#VE';
+            //$port       = 587;
+            //$secure     = 'tls';
+
+            $host       = 'smtp.gmail.com';
+            $username   = 'saom.emc@gmail.com';
+            $password   = 'emc123#@!';
             $port       = 587;
             $secure     = 'tls';
-
-//            $host       = 'smtp.gmail.com';
-//            $username   = 'saom.emc@gmail.com';
-//            $password   = 'emc123#@!';
-//            $port       = 587;
-//            $secure     = 'tls';
 
 //            $host       = 'smtp.gmail.com';
 //            $username   = 'celio.batalha@gmail.com';
