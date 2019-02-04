@@ -703,7 +703,7 @@ class Incidente_sp extends Controller implements IncidenteInterface
 						$row['solicitacao'],
 						$row['data'],
 						$row['prioridade'],
-						$row['descricao'],
+						'DESCRICAO',//$row['descricao'],
 						($row['status'] == 'Finalizado') ? $row['data_final'] : '-',
 						$row['status'],
 						$row['nomeTecnico'],
@@ -985,11 +985,11 @@ class Incidente_sp extends Controller implements IncidenteInterface
 				'nomeTecnico'      => 'u.nome',
 				'solicitacao'      => 's.nomeSolicitacao',
 			);
-			$sql .= ' ORDER BY ' . $sortOptions[$sortname] . ' ' . $sortorder . PHP_EOL;
+			$sql .= 'ORDER BY ' . $sortOptions[$sortname] .' '.$sortorder . PHP_EOL;
 		}
 
 		// paginacao
-//		echo die_json($sql);exit;
+		//echo die_json($sql);exit;
 		$limit = $limit_condition;
 		if(!empty($numeroPagina) && !empty($numeroPorPagina)) {
 			$numeroPagina--;
