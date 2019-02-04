@@ -511,19 +511,23 @@ class Incidente_sp extends Controller implements IncidenteInterface
 			$this->smarty->display("{$this->tplDir}/list_so_conteudo.tpl");
 		}else {
 
-			$idincidente = (@$_SESSION['idincidentes']!="")?@$_SESSION['idincidentes']:"";
-			$nome_insatlacao = (@$_SESSION['nome_instalacao']!="")?@$_SESSION['nome_instalacao']:"";
-			$solicitacao = (@$_SESSION['solicitacao']!="")?@$_SESSION['solicitacao']:"";
-			$prioridade = (@$_SESSION['prioridade']!="")?@$_SESSION['prioridade']:"";
-			$descricao = (@$_SESSION['descricao']!="")?@$_SESSION['descricao']:"";
-			$status = (@$_SESSION['status']!="")?@$_SESSION['status']:"";
-			$nomeTecnico = ($_SESSION['nomeTecnico']!="")?@$_SESSION['nomeTecnico']:"";
 
-			$this->smarty->assign('idincidentes',$idincidente);
-			$this->smarty->assign('nome_insatlacao',$nome_insatlacao);
-			$this->smarty->assign('solicitacao',$solicitacao);
-			$this->smarty->assign('prioridade',$prioridade);
-			$this->smarty->assign('descricao',$descricao);
+
+			$idincidente 		= ($_SESSION['dadosInc']['idincidentes']!="")?$_SESSION['dadosInc']['idincidentes']:"";
+			$nome_instalacao 	= ($_SESSION['dadosInc']['nome_instalacao']!="")?$_SESSION['dadosInc']['nome_instalacao']:"";
+			$solicitacao 		= ($_SESSION['dadosInc']['solicitacao']!="")?$_SESSION['dadosInc']['solicitacao']:"";
+			$data 				= ($_SESSION['dadosInc']['data']!="")?$_SESSION['dadosInc']['data']:"";
+			$prioridade 		= ($_SESSION['dadosInc']['prioridade']!="")?$_SESSION['dadosInc']['prioridade']:"";
+//			$descricao = ($_SESSION['descricao']!="")?$_SESSION['descricao']:"";
+			$status 			= ($_SESSION['dadosInc']['status']!="")?$_SESSION['dadosInc']['status']:"";
+			$nomeTecnico 		= ($_SESSION['dadosInc']['nomeTecnico']!="")?$_SESSION['dadosInc']['nomeTecnico']:"";
+
+			$this->smarty->assign('idincidentes', $idincidente);
+			$this->smarty->assign('nome_instalacao', $nome_instalacao);
+			$this->smarty->assign('solicitacao', $solicitacao);
+			$this->smarty->assign('data', $data);
+			$this->smarty->assign('prioridade', $prioridade);
+//			$this->smarty->assign('descricao',$descricao);
 			$this->smarty->assign('status',$status);
 			$this->smarty->assign('nomeTecnico',$nomeTecnico);
 
@@ -540,7 +544,7 @@ class Incidente_sp extends Controller implements IncidenteInterface
 			$page = $_POST['page'];
 		}
 
-		$sortname = '';
+		$sortname = 'nome_instalacao';
 		if (isset($_POST['sortname'])) {
 			$sortname = $_POST['sortname'];
 		}
@@ -560,40 +564,34 @@ class Incidente_sp extends Controller implements IncidenteInterface
 			$query = $_POST['query'];
 		}
 
-		$rp = 20;
+		$rp = 15;
 		if (isset($_POST['rp'])) {
 			$rp = $_POST['rp'];
 		}
 
-		if($query == ''){
-				$idincidentes 	= @$_SESSION['idincidentes'];
-				$nome_instalacao= @$_SESSION['nome_instalacao'];
-				$solicitacao 	= @$_SESSION['solicitacao'];
-				$prioridade		= @$_SESSION['prioridade'];
-				$status			= @$_SESSION['status'];
-				$nomeTecnico	= @$_SESSION['nomeTecnico'];
-			if($_SESSION['login']['perfis_idperfis'] == '10'){
 
-				$login = $_SESSION['login']['empresa'];
-				$query = "
-						  idincidentes LIKE '%$idincidentes%' AND
-						  nome_instalacao LIKE '%$login%' AND
-						  solicitacao LIKE '%$solicitacao%' AND
-						  prioridade LIKE '%$prioridade%' AND
-						  status LIKE '%$status%' AND
-						  nomeTecnico LIKE '%$nomeTecnico%'
-						  ";
-
-			}else{
-				$query = "
-						  idincidentes LIKE '%$idincidentes%' AND
-						  nome_instalacao LIKE '%$nome_instalacao%' AND
-						  solicitacao LIKE '%$solicitacao%' AND
-						  prioridade LIKE '%$prioridade%' AND
-						  status LIKE '%$status%' AND
-						  nomeTecnico LIKE '%$nomeTecnico%'
-						  ";
-
+		if($_SESSION['login']['perfis_idperfis'] == '10'){
+			$vsat = $_SESSION['login']['empresa'];
+			if($query == "" && $_SESSION['dadosInc'] == ""){
+				$query = "nome_instalacao LIKE '%$vsat%' ";
+			}else if($_SESSION['dadosInc'] != ""){
+				$query = "idincidentes LIKE '%{$_SESSION['dadosInc']['idincidentes']}%' AND ";
+				$query .= "nome_instalacao LIKE '%{$_SESSION['dadosInc']['nome_instalacao']}%' AND";
+				$query .= "solicitacao LIKE '%{$_SESSION['dadosInc']['solicitacao']}%' AND";
+				$query .= "data LIKE '%{$_SESSION['dadosInc']['data']}%' AND";
+				$query .= "prioridade LIKE '%{$_SESSION['dadosInc']['prioridade']}%' AND";
+				$query .= "status LIKE '%{$_SESSION['dadosInc']['status']}%' AND";
+				$query .= "nomeTecnico LIKE '%{$_SESSION['dadosInc']['nomeTecnico']}%' ";
+			}
+		}else {
+			if($_SESSION['dadosInc']!=""){
+				$query = "idincidentes LIKE '%{$_SESSION['dadosInc']['idincidentes']}%' AND ";
+				$query .= "nome_instalacao LIKE '%{$_SESSION['dadosInc']['nome_instalacao']}%' AND";
+				$query .= "solicitacao LIKE '%{$_SESSION['dadosInc']['solicitacao']}%' AND";
+				$query .= "data LIKE '%{$_SESSION['dadosInc']['data']}%' AND";
+				$query .= "prioridade LIKE '%{$_SESSION['dadosInc']['prioridade']}%' AND";
+				$query .= "status LIKE '%{$_SESSION['dadosInc']['status']}%' AND";
+				$query .= "nomeTecnico LIKE '%{$_SESSION['dadosInc']['nomeTecnico']}%' ";
 			}
 		}
 
@@ -604,6 +602,7 @@ class Incidente_sp extends Controller implements IncidenteInterface
 		$limitSql = "limit $pageStart, $rp";
 		$listaBuscada = $this->buscaListaFonteDados( $dados , $page , $rp , $sortname , $sortorder , $limitSql );
 		$listaBuscadaNumeroResultados = $this->buscaListaFonteDados( $dados , '' , '' , $sortname , $sortorder , '' );
+
 
 		$empresaId = $_SESSION['login']['empresas_idempresas'];
 		$busca = "(empresas_idempresas = '$empresaId')";
@@ -630,11 +629,8 @@ class Incidente_sp extends Controller implements IncidenteInterface
 									$row['prioridade'],
 									$row['descricao'],
 									($row['status'] == 'Finalizado') ? $row['data_final'] : '-',
-									//					$row['ultimoAtendimento'],
-									//					$row['numero_prodemge'],
 									$row['status'],
 									$row['nomeTecnico'],
-									//					$row['telefonemas_info'],
 									$row['associacao']
 								)
 							);
@@ -651,6 +647,7 @@ class Incidente_sp extends Controller implements IncidenteInterface
 			$idempresa = $idempresa->toArray();
 
 
+			$buscaOssp = "";
 			foreach($idempresa as $idempresas){
 				$buscaOssp .= "empresas_idempresas = " . $idempresas['idempresas'] . " or ";
 			}
@@ -677,11 +674,8 @@ class Incidente_sp extends Controller implements IncidenteInterface
 									$row['prioridade'],
 									$row['descricao'],
 									($row['status'] == 'Finalizado') ? $row['data_final'] : '-',
-									//					$row['ultimoAtendimento'],
-									//					$row['numero_prodemge'],
 									$row['status'],
 									$row['nomeTecnico'],
-									//					$row['telefonemas_info'],
 									$row['associacao']
 								)
 							);
@@ -694,10 +688,12 @@ class Incidente_sp extends Controller implements IncidenteInterface
 
 
 		}else{
+			$data = array();
 			foreach($listaBuscada AS $row){
 				$row['associacao'] = $row['idassociacao'];
-				if (strlen($row['descricao']) > 100)
+				if (strlen($row['descricao']) > 100){
 					$row['descricao'] = substr(strip_tags($row['descricao']), 0, 100) . '...';
+				}
 
 				$data['rows'][] = array(
 					'id' => $row['idincidentes'],
@@ -709,11 +705,8 @@ class Incidente_sp extends Controller implements IncidenteInterface
 						$row['prioridade'],
 						$row['descricao'],
 						($row['status'] == 'Finalizado') ? $row['data_final'] : '-',
-						//					$row['ultimoAtendimento'],
-						//					$row['numero_prodemge'],
 						$row['status'],
 						$row['nomeTecnico'],
-						//					$row['telefonemas_info'],
 						$row['associacao']
 					)
 				);
@@ -725,8 +718,7 @@ class Incidente_sp extends Controller implements IncidenteInterface
 		$data['total'] = ($listaBuscadaNumeroResultados[0]['total'])?$listaBuscadaNumeroResultados[0]['total']:1;
 
 		$dataJson = json_encode($data);
-
-		$escritaCache = $this->CacheIncidentesModel_sp->escreveCache( $dataJson , $page );
+		$this->CacheIncidentesModel_sp->escreveCache( $dataJson , $page );
 
 		echo $dataJson;
 	}
@@ -754,64 +746,20 @@ class Incidente_sp extends Controller implements IncidenteInterface
 			$rp = $_POST['rp'];
 
 
-		if ($query != '') {
-			$input = [
-				"0" => "idincidentes",
-				"1" => "nome_instalacao",
-				"2" => "solicitacao",
-				"3" => "data",
-				"4" => "prioridade",
-				"5" => "descricao",
-				"6" => "status",
-				"7" => "nomeTecnico",
-			];
 
-			$inputPost = explode("AND", $_POST['query']);
-			for ($j = 0; $j <= count($input); $j++) {
-				for ($i = 0; $i < count($inputPost); $i++) {
-					$campoPost = current(str_word_count($inputPost[$i], 2));
-					$campoPost = ($campoPost != "nome") ? $campoPost : $campoPost . "_instalacao";
-					if ($campoPost == $input[$j]) {
-						$nome[$i] = explode("%", $inputPost[$i]);
-						$_SESSION[$campoPost] = $nome[$i]['1'];
-					}
-				}
+		if($_SESSION['login']['perfis_idperfis'] == '10'){
+			$vsat = $_SESSION['login']['empresa'];
+			if($query == "" && $_SESSION['dadosInc'] == "") {
+				$query = "nome_instalacao LIKE '%$vsat%' ";
+			}else if($query!=""){
+				$query .= "AND nome_instalacao LIKE '%$vsat%' ";
 			}
-
-			$idincidentes = $_SESSION['idincidentes'];
-			$nome_instalacao = $_SESSION['nome_instalacao'];
-			$solicitacao = $_SESSION['solicitacao'];
-			$prioridade = $_SESSION['prioridade'];
-			$status = $_SESSION['status'];
-			$nomeTecnico = $_SESSION['nomeTecnico'];
-			if ($_SESSION['login']['perfis_idperfis'] == '10') {
-
-					$login = $_SESSION['login']['empresa'];
-				$query = "
-						  idincidentes LIKE '%$idincidentes%' AND
-						  nome_instalacao LIKE '%$login%' AND
-						  solicitacao LIKE '%$solicitacao%' AND
-						  prioridade LIKE '%$prioridade%' AND
-						  status LIKE '%$status%' AND
-						  nomeTecnico LIKE '%$nomeTecnico%'
-						  ";
-			} else {
-
-				$query = "
-						  idincidentes LIKE '%$idincidentes%' AND
-						  nome_instalacao LIKE '%$nome_instalacao%' AND
-						  solicitacao LIKE '%$solicitacao%' AND
-						  prioridade LIKE '%$prioridade%' AND
-						  status LIKE '%$status%' AND
-						  nomeTecnico LIKE '%$nomeTecnico%'
-						  ";
-			}
-
 		}
+
 
 		$dados = $this->recebeQueryPadrao($query);
 
-		$listaBuscada = $this->buscaListaFonteDados($dados, $page, $rp, $sortname, $sortorder, " LIMIT 0 , 20 ");
+		$listaBuscada = $this->buscaListaFonteDados($dados, $page, $rp, $sortname, $sortorder, " LIMIT 0 , 15 ");
 
 		$listaBuscadaNumeroResultados = $this->buscaListaFonteDados($dados, '', '', $sortname, $sortorder, '');
 
@@ -842,7 +790,7 @@ class Incidente_sp extends Controller implements IncidenteInterface
 									($row['status'] == 'Finalizado') ? $row['data_final'] : '-',
 									$row['status'],
 									$row['nomeTecnico'],
-									$row['telefonemas_info'],
+//									$row['telefonemas_info'],
 									$row['associacao']
 								)
 							);
@@ -886,7 +834,7 @@ class Incidente_sp extends Controller implements IncidenteInterface
 									($row['status'] == 'Finalizado') ? $row['data_final'] : '-',
 									$row['status'],
 									$row['nomeTecnico'],
-									$row['telefonemas_info'],
+//									$row['telefonemas_info'],
 									$row['associacao']
 								)
 							);
@@ -896,6 +844,7 @@ class Incidente_sp extends Controller implements IncidenteInterface
 			}
 
 		}else{
+			$data = array();
 			foreach ($listaBuscada AS $row) {
 				$row['associacao'] = $row['idassociacao'];
 				if (strlen($row['descricao']) > 100)
@@ -910,15 +859,18 @@ class Incidente_sp extends Controller implements IncidenteInterface
 						$row['data'],
 						$row['prioridade'],
 						$row['descricao'],
+//						($row['descricao'] == '')? $row['descricao']:'',
 						($row['status'] == 'Finalizado') ? $row['data_final'] : '-',
 						$row['status'],
 						$row['nomeTecnico'],
-						$row['telefonemas_info'],
+//						$row['telefonemas_info'],
 						$row['associacao']
 					)
 				);
 			}
+//			echo json_encode($data);exit;
 		}
+
 
 		$data['page'] = $page;
 		$data['total'] = $listaBuscadaNumeroResultados[0]['total'];
@@ -965,38 +917,19 @@ class Incidente_sp extends Controller implements IncidenteInterface
                     	inci.data as data,
                     	inci.prioridade as prioridade,
                     	inci.descricao as descricao,
-						st.idstatus_atend as idstatus,
-						st.status as status,
+                    	st.idstatus_atend as idstatus,
+                    	st.status as status,
 						u.idusuarios as idusuarios,
 						u.nome as nomeTecnico,
 						s.nomeSolicitacao as solicitacao
-
                     FROM incidentes_sp inci
-                    INNER JOIN associacao_instalacao_incidente_sp a ON (
-                    	a.idincidentes = inci.idincidentes
-                    )
-                    INNER JOIN instalacoes_sp i ON (
-                    	a.idincidentes = inci.idincidentes AND
-                    	a.idinstalacoes_sp = i.idinstalacoes_sp
-                    )
-
-                    INNER JOIN atend_vsat_sp av ON (
-						av.incidentes_sp_idincidentes 	= inci.idincidentes
-                    )
-                    INNER JOIN status_atend st ON (
-						av.incidentes_sp_idincidentes 	= inci.idincidentes AND
-						av.status_atend_idstatus_atend 	= st.idstatus_atend
-                    )
-
-                    INNER JOIN usuarios u ON (
-						inci.tecnicoNoc = u.idusuarios
-                    )
-
-                    LEFT JOIN solicitacao_sp s ON (
-						inci.solicitacao_idsolicitacao = s.idsolicitacao
-                    )
-
-			        WHERE 1 = 1 " . PHP_EOL;
+                    INNER JOIN associacao_instalacao_incidente_sp a ON (a.idincidentes = inci.idincidentes)
+                    INNER JOIN instalacoes_sp i ON (a.idincidentes = inci.idincidentes AND	a.idinstalacoes_sp = i.idinstalacoes_sp)
+                    INNER JOIN atend_vsat_sp av ON (av.incidentes_sp_idincidentes = inci.idincidentes)
+                    INNER JOIN status_atend st ON (av.incidentes_sp_idincidentes = inci.idincidentes AND	av.status_atend_idstatus_atend 	= st.idstatus_atend)
+                    INNER JOIN usuarios u ON (inci.tecnicoNoc = u.idusuarios)
+                    LEFT JOIN solicitacao_sp s ON (inci.solicitacao_idsolicitacao = s.idsolicitacao)
+			        WHERE 1 = 1" . PHP_EOL;
 		}
 
 
@@ -1009,33 +942,34 @@ class Incidente_sp extends Controller implements IncidenteInterface
 		}
 
 		if (isset( $dados['nome_instalacao'])) {
-			$sql .= " AND i.nome LIKE '%{$dados['nome_instalacao']}%'" . PHP_EOL;
+			$sql .= "AND i.nome LIKE '%{$dados['nome_instalacao']}%'" . PHP_EOL;
 		}
 
 		if (isset($dados['idincidentes'])) {
-			$sql .= " AND inci.idincidentes LIKE '%{$dados['idincidentes']}%'" . PHP_EOL;
+			$sql .= "AND inci.idincidentes LIKE '%{$dados['idincidentes']}%'" . PHP_EOL;
 		}
 
+		if (isset($dados['solicitacao'])) {
+			$sql .= "AND s.nomeSolicitacao LIKE '%{$dados['solicitacao']}%'" . PHP_EOL;
+		}
 		if (isset($dados['prioridade'])) {
-			$sql .= " AND inci.prioridade LIKE '%{$dados['prioridade']}%'" . PHP_EOL;
+			$sql .= "AND inci.prioridade LIKE '%{$dados['prioridade']}%'" . PHP_EOL;
 		}
 
 		if (isset($dados['descricao'])) {
-			$sql .= " AND inci.descricao LIKE '%{$dados['descricao']}%'" . PHP_EOL;
+			$sql .= "AND inci.descricao LIKE '%{$dados['descricao']}%'" . PHP_EOL;
 		}
 		if (isset($dados['status'])) {
-			$sql .= " AND st.status LIKE '%{$dados['status']}%'" . PHP_EOL;
+			$sql .= "AND st.status LIKE '%{$dados['status']}%'" . PHP_EOL;
 		}
 		if (isset($dados['nomeTecnico'])) {
-			$sql .= " AND u.nome LIKE '%{$dados['nomeTecnico']}%'" . PHP_EOL;
+			$sql .= "AND u.nome LIKE '%{$dados['nomeTecnico']}%'" . PHP_EOL;
 		}
-		if (isset($dados['solicitacao'])) {
-			$sql .= " AND s.nomeSolicitacao LIKE '%{$dados['solicitacao']}%'" . PHP_EOL;
+		if (isset($dados['data'])) {
+			$data = $dados['data'];
+			$sql .= "AND inci.data LIKE '%$data%'" . PHP_EOL;
 		}
 		// ---- busca data
-		if (isset($dados['data'])) {
-			$sql .= " AND data LIKE '%{$dados['data']}%'" . PHP_EOL;
-		}
 
 		// ordenaÃ§Ã£o
 		if (!empty($sortname) && !empty($sortorder)) {
@@ -1054,8 +988,8 @@ class Incidente_sp extends Controller implements IncidenteInterface
 			$sql .= ' ORDER BY ' . $sortOptions[$sortname] . ' ' . $sortorder . PHP_EOL;
 		}
 
-//		echo die_json($sql);
 		// paginacao
+//		echo die_json($sql);exit;
 		$limit = $limit_condition;
 		if(!empty($numeroPagina) && !empty($numeroPorPagina)) {
 			$numeroPagina--;
@@ -1074,6 +1008,7 @@ class Incidente_sp extends Controller implements IncidenteInterface
 		if (empty($limit_condition)) {
 			return $listaIncidentes;
 		}
+
 		// busca incidentes das instalacoes encontradas
 		foreach ( $listaIncidentes as $chave => $incidente )
 		{
@@ -1125,9 +1060,10 @@ class Incidente_sp extends Controller implements IncidenteInterface
 			}else {
 				$listaIncidentes[$chave]['nomeTecnico'] = '';
 			}
-			$listaIncidentes[ $chave ]['telefonemas_info'] = $this->buscaTelefonemas( $incidente['idassociacao'] );
+//			$listaIncidentes[ $chave ]['telefonemas_info'] = $this->buscaTelefonemas( $incidente['idassociacao'] );
 
 		}
+//		echo json_encode($listaIncidentes);exit;
 		//echo json_encode($listaIncidentes);exit;
 		return $listaIncidentes;
 	}
@@ -1136,6 +1072,7 @@ class Incidente_sp extends Controller implements IncidenteInterface
 	{
 		if( $query != '' )
 		{
+			unset($_SESSION['dadosInc']);
 			$partes = explode( 'AND' , $query );
 
 			$array = array();
@@ -1147,11 +1084,12 @@ class Incidente_sp extends Controller implements IncidenteInterface
 				$novoArray[1] = str_replace( '%' , '' , $novoArray[1] );
 				$novoArray[1] = str_replace( '\'' , '' , $novoArray[1] );
 				$array[ trim($novoArray[0]) ] = trim($novoArray[1]);
+				$_SESSION['dadosInc'][trim($novoArray[0])] = trim($novoArray[1]);
 			}
-//			echo json_encode($array);exit;
-		}
-		else
+		}else{
+			unset($_SESSION['dadosInc']);
 			$array = array();
+		}
 
 		return $array;
 	}
