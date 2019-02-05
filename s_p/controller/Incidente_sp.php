@@ -616,8 +616,8 @@ class Incidente_sp extends Controller implements IncidenteInterface
 					if ($install = $this->Instalacao_sp->fetchRow($surch)) {
 						if ($install['idinstalacoes_sp'] == $row['idinstalacoes']) {
 							$row['associacao'] = $row['idassociacao'];
-							if (strlen($row['descricao']) > 100)
-								$row['descricao'] = substr(strip_tags($row['descricao']), 0, 100) . '...';
+							//if (strlen($row['descricao']) > 100)
+							//	$row['descricao'] = substr(strip_tags($row['descricao']), 0, 100) . '...';
 
 							$data['rows'][] = array(
 								'id' => $row['idincidentes'],
@@ -661,8 +661,8 @@ class Incidente_sp extends Controller implements IncidenteInterface
 					if ($install = $this->Instalacao_sp->fetchRow($surch)) {
 						if ($install['idinstalacoes_sp'] == $row['idinstalacoes']) {
 							$row['associacao'] = $row['idassociacao'];
-							if (strlen($row['descricao']) > 100)
-								$row['descricao'] = substr(strip_tags($row['descricao']), 0, 100) . '...';
+							//if (strlen($row['descricao']) > 100)
+							//	$row['descricao'] = substr(strip_tags($row['descricao']), 0, 100) . '...';
 
 							$data['rows'][] = array(
 								'id' => $row['idincidentes'],
@@ -691,9 +691,9 @@ class Incidente_sp extends Controller implements IncidenteInterface
 			$data = array();
 			foreach($listaBuscada AS $row){
 				$row['associacao'] = $row['idassociacao'];
-				if (strlen($row['descricao']) > 100){
-					$row['descricao'] = substr(strip_tags($row['descricao']), 0, 100) . '...';
-				}
+				//if (strlen($row['descricao']) > 100){
+				//	$row['descricao'] = substr(strip_tags($row['descricao']), 0, 100) . '...';
+				//}
 
 				$data['rows'][] = array(
 					'id' => $row['idincidentes'],
@@ -703,7 +703,7 @@ class Incidente_sp extends Controller implements IncidenteInterface
 						$row['solicitacao'],
 						$row['data'],
 						$row['prioridade'],
-						'DESCRICAO',//$row['descricao'],
+						$row['descricao'],
 						($row['status'] == 'Finalizado') ? $row['data_final'] : '-',
 						$row['status'],
 						$row['nomeTecnico'],
@@ -775,8 +775,8 @@ class Incidente_sp extends Controller implements IncidenteInterface
 					if ($install = $this->Instalacao_sp->fetchRow($surch)) {
 						if ($install['idinstalacoes_sp'] == $row['idinstalacoes']) {
 							$row['associacao'] = $row['idassociacao'];
-							if (strlen($row['descricao']) > 100)
-								$row['descricao'] = substr(strip_tags($row['descricao']), 0, 100) . '...';
+							//if (strlen($row['descricao']) > 100)
+							//	$row['descricao'] = substr(strip_tags($row['descricao']), 0, 100) . '...';
 
 							$data['rows'][] = array(
 								'id' => $row['idincidentes'],
@@ -819,8 +819,8 @@ class Incidente_sp extends Controller implements IncidenteInterface
 					if ($install = $this->Instalacao_sp->fetchRow($surch)) {
 						if ($install['idinstalacoes_sp'] == $row['idinstalacoes']) {
 							$row['associacao'] = $row['idassociacao'];
-							if (strlen($row['descricao']) > 100)
-								$row['descricao'] = substr(strip_tags($row['descricao']), 0, 100) . '...';
+							//if (strlen($row['descricao']) > 100)
+							//	$row['descricao'] = substr(strip_tags($row['descricao']), 0, 100) . '...';
 
 							$data['rows'][] = array(
 								'id' => $row['idincidentes'],
@@ -847,8 +847,8 @@ class Incidente_sp extends Controller implements IncidenteInterface
 			$data = array();
 			foreach ($listaBuscada AS $row) {
 				$row['associacao'] = $row['idassociacao'];
-				if (strlen($row['descricao']) > 100)
-					$row['descricao'] = substr(strip_tags($row['descricao']), 0, 100) . '...';
+				//if (strlen($row['descricao']) > 100)
+				//	$row['descricao'] = substr(strip_tags($row['descricao']), 0, 100) . '...';
 
 				$data['rows'][] = array(
 					'id' => $row['idincidentes'],
@@ -859,7 +859,6 @@ class Incidente_sp extends Controller implements IncidenteInterface
 						$row['data'],
 						$row['prioridade'],
 						$row['descricao'],
-//						($row['descricao'] == '')? $row['descricao']:'',
 						($row['status'] == 'Finalizado') ? $row['data_final'] : '-',
 						$row['status'],
 						$row['nomeTecnico'],
