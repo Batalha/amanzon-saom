@@ -23,7 +23,8 @@ class AtendArquivo_sp extends Controller implements AtendArquivoInterface
 	protected $pastaDeAtendArquivo = 'upload/atend_arquivo_sp/';
 	
 	protected $extensoes_aceitas = array(
-		'pdf','jpeg','png','jpg','PDF','JPEG','PNG','JPG'
+		'pdf','jpeg','png','jpg','rar','doc','docx','xls','xlsx','zip','msg','txt','ppp','pppx',
+		'PDF','JPEG','PNG','JPG','RAR','DOC','DOCX','XLS','XLSX','ZIP','MSG','TXT','PPP','PPPX'
 	);
 	
 	public function __construct()

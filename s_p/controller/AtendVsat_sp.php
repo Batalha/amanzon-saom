@@ -417,14 +417,34 @@ class AtendVsat_sp extends Controller
 						$href = "<img src='upload/atend_arquivo_sp/icon/file_extension_jpg.png' width='12px' height='12px'><a target='_blank' href='upload/atend_arquivo_sp/$arquivo' title='$arquivo'>$arquivo</a>";
 					}elseif($tipo[1] == 'png' || $tipo[1] == 'PNG'){
 						$href = "<img src='upload/atend_arquivo_sp/icon/file_extension_png.png' width='12px' height='12px'><a target='_blank' href='upload/atend_arquivo_sp/$arquivo' title='$arquivo'>$arquivo</a>";
-
+//
+					}elseif($tipo[1] == 'doc' || $tipo[1] == 'DOC'){
+						$href = "<img src='upload/atend_arquivo_sp/icon/file_extension_doc.png' width='12px' height='12px'><a target='_blank' href='upload/atend_arquivo_sp/$arquivo' title='$arquivo'>$arquivo</a>";
+					}elseif($tipo[1] == 'docx' || $tipo[1] == 'DOCX'){
+						$href = "<img src='upload/atend_arquivo_sp/icon/file_extension_docx.png' width='12px' height='12px'><a target='_blank' href='upload/atend_arquivo_sp/$arquivo' title='$arquivo'>$arquivo</a>";
+					}elseif($tipo[1] == 'xls' || $tipo[1] == 'XLS'){
+						$href = "<img src='upload/atend_arquivo_sp/icon/file_extension_xls.png' width='12px' height='12px'><a target='_blank' href='upload/atend_arquivo_sp/$arquivo' title='$arquivo'>$arquivo</a>";
+					}elseif($tipo[1] == 'xlsx' || $tipo[1] == 'XLSX'){
+						$href = "<img src='upload/atend_arquivo_sp/icon/file_extension_xlsx.png' width='12px' height='12px'><a target='_blank' href='upload/atend_arquivo_sp/$arquivo' title='$arquivo'>$arquivo</a>";
+					}elseif($tipo[1] == 'ppp' || $tipo[1] == 'PPP'){
+						$href = "<img src='upload/atend_arquivo_sp/icon/file_extension_ppp.png' width='12px' height='12px'><a target='_blank' href='upload/atend_arquivo_sp/$arquivo' title='$arquivo'>$arquivo</a>";
+					}elseif($tipo[1] == 'pppx' || $tipo[1] == 'PPPX'){
+						$href = "<img src='upload/atend_arquivo_sp/icon/file_extension_pppx.png' width='12px' height='12px'><a target='_blank' href='upload/atend_arquivo_sp/$arquivo' title='$arquivo'>$arquivo</a>";
+					}elseif($tipo[1] == 'txt' || $tipo[1] == 'TXT'){
+						$href = "<img src='upload/atend_arquivo_sp/icon/file_extension_txt.png' width='12px' height='12px'><a target='_blank' href='upload/atend_arquivo_sp/$arquivo' title='$arquivo'>$arquivo</a>";
+					}elseif($tipo[1] == 'zip' || $tipo[1] == 'ZIP'){
+						$href = "<img src='upload/atend_arquivo_sp/icon/file_extension_zip.png' width='12px' height='12px'><a target='_blank' href='upload/atend_arquivo_sp/$arquivo' title='$arquivo'>$arquivo</a>";
+					}elseif($tipo[1] == 'rar' || $tipo[1] == 'RAR'){
+						$href = "<img src='upload/atend_arquivo_sp/icon/file_extension_rar.png' width='12px' height='12px'><a target='_blank' href='upload/atend_arquivo_sp/$arquivo' title='$arquivo'>$arquivo</a>";
+					}elseif($tipo[1] == 'msg' || $tipo[1] == 'MSG'){
+						$href = "<img src='upload/atend_arquivo_sp/icon/file_extension_msg.png' width='12px' height='12px'><a target='_blank' href='upload/atend_arquivo_sp/$arquivo' title='$arquivo'>$arquivo</a>";
 					}
+
 					$nome[] =  $href;
 					$nomearquivo = implode("','", $nome);
 
 				}
 			}
-
 
 			$idStatusAtendimento = new Integer( $this->dadosP['form']['status_atend_idstatus_atend'] );
 			$status = $this->StatusAtendimento_sp->getStatusAtendimento( $idStatusAtendimento );
@@ -632,8 +652,8 @@ class AtendVsat_sp extends Controller
 				$lista = array_merge($email, $email_secundario);
 				$to = ['noc.sp@globaleagle.com'];
 				$to2 = $lista;
-				//$to = ['celio.batalha@globaleagle.com','alex.castillo@globaleagle.com'];
-				//$to2 = ['celio.batalha@gmail.com'];
+//				$to = ['celio.batalha@globaleagle.com'];
+//				$to2 = ['celio.batalha@gmail.com'];
 
 				if(!($status == 'Finalizado')){
 
